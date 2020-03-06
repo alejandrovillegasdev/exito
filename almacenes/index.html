@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Almacenes-Exito</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./almacenes.css">
 </head>
 
@@ -16,11 +17,13 @@
             <div class="row title">
                 <div class="divImeganTitulo col-xs-12">
                     <div class="row">
-                        <h1 class="col-md-3">Almacenes</h1>
-                        <div class="col-md-9"><strong>Nuestros Almacenes Éxito</strong> se han posicionado entre los
-                            colombsdianos
-                            como una de las mejores alternativas para hacer sus compras. Esta es nuestra presencia
-                            nacional:
+                        <div class="col-md-8">
+                            <div class="row">
+                                <span class="col-md-12">Canales y servicios | Dónde comprar > <strong>Almacenes</strong> </span>
+                                <h1 class="col-md-12">Almacenes</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
                         </div>
                     </div>
                 </div>
@@ -31,8 +34,8 @@
                             <div class="row">
                                 <label class="etiqueta col-xs-4 col-md-4" for="ddlDepartamento">Departamento:</label>
                                 <div class="control col-xs-8 col-md-8">
-                                    <select id="ddlDepartamento" name="ddlDepartamento">
-                                        <option value="0">Todas las opciones...</option>
+                                    <select class="select-options" id="ddlDepartamento" name="ddlDepartamento">
+                                        <option value="0">Seleccionar una opción</option>
                                         <option value="depto0">Antioquia</option>
                                         <option value="depto1">Atlántico</option>
                                         <option value="depto2">Bolívar</option>
@@ -63,8 +66,8 @@
                             <div class="row">
                                 <label class="etiqueta col-xs-4 col-md-4" for="ddlMunicipio">Municipio:</label>
                                 <div class="control col-xs-8 col-md-8">
-                                    <select id="ddlMunicipio" name="ddlMunicipio">
-                                        <option value="0">Todas las opciones...</option>
+                                    <select class="select-options" id="ddlMunicipio" name="ddlMunicipio">
+                                        <option value="0">Seleccionar una opción</option>
                                         <option value="depto0-mun0">Apartadó</option>
                                         <option value="depto0-mun1">Caucasia</option>
                                         <option value="depto0-mun2">Medellín</option>
@@ -122,14 +125,13 @@
                             <div class="row">
                                 <label class="etiqueta col-xs-4 col-md-4" for="ddlFormato">Almacen:</label>
                                 <div class="control col-xs-8 col-md-8">
-                                    <select id="ddlFormato" name="ddlFormato">
-                                        <option value="0">Todas las opciones...</option>
+                                    <select class="select-options" id="ddlFormato" name="ddlFormato">
+                                        <option value="0">Seleccionar una opción</option>
                                         <option value="Hipermercado">Hipermercado</option>
                                         <option value="Supermercado">Supermercado</option>
                                         <option value=""></option>
                                         <option value="Vecino">Vecino</option>
                                         <option value="Especializado">Especializado</option>
-                                        <option value="0">Todas las opciones...</option>
                                     </select>
                                 </div>
                             </div>

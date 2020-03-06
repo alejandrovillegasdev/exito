@@ -13,7 +13,9 @@
 }
 
 .almacenes-container{
-    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 50px;
+    text-align: center;
 }
 
 .centro-ayuda-icon {
@@ -108,55 +110,40 @@
 .control select {
     margin: 0;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
 }
 
 .divAlmacen .pFormato {
-    margin: 0;
-    background-color: #000;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #fff;
-    line-height: 1.3em;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    text-align: center;
-    width: 100%;
+    color: #000;
 }
 
 .divAlmacen h4 {
-    background-color: #DC1013;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 1em;
+    /* background-color: #DC1013; */
+    color: #000;
+    /* border-radius: 8px; */
+    font-size: 0.8em;
     font-weight: bold;
     line-height: 1.3em;
-    margin: 0;
-    max-width: 193px;
-    padding: 2px 7px;
-    overflow: hidden;
-    position: absolute;
-    left: 7px;
-    top: -10px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .divAlmacen p {
     line-height: 1.3em;
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
+
 
 .divAlmacen {
     background-color: #f8f8f8;
-    border: 1px solid #ddd;
     border-radius: 5px;
     height: 220px;
     margin: 14px 0;
-    padding: 16px 5px 20px 5px;
+    padding: 16px 5px 20px 10px;
+    text-align: justify;
 }
 
 .divContent h2 {
+    font-family: 'Poppins', sans-serif;
     color: #000;
     font-size: 1.75em;
     font-weight: bold;
@@ -164,12 +151,28 @@
 }
 
 .divDepartamento h2 {
+    font-family: 'Poppins', sans-serif;
     line-height: 1.75em;
 }
 
 .divImeganTitulo h1 {
+    font-family: 'Poppins', sans-serif;
     font-size: 45px;
     color: #fff;
+    margin: 0;
+}
+
+.divImeganTitulo span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+}
+
+.divImeganTitulo span strong{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #f7e73d;
     margin: 0;
 }
 
@@ -211,10 +214,20 @@
     font-size: 1.25em;
     font-weight: bold;
     line-height: 1.5em;
+    margin-left: 10px;
+    margin-top: 12px;
 }
 
 .etiqueta {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
     line-height: 1.6em;
+    text-align: right;
+    padding-top: 3px;
+}
+
+p.almacen-horario {
+    line-height: 1em;
 }
 
 .fil01 {
@@ -228,5 +241,48 @@
 
 .flsForm {
     background-color: #f7e73d;
-    margin-bottom: 3em;
+    padding: 30px 6% 10px 6%;
 }
+
+.select-options {
+    margin: 0;
+    width: 100%;
+    border: transparent;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.mun-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.mun-divider::before, .mun-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 3px solid #f8f8f8;
+}
+.mun-divider::before {
+    margin-right: 1.25em;
+    
+}
+.mun-divider::after {
+    margin-left: 1.25em;
+}
+
+.almacen-divider {
+    display: flex;
+    width: 93px;
+    height: 2px;
+    margin-top: 14px;
+    margin-bottom: 13px;
+    border: 0 #000;
+    background-color: #f7e73d;
+}
+
+@media screen and (min-width: 992px) {
+    .divAlmacen {
+        max-width: 24%;
+        margin: 10px 5px;
+    }
+  }

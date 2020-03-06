@@ -25,20 +25,13 @@ function methodI() {
                     "https://d1rnpo543m3vxh.cloudfront.net/content/Almacenes.json",
                     function (data) {
                         if (data != null && data.departamento.length != 0) {
-                            // data.departamento[0].municipios[0].almacenes.push({
-                            //     "tipo"		: "Supermercado",
-                            //     "nombre"	: "Alejo Center",
-                            //     "direccion"	: "Carrera 77 No. 28 - 124 ",
-                            //     "telefonos"	: [ "(4) 4444444" ],
-                            //     "horarios"	: [ "Lunes a Sábado: 8:00 a.m. - 9:00 p.m.", "Domingos y festivos:  8:00 a.m. - 7:30 p.m." ]
-                            // })
                             $("#ddlDepartamento").empty();
                             $("#ddlMunicipio").empty();
                             $("#ddlDepartamento").append(
-                                new Option("Todas las opciones...", 0, false, true)
+                                new Option("Seleccionar una opción", 0, false, true)
                             );
                             $("#ddlMunicipio").append(
-                                new Option("Todas las opciones...", 0, false, true)
+                                new Option("Seleccionar una opción", 0, false, true)
                             );
 
                             var arrDepartamento = data.departamento;
@@ -71,7 +64,7 @@ function methodI() {
                                         })
                                         .appendTo(divDepto);
                                     $(
-                                        '<h3 class="col-xs-12 col-md-12">' +
+                                        '<h3 class="mun-divider col-xs-12 col-md-12">' +
                                         arrMunicipios[j].nombreMun +
                                         "</h3>"
                                     ).appendTo(divMun);
@@ -104,6 +97,10 @@ function methodI() {
             $("<h4 />")
                 .html(almacen.nombre)
                 .appendTo(divAlmacen);
+            $("<div />")
+                .attr({
+                    class: "almacen-divider"
+                }).appendTo(divAlmacen);
             $("<p />")
                 .html(almacen.direccion)
                 .appendTo(divAlmacen);
@@ -124,6 +121,7 @@ function methodI() {
             var horario = "";
             for (var j = 0; j < almacen.horarios.length; j++) {
                 $("<p />")
+                    .attr("class", "almacen-horario")
                     .html(almacen.horarios[j])
                     .appendTo(divAlmacen);
             }
@@ -284,7 +282,7 @@ function methodI() {
 
             if ($("#divAlmacenes div:visible").length == 0) {
                 $("<h2 />")
-                    .text("No se ha encontrado informaciÃ³n relacionada...")
+                    .text("No se ha encontrado información relacionada...")
                     .appendTo("#divMensaje");
                 $("<h3 />")
                     .text("Te invitamos a realizar una nueva consulta.")
@@ -300,9 +298,9 @@ function methodI() {
         }
 
         function opcionesFormato() {
-            $("#ddlFormato").append(
-                new Option("Todas las opciones...", 0, false, true)
-            );
+            // $("#ddlFormato").append(
+            //     new Option("Seleccionar una opción", 0, false, true)
+            // );
             var arrFormatosAlma = [];
             $(".divDepartamento")
                 .children(".divMunicipio")
