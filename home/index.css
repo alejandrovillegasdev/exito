@@ -1,0 +1,45 @@
+.landing-container-home {
+  text-align: center;
+}
+
+.home-header {
+  background-color: #ffeb00;
+  height: 150px;
+}
+
+.banner-header-img {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.heder-logo-text {
+  font-weight: 700;
+  color: #FFF;
+  font-size: 3rem;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-logo {
+  padding: 0px 12px 23px 0px;
+}
+
+.banner-logo-container {
+  position: absolute;
+  top: 60px;
+  left: 7pc;
+}
+
+.servicios-container {
+  width: 100%;
+  background-color:#f8f8f9;
+  text-align: left;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.servicios-img {
+  margin-right: 5px;
+}
