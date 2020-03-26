@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ico-app-exito</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME---Desktop-HD" transform="translate(-280.000000, -749.000000)">
+            <g id="ico-app-exito" transform="translate(280.000000, 749.000000)">
+                <rect id="Rectangle-Copy-5" fill="#FFEB00" x="0" y="0" width="41" height="41" rx="10"></rect>
+                <g id="Group-4" transform="translate(17.000000, 8.000000)" fill-rule="nonzero">
+                    <path d="M3.67,25.59 C1.82521364,25.5679711 0.345463245,24.0585112 0.360105516,22.2136514 C0.374747788,20.3687916 1.87827081,18.8830093 3.72317442,18.8902383 C5.56807803,18.8975202 7.05986848,20.3950821 7.06,22.24 C7.05737314,23.1346151 6.69808568,23.9912451 6.06175151,24.6200709 C5.42541734,25.2488967 4.56458326,25.5979915 3.67,25.59 Z" id="Path" fill="#E32213"></path>
+                    <path d="M6.33,17.74 C6.33273681,17.797407 6.31182607,17.8534272 6.2721429,17.895 C6.23245974,17.9365729 6.17747217,17.9600001 6.12,17.9600001 L1.23,17.9600001 C1.04,17.9600001 1.02,17.74 1.02,17.74 L-2.84217094e-14,0.17 C-2.84217094e-14,0.17 -2.84217094e-14,1.77635684e-14 0.21,1.77635684e-14 L7.13,1.77635684e-14 C7.31,1.77635684e-14 7.31,0.2 7.31,0.2 L6.33,17.74 Z" id="Path" fill="#1D1D1B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

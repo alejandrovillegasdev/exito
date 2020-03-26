@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ico-exitopuntocom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="41" height="41" rx="10"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME---Desktop-HD" transform="translate(-280.000000, -799.000000)">
+            <g id="ico-exitopuntocom" transform="translate(280.000000, 799.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFEB00" xlink:href="#path-1"></use>
+                <g id="Group-4-Copy-2" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(34.000000, 4.000000) rotate(39.000000) translate(-34.000000, -4.000000) translate(25.000000, -27.000000)" id="Path">
+                        <path d="M9.6365311,61.1958318 C5.2310726,61.1432247 1.69734147,57.5384883 1.73230808,53.1327846 C1.76727469,48.7270809 5.35777623,45.1788889 9.76351474,45.1961524 C14.1692533,45.2135423 17.7317367,48.7898652 17.7320508,53.1957076 C17.7257777,55.3321351 16.8677781,57.3778505 15.3481746,58.8795473 C13.8285711,60.3812442 11.7728486,61.2149164 9.6365311,61.1958318 Z" fill="#E32213"></path>
+                        <path d="M15.6263748,42.6037274 C15.6327395,42.7411718 15.5841098,42.8752959 15.4918234,42.97483 C15.399537,43.0743641 15.2716589,43.1304538 15.1380027,43.1304538 L3.76590968,43.1304538 C3.32404922,43.1304538 3.27753759,42.6037274 3.27753759,42.6037274 L0.905444566,0.537469406 C0.905444566,0.537469406 0.905444566,0.130453819 1.39381666,0.130453819 L17.4868399,0.130453819 C17.9054446,0.130453819 17.9054446,0.609295686 17.9054446,0.609295686 L15.6263748,42.6037274 Z" fill="#1D1D1B"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
