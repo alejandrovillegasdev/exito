@@ -186,6 +186,7 @@
 
 .title{
     background-color: #000;
+    margin: 0;
 }
 
 .divImeganTitulo {
@@ -313,6 +314,11 @@ p.almacen-horario {
     margin-right: 5px;
 }
 
+.header-pointer-img {
+    width: 42%;
+    margin-top: 20px;
+}
+
 
 
 @media screen and (min-width: 992px) {
@@ -325,7 +331,7 @@ p.almacen-horario {
         font-family: 'Poppins', sans-serif;
         font-size: 11px;
         color: #fff;
-        margin: 20px 0 10px 150px;
+        margin: 20px 0 10px 125px;
       }
 
       .etiqueta {
