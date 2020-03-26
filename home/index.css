@@ -15,7 +15,7 @@
 .heder-logo-text {
   font-weight: 700;
   color: #FFF;
-  font-size: 3rem;
+  font-size: 4.3rem;
 }
 
 .banner-container {
@@ -73,4 +73,85 @@
 .span-novedades {
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.aliados-container {
+  width: 100%;
+  background-color:#f8f8f9;
+  text-align: left;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.aliados-container img {
+  width: 158px;
+}
+
+.banner-home-img {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.section-images-container {
+  position: relative;
+}
+
+.section-images-container span {
+  position: absolute;
+  left: 83px;
+  bottom: 50px;
+  color: #FFF;
+  font-size: 2.5rem;
+  font-weight: 700;
+  max-width: 150px;
+  line-height: 38px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .section-servicios {
+    margin-top: 10px;
+  }
+
+  .banner-header-img {
+    width: 97%;
+  }
+
+  .banner-home-img {
+    width: 60%;
+  }
+
+  .banner-logo-container {
+    position: absolute;
+    top: 35px;
+    left: 33px;
+  }
+
+  .banner-logo {
+    padding: 0px 10px 5px 0px;
+    width: 90px;
+  }
+
+  .heder-logo-text {
+    font-size: 2.3rem;
+  }
+
+  .home-header {
+    height: 80px;
+  }
+
+  .container-novedades-options {
+    padding-top: 10px;
+  }
+
+  .banner-container {
+    padding: 0 30px;
+  }
+
+  .section-images-container span {
+    left: 105px;
+    font-size: 1.5rem;
+  }
+
 }
