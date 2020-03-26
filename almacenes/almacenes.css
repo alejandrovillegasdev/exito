@@ -162,11 +162,12 @@
     margin: 0;
 }
 
-.divImeganTitulo span {
+.divImeganTitulo span :nth-child(-n + 2)d {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: #fff;
     margin: 0;
+    margin: 20px 0 10px 150px;
 }
 
 .divImeganTitulo span strong{
@@ -250,6 +251,7 @@ p.almacen-horario {
     border: transparent;
     padding: 3px;
     border-radius: 5px;
+    height: 30px;
 }
 
 .mun-divider {
@@ -279,6 +281,44 @@ p.almacen-horario {
     border: 0 #000;
     background-color: #f7e73d;
 }
+
+.logo-text-logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+}
+
+.logo-text-breadcump {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+    margin: 20px 0 10px 150px;
+}
+
+.almacen-direccion::before{
+    content:url('./img/icon-01.svg');
+    margin-right: 5px;
+}
+
+.almacen-tel::before{
+    content:url('./img/icon-02.svg');
+    margin-right: 5px;
+}
+
+.almacen-horario::before{
+    content:url('./img/icon-03.svg');
+    margin-right: 5px;
+}
+
+.pFormato::before{
+    content:url('./img/icon-04.svg');
+    margin-right: 5px;
+}
+
+
 
 @media screen and (min-width: 992px) {
     .divAlmacen {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon-03</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-03" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-20">
+            <g id="Group-12" transform="translate(1.000000, 0.000000)" fill="#C3C3C3" fill-rule="nonzero">
+                <path d="M7,0 C3.14026808,0 0,3.14026808 0,7 C0,10.8597319 3.14026808,14 7,14 C10.8597319,14 14,10.8597319 14,7 C14,3.14026808 10.8597319,0 7,0 Z M7,13.1249961 C3.62261614,13.1249961 0.875003948,10.3773839 0.875003948,7 C0.875003948,3.62261614 3.62261614,0.875003948 7,0.875003948 C10.3773839,0.875003948 13.1249961,3.62261614 13.1249961,7 C13.1249961,10.3773839 10.3773839,13.1249961 7,13.1249961 Z" id="Shape"></path>
+                <polygon id="Path" points="6.90826582 2 6 2 6 6.67500356 8.85782794 9.5 9.5 8.86520539 6.90826582 6.30324575"></polygon>
+            </g>
+            <rect id="Rectangle-Copy-26" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="15" height="15"></rect>
+        </g>
+    </g>
+</svg>

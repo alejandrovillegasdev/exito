@@ -102,6 +102,7 @@ function methodI() {
                     class: "almacen-divider"
                 }).appendTo(divAlmacen);
             $("<p />")
+                .attr("class", "almacen-direccion")
                 .html(almacen.direccion)
                 .appendTo(divAlmacen);
             var tel = "";
@@ -114,6 +115,7 @@ function methodI() {
             }
             if (tel != "") {
                 $("<p />")
+                    .attr("class", "almacen-tel")
                     .html(tel)
                     .appendTo(divAlmacen);
             }
