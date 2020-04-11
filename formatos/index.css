@@ -1,0 +1,107 @@
+#formatos {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#formatos .header {
+  background: #000;
+  color: white;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.header .header-container {
+  display: grid;
+  grid-template-columns: 70px 1fr 100px;
+  grid-template-areas: ". description header-formatos"
+                       "badge title header-formatos";
+  grid-gap: 10px;
+}
+
+.header-container .badge {
+  grid-area: badge;
+}
+.header-container .badge img {
+  max-width: 70px;
+}
+
+.header-container .header-formatos {
+  grid-area: header-formatos;
+}
+
+.header-container .description {
+  grid-area: description;
+}
+.header-formatos img {
+  max-width: 70px;
+}
+
+.header-container .title {
+  grid-area: title;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+#formatos .nota {
+  background: #f8f8f8;
+  color: #000;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 800px);
+  justify-content: center;
+}
+
+.nota .nota-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+#formatos .tiendas {
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.tiendas .tienda-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-areas: "tienda-logo tienda-description tienda-photo";
+  grid-gap: 10px;
+}
+
+.tienda-logo {
+  grid-area: tienda-logo;
+  background-color: #ffeb00;
+  border-radius: 10px;
+  position: relative;
+}
+
+.tienda-logo img {
+  width: 80%;
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+
+} 
+.tienda-description {
+  grid-area: tienda-description;
+  font-size: 0.8em;
+}
+
+
+.tienda-photo {
+  grid-area: tienda-photo;
+  max-width: 200px;
+}
+
+.tienda-photo img { 
+  max-width: 300px;
+}
+
