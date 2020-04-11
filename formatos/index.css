@@ -21,6 +21,7 @@
 }
 
 .header-container .badge {
+  padding: 15px;
   grid-area: badge;
 }
 .header-container .badge img {
@@ -32,8 +33,17 @@
 }
 
 .header-container .description {
+  font-size: 0.8em;
   grid-area: description;
 }
+
+.header-container .description span strong {
+  font-size: 0.8em;
+  grid-area: description;
+  color: #ffeb00;
+  font-weight: 700;
+}
+
 .header-formatos img {
   max-width: 70px;
 }
@@ -43,8 +53,12 @@
   font-size: 36px;
   font-weight: normal;
   margin: 0;
-  display: flex;
   align-items: center;
+}
+
+.header-container .title {
+  font-weight: 700;
+  font-size: 2.8em;
 }
 
 #formatos .nota {
@@ -70,9 +84,15 @@
 
 .tiendas .tienda-container {
   display: grid;
-  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-columns: 1fr 3fr 300px;
   grid-template-areas: "tienda-logo tienda-description tienda-photo";
   grid-gap: 10px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.tiendas .tienda-container:last-child {
+  border: none;
 }
 
 .tienda-logo {
@@ -88,8 +108,7 @@
   position: absolute;
   top: 40%;
   left: 10%;
-
-} 
+}
 .tienda-description {
   grid-area: tienda-description;
   font-size: 0.8em;
@@ -98,10 +117,54 @@
 
 .tienda-photo {
   grid-area: tienda-photo;
-  max-width: 200px;
 }
 
 .tienda-photo img { 
-  max-width: 300px;
+  width: 100%;
 }
 
+#formatos .footer {
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.footer-container img { 
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .tiendas .tienda-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "tienda-logo" "tienda-description" "tienda-photo";
+  }
+  .tienda-logo img {
+    width: 80%;
+    display: block;
+    position: relative;
+    padding: 10px;
+    top: 1px;
+  }
+
+  .header .header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "description description"
+                         "badge title";
+    grid-gap: 10px;
+  }
+
+  .header-formatos {
+    display: none;
+  }
+
+  .tienda-photo img { 
+    object-fit: cover;
+  }
+}
