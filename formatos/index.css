@@ -139,6 +139,14 @@
   width: 100%;
 }
 
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .tiendas .tienda-container {
     grid-template-columns: 1fr;
@@ -166,5 +174,13 @@
 
   .tienda-photo img { 
     object-fit: cover;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+  
+  .no-screen {
+    display: block;
   }
 }
