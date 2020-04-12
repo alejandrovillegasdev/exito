@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>img-01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="62" height="62" rx="10"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME---Servicios---Compra-y-Recoge---Desktop-HD" transform="translate(-164.000000, -561.000000)">
+            <g id="img-01" transform="translate(164.000000, 561.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFEB00" xlink:href="#path-1"></use>
+                <g id="Group-4-Copy-2" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(52.344397, 6.315230) rotate(39.000000) translate(-52.344397, -6.315230) translate(38.844397, -40.184770)" id="Path">
+                        <path d="M13.5723153,92.5400384 C6.91040246,92.4604862 1.5667115,87.0094213 1.61958783,80.3471377 C1.67246416,73.6848541 7.10200308,68.3192955 13.7643394,68.3454012 C20.4266756,68.3716981 25.8138458,73.7797962 25.8143207,80.4422896 C25.8048346,83.6729847 24.5073717,86.7665056 22.2094348,89.0373643 C19.9114978,91.308223 16.8028443,92.5688979 13.5723153,92.5400384 Z" fill="#E32213"></path>
+                        <path d="M22.6301277,64.4251488 C22.6397524,64.6329915 22.5662149,64.8358133 22.4266598,64.9863283 C22.2871047,65.1368432 22.0937281,65.2216619 21.8916138,65.2216619 L4.69479025,65.2216619 C4.02661101,65.2216619 3.95627635,64.4251488 3.95627635,64.4251488 L0.369208856,0.812758614 C0.369208856,0.812758614 0.369208856,0.197271628 1.10772275,0.197271628 L25.443514,0.197271628 C26.0765259,0.197271628 26.0765259,0.921373964 26.0765259,0.921373964 L22.6301277,64.4251488 Z" fill="#1D1D1B"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
