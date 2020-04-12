@@ -191,7 +191,7 @@
 .almacenes-title span::after {
     display: inline-block;
     content: "";
-    border-top: .1rem solid #000;
+    border-top: .1rem solid #f8f8f8;
     width: 16rem;
     margin: 0 1rem;
     transform: translateY(-0.5rem);
@@ -232,4 +232,78 @@
     border-top: .2rem solid #feeb00;
     width: 6rem;
     transform: translateY(-0.5rem);
+}
+
+#compra-y-recoje .footer {
+  margin-top: 35px;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.footer-container img { 
+  width: 100%;
+}
+
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "description description"
+                         "badge title";
+    grid-gap: 10px;
+  }
+
+  .almacenes-title span::before, .almacenes-title span::after {
+    width: 1rem;
+  }
+
+  .beneficios-title span::before, .beneficios-title span::after {
+    width: 8rem;
+  }
+
+  .steps .steps-container {
+    grid-template-columns: 1fr;
+  }
+
+  .beneficios .beneficios-container {
+    grid-template-columns: 1fr;
+  }
+
+  .almacenes-container .almacenes-list {
+    grid-template-columns: 1fr;
+  }
+
+  .header-formatos {
+    display: none;
+  }
+  
+  .no-mobile {
+    display: none;
+  }
+
+  .header-container .title h2 {
+    font-size: 0.8em;
+  }
+  
+  .header-container .title h1 {
+    font-size: 1.8em;
+  }
+  .no-screen {
+    display: block;
+  }
 }
