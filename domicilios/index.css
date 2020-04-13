@@ -216,3 +216,96 @@
   text-align: left;
   margin-left: 10px;
 }
+
+#domicilios .ten-en-cuenta {
+  color: #000;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.ten-en-cuenta .ten-en-cuenta-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+}
+
+.ten-en-cuenta .ten-en-cuenta-container h3 {
+  color: #0193c0;
+}
+
+#domicilios .footer {
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.footer-container img { 
+  width: 100%;
+}
+
+.footer-container span { 
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "description description"
+                         "badge title";
+    grid-gap: 10px;
+  }
+
+  .domicilio-facil .domicilio-facil-container {
+    grid-template-columns: 1fr;
+  }
+
+  .domicilio-facil-container .llevamos-opcion a {
+    margin-top: 10px;
+  }
+
+  .telefonos .telefonos-container .telefonos-lista {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .costos .costos-container{
+    grid-template-columns: 1fr;
+  }
+  .ten-en-cuenta .ten-en-cuenta-container {
+    grid-template-columns: 1fr;
+  }
+  .no-mobile {
+    display: none;
+  }
+
+  .header-container .title h2 {
+    font-size: 0.8em;
+  }
+  
+  .header-container .title h1 {
+    font-size: 1.8em;
+  }
+  .no-screen {
+    display: block;
+  }
+  .domicilio-facil .facil-rapido-container {
+    grid-template-columns: 1fr;
+  }
+}
