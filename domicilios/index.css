@@ -1,0 +1,175 @@
+#domicilios {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#domicilios .header {
+  background: #0193c0;
+  color: #fff;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.header .header-container {
+  display: grid;
+  grid-template-columns: 70px 2fr 1fr;
+  grid-template-areas: ". description header-logo"
+                       "badge title header-logo";
+  grid-gap: 10px;
+}
+
+.header-container .badge {
+  padding: 15px;
+  grid-area: badge;
+}
+.header-container .badge img {
+  max-width: 70px;
+}
+
+.header-container .description {
+  font-size: 0.8em;
+  grid-area: description;
+}
+
+.header-container .header-logo {
+  grid-area: header-logo;
+}
+
+.header-container .description span strong {
+  font-size: 0.8em;
+  grid-area: description;
+  color: #ffeb00;
+  font-weight: 700;
+}
+
+.header-logo img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header-container .title {
+  grid-area: title;
+  font-weight: normal;
+  margin: 0;
+  align-items: center;
+}
+
+.header-container .title h1{
+  font-weight: 700;
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.header-container .title h2{
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+#domicilios .domicilio-facil {
+  background: #ffeb00;
+  color: #fff;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.domicilio-facil .domicilio-facil-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.domicilio-facil-container .facil-rapido {
+  background: #0193c0;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.facil-rapido-container {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.facil-rapido-container .telefono-opcion {
+  background: #f8f8f8;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  padding: 10px;
+}
+
+.facil-rapido-container .telefono-opcion img {
+  width: 100%;
+}
+
+.facil-rapido-container .telefono-opcion span {
+  color: #0193c0;
+  font-weight: 700;
+}
+
+.facil-rapido-container .telefono-opcion h4 {
+  color: #000;
+  font-weight: 700;
+  margin: 0;
+}
+
+.domicilio-facil-container .llevamos-opcion {
+  color: #000;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.domicilio-facil-container .llevamos-opcion a {
+  background: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 8px 20px;
+  color: black;
+  font-size: 0.9em;
+}
+
+.domicilio-facil-container .llevamos-opcion p {
+  margin: 0;
+}
+
+#domicilios .telefonos {
+  padding: 20px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+  text-align: center;
+}
+
+.telefonos .telefonos-container .telefonos-lista {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.telefonos-container .telefonos-lista .telefono {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.telefonos-container .telefonos-lista .telefono h4 {
+  margin: 0;
+}
+
+.telefonos-container .telefonos-lista .telefono span {
+  color: #0193c0;
+  font-weight: 700;
+}
