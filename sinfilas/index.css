@@ -1,0 +1,116 @@
+#sinfilas {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#sinfilas .header {
+  background: #0193c0;
+  color: #fff;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.header .header-container {
+  display: grid;
+  grid-template-columns: 70px 2fr 1fr;
+  grid-template-areas: ". description header-logo"
+                       "badge title header-logo";
+  grid-gap: 10px;
+}
+
+.header-container .badge {
+  padding: 15px;
+  grid-area: badge;
+}
+.header-container .badge img {
+  max-width: 70px;
+}
+
+.header-container .description {
+  font-size: 0.8em;
+  grid-area: description;
+}
+
+.header-container .header-logo {
+  grid-area: header-logo;
+}
+
+.header-container .description span strong {
+  font-size: 0.8em;
+  color: #ffeb00;
+  font-weight: 700;
+}
+
+.header-logo img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header-container .title {
+  grid-area: title;
+  font-weight: normal;
+  margin: 0;
+  align-items: center;
+}
+
+.header-container .title h1{
+  font-weight: 700;
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.header-container .title h2{
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+#sinfilas .nota {
+  background: #ffeb00;
+  color: #000;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.nota .nota-container {
+  display: grid;
+  text-align: center;
+
+}
+
+#sinfilas .como-funciona {
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+#sinfilas .como-funciona  .como-funciona-container {
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+.beneficios .beneficios-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.beneficios .beneficios-title span {
+  font-weight: 700;
+}
+
+.beneficios-title span::before,
+.beneficios-title span::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #f8f8f8;
+    width: 21.5rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
