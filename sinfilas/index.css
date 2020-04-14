@@ -94,6 +94,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
+  text-align: center;
 }
 .beneficios .beneficios-title {
   display: grid;
@@ -190,6 +191,7 @@
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
   margin-top: 35px;
+  text-align: center;
 }
 
 .almacenes .almacenes-title {
@@ -247,4 +249,95 @@
     border-top: .2rem solid #feeb00;
     width: 6rem;
     transform: translateY(-0.5rem);
+}
+
+#sinfilas .recuerda {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#sinfilas .recuerda .recuerda-container {
+  text-align: center;
+}
+
+#sinfilas .recuerda .recuerda-container ul {
+  list-style-type: none;
+  padding: 0 2px;
+}
+
+#sinfilas .recuerda .recuerda-container h4 {
+  color: #0193c0;
+}
+
+#sinfilas .footer {
+  margin-top: 35px;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.footer-container img { 
+  width: 100%;
+}
+
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "description description"
+                         "badge title";
+    grid-gap: 10px;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+
+  .header-container .title h2 {
+    font-size: 0.8em;
+  }
+  
+  .header-container .title h1 {
+    font-size: 1.8em;
+  }
+  .no-screen {
+    display: block;
+  }
+
+  .como-funciona .como-funciona-container .pasos-container {
+    grid-template-columns: 1fr;
+  }
+  .beneficios-title span::before, .beneficios-title span::after {
+    width: 8rem;
+  }
+
+  .beneficios .beneficios-container, .almacenes-container .almacenes-list, .steps .steps-container {
+    grid-template-columns: 1fr;
+  }
+
+  .almacenes-title span::before,
+  .almacenes-title span::after {
+    display: none;
+  }
+
+  .como-funciona .como-funciona-container .beneficios-title span::before,
+  .como-funciona .como-funciona-container .beneficios-title span::after {
+    display: none;
+  }
 }
