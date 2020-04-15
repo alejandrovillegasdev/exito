@@ -239,3 +239,117 @@
   max-width: 60px;
   margin-bottom: 20px;
 }
+
+
+#movil-exito .puntos {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  text-align: center;
+  padding: 32px 15px;
+}
+
+#movil-exito .puntos .puntos-container h3{
+  margin-top: 10px;
+}
+
+#movil-exito .puntos .puntos-container span{
+  margin-top: 10px;
+}
+
+#movil-exito .puntos .puntos-container img {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#movil-exito .puntos .puntos-container .logos-line-1{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  padding: 0 30px; 
+}
+
+#movil-exito .puntos .puntos-container .logos-line-2{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+}
+#movil-exito .footer {
+  margin-top: 5px;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.footer-container img { 
+  width: 100%;
+}
+
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "description description"
+                         "badge title";
+    grid-gap: 10px;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+
+  .header-container .title h2 {
+    font-size: 0.8em;
+  }
+  
+  .header-container .title h1 {
+    font-size: 1.8em;
+  }
+
+  .no-screen {
+    display: block;
+  }
+
+  #movil-exito .description .description-container img {
+    display: none;
+  }
+
+  #seguros .opciones-seguros .opciones-seguros-container,
+  .beneficios .beneficios-container {
+    grid-template-columns: 1fr;
+  }
+
+  #movil-exito .puntos .puntos-container .logos-line-1,
+  #movil-exito .puntos .puntos-container .logos-line-2 {
+    padding: 10px;
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  #movil-exito .description .description-container,
+  .activar .activar-container {
+    grid-template-columns: 1fr;
+  }
+
+  .activar .activar-title span::before,
+.activar .activar-title span::after {
+  display: none;
+}
+
+}
