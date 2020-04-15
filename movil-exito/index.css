@@ -124,7 +124,7 @@
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  margin: 30px;
 }
 
 .activar .activar-title {
@@ -182,4 +182,60 @@
 .activar .activar-container .activar-option ul {
   list-style-type: none;
   padding: 0 2px;
+}
+
+#movil-exito .beneficios {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  text-align: center;
+  background: #f8f8f8;
+  color: #000;
+  padding: 32px 15px;
+}
+
+.beneficios .beneficios-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 30px;
+}
+
+.beneficios .beneficios-container .beneficio {
+  background-color: #f8f8f8;
+  color: #000;
+  text-align: center;
+  font-size: 0.7em;
+  border-radius: 10px;
+}
+
+.beneficios .beneficios-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.beneficios .beneficio-info {
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.beneficios .beneficios-title span {
+  font-weight: 700;
+}
+
+.beneficios .beneficio-info h3::after {
+  content: "";
+  display: block;
+  border-bottom: .2rem solid #feeb00;
+  width: 70px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.beneficios .beneficios-container .beneficio img {
+  max-width: 60px;
+  margin-bottom: 20px;
 }
