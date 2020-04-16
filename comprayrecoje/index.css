@@ -285,6 +285,10 @@
   }
 
   .almacenes-container .almacenes-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .almacenes .almacenes-container{
     grid-template-columns: 1fr;
   }
 

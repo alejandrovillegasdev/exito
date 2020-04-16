@@ -320,6 +320,10 @@
     display: block;
   }
 
+  .almacenes .almacenes-container{
+    grid-template-columns: 1fr;
+  }
+
   .como-funciona .como-funciona-container .pasos-container {
     grid-template-columns: 1fr;
   }
@@ -328,7 +332,7 @@
   }
 
   .beneficios .beneficios-container, .almacenes-container .almacenes-list, .steps .steps-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .almacenes-title span::before,
