@@ -30,6 +30,7 @@
 
 .header-container .description {
   font-size: 0.8em;
+  text-align: justify;
   grid-area: description;
 }
 
