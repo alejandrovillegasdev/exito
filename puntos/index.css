@@ -1,9 +1,9 @@
-#viajes-exito {
+#puntos-exito {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
-#viajes-exito .header {
+#puntos-exito .header {
   background: #5a216e;
   color: #fff;
   padding: 32px 15px;
@@ -68,25 +68,25 @@
   margin: 0;
 }
 
-#viajes-exito .description {
+#puntos-exito .description {
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
 }
 
-#viajes-exito .description .description-container{
+#puntos-exito .description .description-container{
   display: grid;
   justify-content: center;
   grid-template-columns: 250px 1fr;
   margin-top: 30px;
 }
 
-#viajes-exito .description .nota-container {
+#puntos-exito .description .nota-container {
   padding: 0 30px;
   text-align: center;
 }
 
-#viajes-exito .description .description-container img {
+#puntos-exito .description .description-container img {
   width: 100%;
 }
 
@@ -96,15 +96,15 @@
   padding: 30px;
 }
 
-#viajes-exito .description .description-container .description-text {
+#puntos-exito .description .description-container .description-text {
   padding: 0 20px;
 }
 
-#viajes-exito .description .description-container .description-info .description-paquetes .title-description {
+#puntos-exito .description .description-container .description-info .description-paquetes .title-description {
   margin: 10px;
 }
 
-#viajes-exito .description .description-container .description-info .description-paquetes .title-description::after {
+#puntos-exito .description .description-container .description-info .description-paquetes .title-description::after {
   content: "";
   display: block;
   border-bottom: .2rem solid #feeb00;
@@ -113,7 +113,7 @@
   padding-top: 10px;
 }
 
-#viajes-exito .description .description-container .description-info .description-paquetes a {
+#puntos-exito .description .description-container .description-info .description-paquetes a {
   margin-top: 10px;
   background: #5a216e;
   text-decoration: none;
@@ -125,7 +125,7 @@
   margin-bottom: 10px;
 }
 
-#viajes-exito .footer {
+#puntos-exito .footer {
   margin-top: 30px;
   padding: 10px 15px;
   display: grid;
@@ -150,7 +150,7 @@
   display: none;
 }
 
-#viajes-exito .como-funciona {
+#puntos-exito .como-funciona {
   padding: 15px;
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
@@ -158,7 +158,7 @@
   text-align: center;
 }
 
-#viajes-exito .como-funciona .como-funciona-container {
+#puntos-exito .como-funciona .como-funciona-container {
   padding: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -166,13 +166,13 @@
   grid-gap: 20px;
 }
 
-#viajes-exito .como-funciona .como-funciona-container .punto {
+#puntos-exito .como-funciona .como-funciona-container .punto {
   background: #f8f8f8;
   padding: 10px;
   border-radius: 10px;
 }
 
-#viajes-exito .como-funciona .como-funciona-container .punto h3::after {
+#puntos-exito .como-funciona .como-funciona-container .punto h3::after {
   content: "";
   display: block;
   border-bottom: .2rem solid #feeb00;
@@ -201,7 +201,7 @@
   margin: 0 auto;
 }
 
-#viajes-exito .productos-marcados {
+#puntos-exito .productos-marcados {
   padding: 15px;
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
@@ -209,14 +209,14 @@
   text-align: center;
 }
 
-#viajes-exito .productos-marcados-container {
+#puntos-exito .productos-marcados-container {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
 
-#viajes-exito .productos-marcados-container .punto .punto-text {
+#puntos-exito .productos-marcados-container .punto .punto-text {
   padding: 15px;
   border-radius: 10px;
   display: grid;
@@ -227,16 +227,36 @@
   align-items: center;
 }
 
-#viajes-exito .productos-marcados-container .punto:nth-child(1) .punto-text {
+#puntos-exito .productos-marcados-container .punto:nth-child(1) .punto-text {
   background: #723189;
 }
 
-#viajes-exito .productos-marcados-container .punto:nth-child(2) .punto-text {
+#puntos-exito .productos-marcados-container .punto:nth-child(2) .punto-text {
   background: #e02d88;
 }
 
-#viajes-exito .productos-marcados-container .punto:nth-child(3) .punto-text {
+#puntos-exito .productos-marcados-container .punto:nth-child(3) .punto-text {
   background: #9b3990;
+}
+
+#puntos-exito .como-funciona .como-funciona-title::before,
+#puntos-exito .como-funciona .como-funciona-title::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #ededed;
+    width: 16rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+
+#puntos-exito .productos-marcados .productos-marcados-title::before,
+#puntos-exito .productos-marcados .productos-marcados-title::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #ededed;
+    width: 10rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
 }
 
 @media screen and (max-width: 768px) {
@@ -264,7 +284,8 @@
     display: block;
   }
 
-  #viajes-exito .description .description-container{
+  #puntos-exito .description .description-container,
+  #puntos-exito .productos-marcados-container {
     grid-template-columns: 1fr;
   }
 
@@ -273,7 +294,14 @@
     position: relative;
   }
 
-  #viajes-exito .description .description-container img {
+  #puntos-exito .description .description-container img {
+    display: none;
+  }
+
+  #puntos-exito .productos-marcados .productos-marcados-title::before,
+  #puntos-exito .productos-marcados .productos-marcados-title::after,
+  #puntos-exito .como-funciona .como-funciona-title::before,
+  #puntos-exito .como-funciona .como-funciona-title::after {
     display: none;
   }
 
