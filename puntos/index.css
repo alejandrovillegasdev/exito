@@ -81,6 +81,11 @@
   margin-top: 30px;
 }
 
+#viajes-exito .description .nota-container {
+  padding: 0 30px;
+  text-align: center;
+}
+
 #viajes-exito .description .description-container img {
   width: 100%;
 }
@@ -88,18 +93,18 @@
 .description-paquetes {
   background-color: #f8f8f8;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 #viajes-exito .description .description-container .description-text {
   padding: 0 20px;
 }
 
-#viajes-exito .description .description-container .description-info .description-paquetes h3 {
+#viajes-exito .description .description-container .description-info .description-paquetes .title-description {
   margin: 10px;
 }
 
-#viajes-exito .description .description-container .description-info .description-paquetes h3::after {
+#viajes-exito .description .description-container .description-info .description-paquetes .title-description::after {
   content: "";
   display: block;
   border-bottom: .2rem solid #feeb00;
@@ -145,6 +150,95 @@
   display: none;
 }
 
+#viajes-exito .como-funciona {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+  text-align: center;
+}
+
+#viajes-exito .como-funciona .como-funciona-container {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+#viajes-exito .como-funciona .como-funciona-container .punto {
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#viajes-exito .como-funciona .como-funciona-container .punto h3::after {
+  content: "";
+  display: block;
+  border-bottom: .2rem solid #feeb00;
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+.description-container .description-info .description-paquetes .phone-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  position: absolute;
+}
+
+.description-container .description-info .description-paquetes .phone-container .phone{
+  background: #f8f8f8;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.description-container .description-info .description-paquetes .phone-container .phone h3 {
+  color: #cc3c7f;
+  margin: 0 auto;
+}
+
+#viajes-exito .productos-marcados {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+  text-align: center;
+}
+
+#viajes-exito .productos-marcados-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+#viajes-exito .productos-marcados-container .punto .punto-text {
+  padding: 15px;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 1fr;
+  font-size: 0.8em;
+  color: #fff;
+  align-items: center;
+}
+
+#viajes-exito .productos-marcados-container .punto:nth-child(1) .punto-text {
+  background: #723189;
+}
+
+#viajes-exito .productos-marcados-container .punto:nth-child(2) .punto-text {
+  background: #e02d88;
+}
+
+#viajes-exito .productos-marcados-container .punto:nth-child(3) .punto-text {
+  background: #9b3990;
+}
+
 @media screen and (max-width: 768px) {
   .header .header-container {
     display: grid;
@@ -172,6 +266,11 @@
 
   #viajes-exito .description .description-container{
     grid-template-columns: 1fr;
+  }
+
+  .description-container .description-info .description-paquetes .phone-container {
+    grid-template-columns: 1fr 1fr;
+    position: relative;
   }
 
   #viajes-exito .description .description-container img {
