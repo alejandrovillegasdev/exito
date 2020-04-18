@@ -153,6 +153,29 @@
   text-align: center;
 }
 
+#viajes-exito .tarjetas .tarjetas-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 10px;
+}
+
+ #viajes-exito .tarjetas .tarjetas-container .tarjeta:first-child img {
+  margin-bottom: 13px;
+}
+
+#viajes-exito .tarjetas .tarjetas-container .tarjeta .tarjeta-info {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+#viajes-exito .tarjetas .tarjetas-container .tarjeta .tarjeta-info ul{
+  text-align: initial;
+}
+
 @media screen and (max-width: 768px) {
   .header .header-container {
     display: grid;
@@ -178,7 +201,8 @@
     display: block;
   }
 
-  #viajes-exito .description .description-container{
+  #viajes-exito .description .description-container,
+  #viajes-exito .tarjetas .tarjetas-container{
     grid-template-columns: 1fr;
   }
 
