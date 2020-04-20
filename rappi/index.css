@@ -143,15 +143,16 @@
   justify-content: center;
   text-align: center;
 }
-#rappi-exito .disponible .como-comprar {
+#rappi-exito  .como-comprar {
   background: #f8f8f8;
   text-align: center;
+  justify-content: center;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: minmax(auto, 1024px);
 }
 
-#rappi-exito .disponible .como-comprar .como-comprar-container {
+#rappi-exito .como-comprar .como-comprar-container {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
@@ -160,7 +161,7 @@
   border-radius: 10px;
 }
 
-#rappi-exito .disponible .como-comprar .como-comprar-container .como-comprar-item {
+#rappi-exito .como-comprar .como-comprar-container .como-comprar-item {
   display: grid;
   justify-content: center;
   grid-template-columns: 150px 1fr;
@@ -169,19 +170,19 @@
   border-radius: 10px;
 }
 
-#rappi-exito .disponible .como-comprar .como-comprar-container .como-comprar-item p {
+#rappi-exito .como-comprar .como-comprar-container .como-comprar-item p {
   text-align: initial;
   font-size: 0.8em;
   padding: 10px;
 }
 
-#rappi-exito .disponible .como-comprar .como-comprar-container .como-comprar-item .como-comprar-img {
+#rappi-exito .como-comprar .como-comprar-container .como-comprar-item .como-comprar-img {
   background: #fd614f;
   border-radius: 10px;
   position: relative;
 }
-
-.disponible .como-comprar .como-comprar-container .como-comprar-item .como-comprar-img img {
+ 
+.como-comprar .como-comprar-container .como-comprar-item .como-comprar-img img {
   margin-top: -30px;
 }
 
@@ -236,13 +237,15 @@
   }
 
   #rappi-exito .description .description-container,
-  #rappi-exito .disponible .como-comprar .como-comprar-container {
+  #rappi-exito .como-comprar .como-comprar-container,
+  #rappi-exito .como-comprar .como-comprar-container .como-comprar-item {
     grid-template-columns: 1fr;
     padding: 0;
   }
 
-  #rappi-exito .description .description-container img {
+  #rappi-exito .description .description-container img,
+  #rappi-exito .como-comprar .como-comprar-container .como-comprar-item .como-comprar-img {
     display: none;
-  }
+  } 
 
 }
