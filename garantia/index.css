@@ -29,7 +29,7 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: justify;
   grid-area: description;
 }
@@ -39,7 +39,7 @@
 }
 
 .header-container .description span strong {
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #ffeb00;
   font-weight: 700;
 }
@@ -214,6 +214,50 @@
   margin: 0;
 }
 
+.beneficios .beneficios-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  text-align: center;
+}
+
+.beneficios .beneficios-title span {
+  font-weight: 700;
+}
+
+.beneficios-title span::before,
+.beneficios-title span::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #f8f8f8;
+    width: 23rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+
+#garantia .beneficios {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.beneficios .beneficios-container{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 35px;
+}
+
+.beneficio {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  font-size: 0.8em;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .header .header-container {
     display: grid;
@@ -235,15 +279,20 @@
     font-size: 1.8em;
   }
 
-  .no-screen {
+  .no-screen{
     display: block;
   }
 
-  #garantia .description .description-container{
+  #garantia .description .description-container,
+  #garantia .aplica .aplica-container,
+  #garantia .aplica .aplica-incluye,
+  .beneficios .beneficios-container {
     grid-template-columns: 1fr;
   }
 
-  #garantia .description .description-container img {
+  #garantia .description .description-container img,
+  .beneficios-title span::before, 
+  .beneficios-title span::after {
     display: none;
   }
 
