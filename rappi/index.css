@@ -1,0 +1,190 @@
+#rappi-exito {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#rappi-exito .header {
+  background: #fd614f;
+  color: #fff;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.header .header-container {
+  display: grid;
+  grid-template-columns: 70px 2fr 150px;
+  grid-template-areas: ". description header-logo"
+                       "badge title header-logo";
+  grid-gap: 10px;
+}
+
+.header-container .badge {
+  padding: 15px;
+  grid-area: badge;
+}
+.header-container .badge img {
+  max-width: 70px;
+}
+
+.header-container .description {
+  font-size: 0.8em;
+  text-align: justify;
+  grid-area: description;
+}
+
+.header-container .header-logo {
+  grid-area: header-logo;
+}
+
+.header-container .description span strong {
+  font-size: 0.8em;
+  color: #ffeb00;
+  font-weight: 700;
+}
+
+.header-logo img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header-container .title {
+  grid-area: title;
+  font-weight: normal;
+  margin: 0;
+  align-items: center;
+}
+
+.header-container .title h1{
+  font-weight: 700;
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.header-container .title h2{
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+#rappi-exito .description {
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+#rappi-exito .description .description-container{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 250px 1fr;
+  margin-top: 30px;
+  align-items: center;
+}
+
+#rappi-exito .description .description-container img {
+  width: 100%;
+}
+
+.description-paquetes {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+}
+
+#rappi-exito .description .description-container .description-text {
+  padding: 0 20px;
+}
+
+#rappi-exito .description .description-container .description-info .description-paquetes h3 {
+  margin: 10px;
+}
+
+
+#rappi-exito .description .description-container .description-info .description-title {
+  text-align: center;
+}
+
+#rappi-exito .description .description-container .description-info .description-title h3::after {
+  content: "";
+  display: block;
+  border-bottom: .2rem solid #feeb00;
+  width: 70px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#rappi-exito .nota {
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 800px);
+  justify-content: center;
+}
+
+.nota .nota-container {
+  display: grid;
+  grid-gap: 5px;
+  text-align: center;
+}
+
+#rappi-exito .footer {
+  margin-top: 30px;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.footer-container img { 
+  width: 100%;
+}
+
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "description description"
+                         "badge title";
+    grid-gap: 10px;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+
+  .header-container .title h2 {
+    font-size: 0.8em;
+  }
+  
+  .header-container .title h1 {
+    font-size: 1.8em;
+  }
+
+  .no-screen {
+    display: block;
+  }
+
+  #rappi-exito .description .description-container{
+    grid-template-columns: 1fr;
+  }
+
+  #rappi-exito .description .description-container img {
+    display: none;
+  }
+
+}
