@@ -1,11 +1,11 @@
-#viajes-exito {
+#ventas-empresariales {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
-#viajes-exito .header {
+#ventas-empresariales .header {
   background: #ffeb00;
-  padding: 32px 15px;
+  padding: 20px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
@@ -13,7 +13,7 @@
 
 .header .header-container {
   display: grid;
-  grid-template-columns: 70px 2fr 150px;
+  grid-template-columns: 70px 2fr 120px;
   grid-template-areas: ". description header-logo"
                        "badge title header-logo";
   grid-gap: 10px;
@@ -65,30 +65,29 @@
   margin: 0;
 }
 
-#viajes-exito .description {
+#ventas-empresariales .description {
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
 }
 
-#viajes-exito .description .description-container{
+#ventas-empresariales .description .description-container{
   display: grid;
   justify-content: center;
   grid-template-columns: 250px 1fr;
   margin-top: 30px;
 }
 
-#viajes-exito .description .description-container img {
+#ventas-empresariales .description .description-container img {
   width: 100%;
 }
 
 
-#viajes-exito .description .description-container .description-text {
+#ventas-empresariales .description .description-container .description-text {
   padding: 0 20px;
 }
 
-
-#viajes-exito .description .description-container .description-info .description-paquetes a {
+#ventas-empresariales .description .description-container .description-info .description-paquetes a {
   margin-top: 10px;
   background: #e3241c;
   text-decoration: none;
@@ -100,7 +99,94 @@
   margin-bottom: 10px;
 }
 
-#viajes-exito .footer {
+#ventas-empresariales .description .description-container .description-option {
+  display: grid;
+  justify-content: center;
+  grid-gap: 20px;
+  grid-template-columns: 90px 1fr;
+  background: #f8f8f8;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#ventas-empresariales .description .description-container .description-info img {
+  padding: 5px;
+  width: 80%;
+}
+
+#ventas-empresariales .como-utilizar {
+  text-align: center;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+#ventas-empresariales .como-utilizar .como-usar-info a{
+  margin-top: 10px;
+  background: #e3241c;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 0 13px;
+  color: #fff;
+  width: 338px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+
+.beneficios .beneficios-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  text-align: center;
+}
+
+.beneficios .beneficios-title span {
+  font-weight: 700;
+  font-size: 1.17em;
+}
+
+.beneficios-title span::before,
+.beneficios-title span::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #f8f8f8;
+    width: 23rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+
+#ventas-empresariales .beneficios {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.beneficios .beneficios-container{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-top: 35px;
+}
+
+.beneficios-container .beneficio {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 25px 10px 0 10px;
+  font-size: 0.8em;
+  border-radius: 10px;
+}
+
+.beneficios-container .beneficio:nth-child(5) {
+  padding: 10px 10px 0 10px;
+}
+
+
+#ventas-empresariales .footer {
   margin-top: 30px;
   padding: 10px 15px;
   display: grid;
@@ -150,11 +236,13 @@
     display: block;
   }
 
-  #viajes-exito .description .description-container{
+  #ventas-empresariales .description .description-container,
+  #ventas-empresariales .description .description-container .description-option,
+  .beneficios .beneficios-container {
     grid-template-columns: 1fr;
   }
 
-  #viajes-exito .description .description-container img {
+  #ventas-empresariales .description .description-container img {
     display: none;
   }
 
