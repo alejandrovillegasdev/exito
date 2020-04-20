@@ -129,6 +129,62 @@
   text-align: center;
 }
 
+#rappi-exito .disponible {
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024);
+  justify-content: center;
+}
+
+#rappi-exito .disponible .disponible-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+  text-align: center;
+}
+#rappi-exito .disponible .como-comprar {
+  background: #f8f8f8;
+  text-align: center;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: minmax(auto, 1024px);
+}
+
+#rappi-exito .disponible .como-comprar .como-comprar-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#rappi-exito .disponible .como-comprar .como-comprar-container .como-comprar-item {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 150px 1fr;
+  background: #fff;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#rappi-exito .disponible .como-comprar .como-comprar-container .como-comprar-item p {
+  text-align: initial;
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+#rappi-exito .disponible .como-comprar .como-comprar-container .como-comprar-item .como-comprar-img {
+  background: #fd614f;
+  border-radius: 10px;
+  position: relative;
+}
+
+.disponible .como-comprar .como-comprar-container .como-comprar-item .como-comprar-img img {
+  margin-top: -30px;
+}
+
 #rappi-exito .footer {
   margin-top: 30px;
   padding: 10px 15px;
@@ -179,8 +235,10 @@
     display: block;
   }
 
-  #rappi-exito .description .description-container{
+  #rappi-exito .description .description-container,
+  #rappi-exito .disponible .como-comprar .como-comprar-container {
     grid-template-columns: 1fr;
+    padding: 0;
   }
 
   #rappi-exito .description .description-container img {
