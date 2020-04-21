@@ -64,6 +64,21 @@
   margin: 0;
 }
 
+#ventas-empresariales .nota {
+  background: #3e2f5a;
+  color: #fff;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.nota .nota-container {
+  display: grid;
+  grid-gap: 5px;
+  text-align: center;
+}
+
 #ventas-empresariales .description {
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
@@ -75,7 +90,7 @@
 #ventas-empresariales .como-utilizar {
   text-align: center;
   display: grid;
-  grid-template-columns: minmax(auto, 1024px);
+  grid-template-columns: minmax(auto, 900px);
   justify-content: center;
 }
 
@@ -85,7 +100,7 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 15px;
-  padding: 0 13px;
+  padding: 0 30px;
   color: #fff;
   width: 338px;
   margin-bottom: 10px;
@@ -116,7 +131,7 @@
 
 #ventas-empresariales .beneficios {
   display: grid;
-  margin-top: 30px;
+  padding: 30px;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
 }
@@ -124,7 +139,7 @@
 .beneficios .beneficios-container{
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   margin-top: 35px;
 }
