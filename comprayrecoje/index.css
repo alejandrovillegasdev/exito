@@ -24,6 +24,13 @@
   padding: 15px;
   grid-area: badge;
 }
+.header-container .badge span {
+  color: #fff;
+}
+
+.header-container .badge a {
+  text-decoration: none;
+}
 .header-container .badge img {
   max-width: 70px;
 }
@@ -97,21 +104,23 @@
 }
 
 .step-option {
-  background: gray;
+  background: #0193c0;
   border-radius: 10px;
   display: grid;
   grid-template-columns: 60px 1fr;
+  align-items: center;
 }
 
 .step-option img {
   width: 100%;
-  margin: 20px 10px 0 10px;
+  margin: 10px;
 }
 
 .step-option p {
   font-size: 0.7em;
-  padding: 5px 15px;
+  padding: 5px 15px 0 22px;
   text-align: initial;
+  align-items: center;
 }
 
 .step-option a {

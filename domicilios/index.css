@@ -20,6 +20,14 @@
   grid-gap: 10px;
 }
 
+.header-container .badge span {
+  color: #fff;
+}
+
+.header-container .badge a {
+  text-decoration: none;
+}
+
 .header-container .badge {
   padding: 15px;
   grid-area: badge;

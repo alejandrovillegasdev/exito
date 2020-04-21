@@ -319,6 +319,9 @@ p.almacen-horario {
     margin: 20px;
 }
 
+.logo-container a{
+    text-decoration: none;
+}
 
 
 @media screen and (min-width: 992px) {
