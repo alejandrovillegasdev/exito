@@ -4,7 +4,6 @@
 }
 
 #ventas-empresariales .header {
-  background: #ffeb00;
   padding: 20px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
@@ -13,7 +12,7 @@
 
 .header .header-container {
   display: grid;
-  grid-template-columns: 70px 2fr 120px;
+  grid-template-columns: 70px 2fr 250px;
   grid-template-areas: ". description header-logo"
                        "badge title header-logo";
   grid-gap: 10px;
@@ -43,7 +42,7 @@
 
 .header-logo img {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .header-container .title {
@@ -71,50 +70,7 @@
   justify-content: center;
 }
 
-#ventas-empresariales .description .description-container{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 250px 1fr;
-  margin-top: 30px;
-}
 
-#ventas-empresariales .description .description-container img {
-  width: 100%;
-}
-
-
-#ventas-empresariales .description .description-container .description-text {
-  padding: 0 20px;
-}
-
-#ventas-empresariales .description .description-container .description-info .description-paquetes a {
-  margin-top: 10px;
-  background: #e3241c;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 15px;
-  padding: 0 13px;
-  color: #fff;
-  width: 200px;
-  margin-bottom: 10px;
-}
-
-#ventas-empresariales .description .description-container .description-option {
-  display: grid;
-  justify-content: center;
-  grid-gap: 20px;
-  grid-template-columns: 90px 1fr;
-  background: #f8f8f8;
-  margin-bottom: 10px;
-  font-size: 0.8em;
-  align-items: center;
-  border-radius: 10px;
-}
-
-#ventas-empresariales .description .description-container .description-info img {
-  padding: 5px;
-  width: 80%;
-}
 
 #ventas-empresariales .como-utilizar {
   text-align: center;
@@ -148,21 +104,11 @@
   font-size: 1.17em;
 }
 
-#ventas-empresariales .como-utilizar h3::before,
-#ventas-empresariales .como-utilizar h3::after {
-  display: inline-block;
-    content: "";
-    border-top: .1rem solid #f2f2f2;
-    width: 14rem;
-    margin: 0 1rem;
-    transform: translateY(-0.5rem);
-}
-
 .beneficios-title span::before,
 .beneficios-title span::after {
     display: inline-block;
     content: "";
-    border-top: .1rem solid #f2f2f2;
+    border-top: .1rem solid #f8f8f8;
     width: 23rem;
     margin: 0 1rem;
     transform: translateY(-0.5rem);
@@ -178,7 +124,7 @@
 .beneficios .beneficios-container{
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   margin-top: 35px;
 }
@@ -246,20 +192,13 @@
     display: block;
   }
 
-  #ventas-empresariales .description .description-container .description-option {
-    padding: 10px;
-    text-align: initial;
-  }
-
-
   #ventas-empresariales .description .description-container,
   #ventas-empresariales .description .description-container .description-option,
   .beneficios .beneficios-container {
     grid-template-columns: 1fr;
   }
 
-  #ventas-empresariales .description .description-container img,
-  beneficios-title span::before, .beneficios-title span::after {
+  #ventas-empresariales .description .description-container img {
     display: none;
   }
 
