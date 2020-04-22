@@ -168,11 +168,19 @@
   margin-top: 20px;
 }
 
-#medios-pago .separe .separe-img {
-  padding-left: 20px;
+#medios-pago .regalo {
+  display: grid;
+  background: #000;
+  color: #fff;
+  justify-content: center;
+  grid-template-columns: minmax(auto, 1024px);
+  padding: 20px;
+  margin-top: 20px;
 }
 
-#medios-pago .epm .epm-img {
+#medios-pago .separe .separe-img,
+#medios-pago .regalo .regalo-img
+#medios-pago .epm .epm-img  {
   padding-left: 20px;
 }
 
@@ -199,6 +207,29 @@
   grid-template-columns: 1fr 200px;
   align-items: center;
   font-size: 0.8em;
+}
+
+.regalo .regalo-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 200px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.regalo .regalo-container .regalo-beneficios {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.regalo .regalo-container .regalo-beneficios .beneficio {
+  background: #f8f8f8;
+  color: #000;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .epm .epm-container {
@@ -265,6 +296,7 @@
   text-align: center;
   border-radius: 10px;
   margin-top: 10px;
+  margin-left: 20px;
   margin-bottom: -40px;
 }
 
@@ -361,7 +393,28 @@
     display: block;
   }
 
-  #medios-pago .description .description-container{
+  #medios-pago .brilla .cupos-brilla {
+    margin-bottom: 20px;
+  }
+
+  .nota .nota-container .medios-de-pago {
+    display: none;
+  }
+
+  #medios-pago .nota {
+    height: auto;
+  }
+
+  #medios-pago .description .description-container,
+  .regalo .regalo-container,
+  .epm .epm-container,
+  .codensa .codensa-container,
+  .regalo .regalo-container .regalo-beneficios,
+  .brilla .brilla-container,
+  .separe .separe-container,
+  .separe .separe-container .separe-opciones,
+  .brilla .brilla-container .brilla-opciones,
+  .nota .nota-container .medios-de-pago {
     grid-template-columns: 1fr;
   }
 
