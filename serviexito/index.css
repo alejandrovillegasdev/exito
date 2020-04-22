@@ -78,6 +78,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
+  margin: 20px;
 }
 
 #viajes-exito .description .description-container{
@@ -177,6 +178,55 @@
   padding: 6px;
 }
 #viajes-exito .giros .giros-container .giros-opciones .giros-opcion p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+#viajes-exito .corresponsal {
+  display: grid;
+  justify-content: center;
+  background: #f8f8f8;
+  color: #000;
+  grid-template-columns: minmax(auto, 1024px);
+  padding: 20px;
+}
+
+#viajes-exito .corresponsal .corresponsal-img {
+  padding-left: 20px;
+}
+
+#viajes-exito .corresponsal .corresponsal-container h3 {
+  font-size: 1.5em;
+}
+
+#viajes-exito .corresponsal .corresponsal-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 200px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+#viajes-exito .corresponsal .corresponsal-container .corresponsal-opciones {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#viajes-exito .corresponsal .corresponsal-container .corresponsal-opciones .corresponsal-opcion {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 6px;
+}
+
+#viajes-exito .corresponsal .corresponsal-container .corresponsal-opciones .corresponsal-opcion p {
   margin: 0;
   padding-left: 10px;
 }
