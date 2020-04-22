@@ -125,6 +125,51 @@
   display: none;
 }
 
+.nuestra-tienda .nuestra-tienda-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  text-align: center;
+}
+
+.nuestra-tienda .nuestra-tienda-title span {
+  font-weight: 700;
+  font-size: 1.17em;
+}
+
+.nuestra-tienda-title span::before,
+.nuestra-tienda-title span::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #f8f8f8;
+    width: 10rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+
+#viajes-exito .nuestra-tienda {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.nuestra-tienda .nuestra-tienda-container{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 35px;
+}
+
+.nuestra-tienda-container .opcion {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding:10px 10px 0 10px;
+  font-size: 0.8em;
+  border-radius: 10px;
+}
+
 .beneficios .beneficios-title {
   display: grid;
   grid-template-columns: minmax(auto, 900px);
@@ -157,7 +202,7 @@
 .beneficios .beneficios-container{
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   margin-top: 35px;
 }
