@@ -5,7 +5,7 @@
 
 #viajes-exito .header {
   background: #ffeb00;
-  padding: 32px 15px;
+  padding: 15px;
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
@@ -52,7 +52,7 @@
 
 .header-logo img {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .header-container .title {
@@ -149,6 +149,22 @@
 
 #viajes-exito .giros .giros-container h3 {
   font-size: 1.5em;
+}
+
+#viajes-exito .giros .politicas-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-size: 0.8em;
+}
+
+#viajes-exito .corresponsal .apuestas-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-size: 0.8em;
 }
 
 #viajes-exito .giros .giros-container {
@@ -293,11 +309,20 @@
     display: block;
   }
 
-  #viajes-exito .description .description-container{
+  #viajes-exito .description .description-container,
+  .description-paquetes .description-paquetes-container,
+  #viajes-exito .giros .giros-container,
+  #viajes-exito .giros .giros-container .giros-opciones,
+  #viajes-exito .corresponsal .corresponsal-container,
+  #viajes-exito .giros .politicas-container,
+  #viajes-exito .corresponsal .corresponsal-container .corresponsal-opciones,
+  #viajes-exito .corresponsal .apuestas-container {
     grid-template-columns: 1fr;
   }
 
-  #viajes-exito .description .description-container img {
+  #viajes-exito .description .description-container .description-img,
+  #viajes-exito .corresponsal .corresponsal-img,
+  #viajes-exito .giros .giros-img {
     display: none;
   }
 
