@@ -146,6 +146,17 @@
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
   text-align: center;
+  margin-top: 20px;
+}
+
+#app-exito .servicios h3::before,
+#app-exito .servicios h3::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #f8f8f8;
+    width: 10rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
 }
 
 #app-exito .servicios .servicios-container {
@@ -216,12 +227,25 @@
     display: block;
   }
 
-  #app-exito .description .description-container{
+  #app-exito .description .description-container,
+  #app-exito .servicios .servicios-container,
+  #app-exito .description .description-container .no-satisfecho-option .download-apps{
     grid-template-columns: 1fr;
   }
 
-  #app-exito .description .description-container img {
+  #app-exito .description .description-container .description-image,
+  #app-exito .servicios h3::before,
+  #app-exito .servicios h3::after {
     display: none;
+  }
+
+  #app-exito .servicios .servicios-container img {
+    margin: 0 auto;
+  }
+
+  #app-exito .servicios .servicios-container .info-left,
+  #app-exito .servicios .servicios-container .info-rigth {
+    text-align: justify;
   }
 
 }
