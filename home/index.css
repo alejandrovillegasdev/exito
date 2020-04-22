@@ -62,6 +62,13 @@
   border-radius: 10px;
 }
 
+
+.servicios-container:hover,
+.aliados-container:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 6px 6px rgba(35, 71, 134, .2);
+  transition: box-shadow .2s ease-in, background-color .2s ease-in, color .2s ease-in;
+}
+
 .servicios-img {
   margin-right: 5px;
 }
