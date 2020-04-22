@@ -151,7 +151,32 @@
   margin-top: 20px;
 }
 
+#medios-pago .epm {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: minmax(auto, 1024px);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#medios-pago .codensa {
+  display: grid;
+  background: #f8f8f8;
+  justify-content: center;
+  grid-template-columns: minmax(auto, 1024px);
+  padding: 20px;
+  margin-top: 20px;
+}
+
 #medios-pago .separe .separe-img {
+  padding-left: 20px;
+}
+
+#medios-pago .epm .epm-img {
+  padding-left: 20px;
+}
+
+#medios-pago .codensa .codensa-img {
   padding-left: 20px;
 }
 
@@ -159,7 +184,32 @@
   font-size: 1.5em;
 }
 
+#medios-pago .epm .epm-container h3 {
+  font-size: 1.5em;
+}
+
+
+#medios-pago .codensa .codensa-container h3 {
+  font-size: 1.5em;
+}
+
 .separe .separe-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 200px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.epm .epm-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 200px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.codensa .codensa-container {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 200px;
