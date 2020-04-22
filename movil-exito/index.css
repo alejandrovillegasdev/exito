@@ -28,6 +28,14 @@
   max-width: 70px;
 }
 
+.header-container .badge span {
+  color: #fff;
+}
+
+.header-container .badge a {
+  text-decoration: none;
+}
+
 .header-container .description {
   font-size: 0.8em;
   text-align: justify;
