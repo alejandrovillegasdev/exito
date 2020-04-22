@@ -87,7 +87,6 @@
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
 }
 
 #viajes-exito .description .description-container{
@@ -95,6 +94,13 @@
   justify-content: center;
   grid-template-columns: 250px 1fr;
   margin-top: 30px;
+  align-items: center ;
+}
+
+#viajes-exito .description .description-container .puntos-exito-img {
+  background: #5a216e;
+  padding: 90px 20px;
+  border-radius: 10px;
 }
 
 #viajes-exito .description .description-container img {
@@ -330,15 +336,26 @@
     font-size: 1.8em;
   }
 
-  .no-screen {
+  #viajes-exito .description .description-container .puntos-exito-img {
+    padding: 40px;
+    border-radius: 0;
+  }
+
+  .no-screen,
+  #viajes-exito .description .description-container .puntos-exito-img img {
     display: block;
   }
 
-  #viajes-exito .description .description-container{
+  #viajes-exito .description .description-container,
+  #viajes-exito .description .description-container .description-info .description-calidad,
+  .beneficios .beneficios-container,
+  .electrodomesticos .electrodomesticos-container,
+  #viajes-exito .no-satisfecho .no-satisfecho-container{
     grid-template-columns: 1fr;
   }
 
-  #viajes-exito .description .description-container img {
+  #viajes-exito .description .description-container img,
+  .beneficios-title span::before, .beneficios-title span::after {
     display: none;
   }
 
