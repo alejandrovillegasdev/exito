@@ -46,8 +46,7 @@
 }
 
 .header-container .description span strong {
-  font-size: 0.8em;
-  color: #ffeb00;
+  font-size: 0.9em;
   font-weight: 700;
 }
 
@@ -98,6 +97,25 @@
   padding: 20px;
 }
 
+.description-paquetes .description-paquetes-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.description-paquetes .description-paquetes-container .option {
+  background: #ffeb00;
+  padding: 10px;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.description-paquetes .description-paquetes-container .option img {
+  max-width: 90px;
+}
+
 #viajes-exito .description .description-container .description-text {
   padding: 0 20px;
 }
@@ -113,6 +131,54 @@
   width: 70px;
   margin: 0 auto;
   padding-top: 10px;
+}
+
+#viajes-exito .giros {
+  display: grid;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  grid-template-columns: minmax(auto, 1024px);
+  padding: 20px;
+}
+
+#viajes-exito .giros .giros-img {
+  padding-left: 20px;
+}
+
+#viajes-exito .giros .giros-container h3 {
+  font-size: 1.5em;
+}
+
+#viajes-exito .giros .giros-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 200px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+#viajes-exito .giros .giros-container .giros-opciones {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#viajes-exito .giros .giros-container .giros-opciones .giros-opcion {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  background: #f8f8f8;
+  color: #000;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 6px;
+}
+#viajes-exito .giros .giros-container .giros-opciones .giros-opcion p {
+  margin: 0;
+  padding-left: 10px;
 }
 
 #viajes-exito .description .description-container .description-info .description-paquetes a {
