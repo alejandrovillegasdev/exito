@@ -34,6 +34,14 @@
   grid-area: description;
 }
 
+.header-container .badge span {
+  color: #fff;
+}
+
+.header-container .badge a {
+  text-decoration: none;
+}
+
 .header-container .header-logo {
   grid-area: header-logo;
 }
