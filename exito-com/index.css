@@ -264,11 +264,16 @@
     display: block;
   }
 
-  #viajes-exito .description .description-container{
+  #viajes-exito .description .description-container,
+  .beneficios .beneficios-container,
+  .nuestra-tienda .nuestra-tienda-container,
+  #viajes-exito .como-funciona .como-funciona-container{
     grid-template-columns: 1fr;
   }
 
-  #viajes-exito .description .description-container img {
+  #viajes-exito .description .description-container img,
+  .nuestra-tienda-title span::before, .nuestra-tienda-title span::after,
+  .beneficios-title span::before, .beneficios-title span::after {
     display: none;
   }
 
