@@ -93,8 +93,6 @@
   justify-content: center;
 }
 
-
-
 #ventas-empresariales .como-utilizar {
   text-align: center;
   display: grid;
@@ -112,7 +110,7 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 15px;
-  padding: 0 30px;
+  padding: 5px;
   color: #fff;
   width: 338px;
   margin-bottom: 10px;
@@ -141,10 +139,12 @@
 }
 
 .como-inscribirse .como-inscribirse-title span::before,
-.como-inscribirse .como-inscribirse-title span::after {
+.como-inscribirse .como-inscribirse-title span::after,
+#ventas-empresariales .como-utilizar h3::before,
+#ventas-empresariales .como-utilizar h3::after {
     display: inline-block;
     content: "";
-    border-top: .1rem solid #f8f8f8;
+    border-top: .1rem solid #ebebeb;
     width: 15rem;
     margin: 0 1rem;
     transform: translateY(-0.5rem);
@@ -160,16 +160,28 @@
 
 .como-inscribirse-container .paso-container {
   background-color: #f8f8f8;
-  text-align: center;
-  padding: 25px 10px 0 10px;
-  font-size: 0.8em;
+  padding: 10px 10px 0 10px;
   border-radius: 10px;
   font-size: 0.8em;
 }
 
 .como-inscribirse-container .paso-container .paso-container-header {
   display: grid;
-  grid-template-columns: 15px 1fr;
+  grid-template-columns: 60px 1fr;
+}
+
+.como-inscribirse-container .paso-container .paso-container-header h4{
+  font-size: 1.4em;
+  margin: 10px;
+  color: #3e2f5a;
+}
+
+.como-inscribirse-container .paso-container .paso-container-header h4::after {
+  content: "";
+  display: block;
+  border-bottom: .2rem solid #f31907;
+  width: 100px;
+  padding-top: 9px;
 }
 
 .beneficios .beneficios-title {
@@ -216,15 +228,17 @@
 .beneficios-container .beneficio {
   background-color: #f8f8f8;
   text-align: center;
-  padding: 25px 10px 0 10px;
+  padding: 10px 5px 0 5px;
   font-size: 0.8em;
   border-radius: 10px;
 }
-
-.beneficios-container .beneficio:nth-child(5) {
-  padding: 10px 10px 0 10px;
+.beneficios-container .beneficio img {
+  width: 60px;
 }
 
+.beneficios-container .beneficio p {
+  margin-top: 10px;
+}
 
 #ventas-empresariales .footer {
   margin-top: 30px;
@@ -285,6 +299,8 @@
 
   #ventas-empresariales .description .description-container img,
   .beneficios-title span::before, .beneficios-title span::after,
+  #ventas-empresariales .como-utilizar h3::before,
+  #ventas-empresariales .como-utilizar h3::after,
   .como-inscribirse .como-inscribirse-title span::before, .como-inscribirse .como-inscribirse-title span::after{
     display: none;
   }
