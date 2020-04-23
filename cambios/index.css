@@ -135,6 +135,7 @@
   padding: 10px;
   border-radius: 10px;
   font-size: 0.8em;
+  align-items: center;
 }
 
 .description-container .description-info  .description-calidad img {
