@@ -14,7 +14,7 @@
 
 .header .header-container {
   display: grid;
-  grid-template-columns: 70px 2fr 150px;
+  grid-template-columns: 70px 2fr 130px;
   grid-template-areas: ". description header-logo"
                        "badge title header-logo";
   grid-gap: 10px;

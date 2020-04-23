@@ -115,6 +115,10 @@
   padding: 10px;
 }
 
+.facil-rapido-container .telefono-opcion:nth-child(2) img {
+  padding-top: 7px;
+}
+
 .facil-rapido-container .telefono-opcion img {
   width: 100%;
 }
