@@ -113,7 +113,8 @@
 
 #ventas-empresariales .description .description-container .description-info img {
   padding: 5px;
-  width: 80%;
+  height: 60px;
+  width: 60px;
 }
 
 #ventas-empresariales .como-utilizar {
@@ -129,7 +130,7 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 15px;
-  padding: 0 13px;
+  padding: 3px 13px;
   color: #fff;
   width: 338px;
   margin-bottom: 10px;
@@ -186,15 +187,15 @@
 .beneficios-container .beneficio {
   background-color: #f8f8f8;
   text-align: center;
-  padding: 25px 10px 0 10px;
+  padding: 10px 10px 0 10px;
   font-size: 0.8em;
   border-radius: 10px;
 }
 
-.beneficios-container .beneficio:nth-child(5) {
-  padding: 10px 10px 0 10px;
+.beneficios-container .beneficio img {
+  width: 50px;
+  height: 50px;
 }
-
 
 #ventas-empresariales .footer {
   margin-top: 30px;

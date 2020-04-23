@@ -167,6 +167,10 @@
   font-size: 0.8em;
 }
 
+#viajes-exito .corresponsal .apuestas-container ul {
+  padding-left: 10px;
+}
+
 #viajes-exito .giros .giros-container {
   display: grid;
   justify-content: center;
