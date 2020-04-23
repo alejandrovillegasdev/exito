@@ -242,6 +242,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   text-align: center;
+  grid-gap: 20px
 }
 
 .ten-en-cuenta .ten-en-cuenta-container h3 {

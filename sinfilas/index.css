@@ -139,6 +139,10 @@
   padding: 10px;
 }
 
+.como-funciona-container .pasos-container .paso:nth-child(3) p {
+  margin-top: 32px;
+}
+
 .como-funciona-container .pasos-container .paso h3 {
   background: yellow;
   width: 30px;
@@ -148,7 +152,7 @@
 }
 
 .como-funciona-container .pasos-container .paso p {
-  margin-top: 32px;
+  margin-top: 62px;
   color: #fff;
   font-size: 0.8em;
 }
@@ -323,6 +327,14 @@
   
   .header-container .title h1 {
     font-size: 1.8em;
+  }
+
+  .como-funciona-container .pasos-container .paso p { 
+    margin-top: 32px;
+  }
+
+  .como-funciona .como-funciona-container .pasos-container .paso {
+    margin-top: 20px;
   }
   .no-screen {
     display: block;

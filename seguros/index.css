@@ -132,9 +132,13 @@
   background-color: #f8f8f8;
   color: #000;
   text-align: center;
-  padding: 20px 10px 0 10px;
+  padding: 12px 5px 0 5px;
   font-size: 0.7em;
   border-radius: 10px;
+}
+
+.beneficios .beneficios-container .beneficio:nth-child(1) img {
+  margin-bottom: 10px;
 }
 
 .beneficios .beneficios-title {
