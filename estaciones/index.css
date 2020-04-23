@@ -1,9 +1,9 @@
-#sinfilas {
+#estaciones {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
-#sinfilas .header {
+#estaciones .header {
   background: #ffeb00;
   padding: 32px 15px;
   display: grid;
@@ -74,7 +74,7 @@
   margin: 0;
 }
 
-#sinfilas .nota {
+#estaciones .nota {
   background: #000;
   color: #fff;
   padding: 10px 15px;
@@ -89,19 +89,20 @@
 
 }
 
-#sinfilas .como-funciona {
+#estaciones .como-funciona {
   padding: 32px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
 }
 
-#sinfilas .como-funciona  .como-funciona-container {
+#estaciones .como-funciona  .como-funciona-container {
   padding: 10px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
   text-align: center;
+  font-size: 0.8em;
 }
 .beneficios .beneficios-title {
   display: grid;
@@ -113,30 +114,19 @@
 .como-funciona .como-funciona-container .pasos-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   margin-top: 30px;
 }
 
 .como-funciona .como-funciona-container .pasos-container .paso {
   text-align: center;
-  background-color: #0193c0;
+  background-color: #ffeb00;
   border-radius: 10px;
   padding: 10px;
-}
-
-.como-funciona-container .pasos-container .paso h3 {
-  background: yellow;
-  width: 30px;
-  margin: -25px auto;
-  border-radius: 5px;
-  color: #0193c0;
-}
-
-.como-funciona-container .pasos-container .paso p {
-  margin-top: 32px;
-  color: #fff;
-  font-size: 0.8em;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 1fr;
 }
 
 .beneficios .beneficios-title {
@@ -159,7 +149,7 @@
     transform: translateY(-0.5rem);
 }
 
-#sinfilas .beneficios {
+#estaciones .beneficios {
   display: grid;
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
@@ -180,7 +170,7 @@
   border-radius: 10px;
 }
 
-#sinfilas .almacenes {
+#estaciones .almacenes {
   display: grid;
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
@@ -202,6 +192,7 @@
   display: grid;
   grid-template-columns: 200px 1fr;
   margin-top: 35px;
+  align-items: center;
 }
 
 .almacenes .almacenes-container img {
@@ -219,43 +210,30 @@
 .almacenes-container .almacenes-list .almacen {
   background: #f8f8f8;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px 10px 5px 15px;
+  text-align: initial;
+}
+
+.almacenes-container .almacenes-list .almacen p{
+  font-size: 0.7em;
+  margin: 1px;
 }
 
 .almacenes-container .almacenes-list .almacen span{
   font-weight: 700;
-  margin-right: 30px;
+  margin-right: 40px;
+  font-size: 0.9em;
 }
 
 .almacenes-container .almacenes-list .almacen span::after {
-    display: inline-block;
-    content: "";
-    border-top: .2rem solid #feeb00;
-    width: 6rem;
-    transform: translateY(-0.5rem);
+  display: inline-block;
+  content: "";
+  border-top: .2rem solid #feeb00;
+  width: 7rem;
+  transform: translateY(-0.7rem);
 }
 
-#sinfilas .recuerda {
-  display: grid;
-  grid-template-columns: minmax(auto, 900px);
-  justify-content: center;
-  margin-top: 20px;
-}
-
-#sinfilas .recuerda .recuerda-container {
-  text-align: center;
-}
-
-#sinfilas .recuerda .recuerda-container ul {
-  list-style-type: none;
-  padding: 0 2px;
-}
-
-#sinfilas .recuerda .recuerda-container h4 {
-  color: #0193c0;
-}
-
-#sinfilas .footer {
+#estaciones .footer {
   margin-top: 35px;
   padding: 10px 15px;
   display: grid;
@@ -304,6 +282,10 @@
     display: block;
   }
 
+  .beneficios .beneficios-title {
+    text-align: center;
+  }
+
   .almacenes .almacenes-container{
     grid-template-columns: 1fr;
   }
@@ -325,7 +307,8 @@
   }
 
   .como-funciona .como-funciona-container .beneficios-title span::before,
-  .como-funciona .como-funciona-container .beneficios-title span::after {
+  .como-funciona .como-funciona-container .beneficios-title span::after,
+  .beneficios .beneficios-title span::before, .beneficios .beneficios-title span::after {
     display: none;
   }
 }
