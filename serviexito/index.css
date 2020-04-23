@@ -117,6 +117,10 @@
   max-width: 90px;
 }
 
+.description-paquetes .description-paquetes-container .option p {
+  margin: 5px 0;
+}
+
 #viajes-exito .description .description-container .description-text {
   padding: 0 20px;
 }

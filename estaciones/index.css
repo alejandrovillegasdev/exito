@@ -170,6 +170,11 @@
   border-radius: 10px;
 }
 
+.beneficio img {
+  width: 90px;
+  height: 70px;
+}
+
 #estaciones .almacenes {
   display: grid;
   grid-template-columns: minmax(auto, 900px);
