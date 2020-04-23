@@ -1,0 +1,331 @@
+#sinfilas {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#sinfilas .header {
+  background: #ffeb00;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.header .header-container {
+  display: grid;
+  grid-template-columns: 70px 2fr 1fr;
+  grid-template-areas: ". description header-logo"
+                       "badge title header-logo";
+  grid-gap: 10px;
+}
+
+.header-container .badge {
+  padding: 15px;
+  grid-area: badge;
+}
+.header-container .badge img {
+  max-width: 70px;
+}
+
+.header-container .badge span {
+  color: #fff;
+}
+
+.header-container .badge a {
+  text-decoration: none;
+}
+
+.header-container .description {
+  font-size: 0.8em;
+  grid-area: description;
+}
+
+.header-container .header-logo {
+  grid-area: header-logo;
+}
+
+.header-container .description span strong {
+  font-size: 0.8em;
+  color: #d62c09;
+  font-weight: 700;
+}
+
+.header-logo img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header-container .title {
+  grid-area: title;
+  font-weight: normal;
+  margin: 0;
+  align-items: center;
+}
+
+.header-container .title h1{
+  font-weight: 700;
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.header-container .title h2{
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+#sinfilas .nota {
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.nota .nota-container {
+  display: grid;
+  text-align: center;
+
+}
+
+#sinfilas .como-funciona {
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+#sinfilas .como-funciona  .como-funciona-container {
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  text-align: center;
+}
+.beneficios .beneficios-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+
+.como-funciona .como-funciona-container .pasos-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 30px;
+}
+
+.como-funciona .como-funciona-container .pasos-container .paso {
+  text-align: center;
+  background-color: #0193c0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.como-funciona-container .pasos-container .paso h3 {
+  background: yellow;
+  width: 30px;
+  margin: -25px auto;
+  border-radius: 5px;
+  color: #0193c0;
+}
+
+.como-funciona-container .pasos-container .paso p {
+  margin-top: 32px;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.beneficios .beneficios-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.beneficios .beneficios-title span {
+  font-weight: 700;
+}
+
+.beneficios .beneficios-title span::before,
+.beneficios .beneficios-title span::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #f8f8f8;
+    width: 23rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+
+#sinfilas .beneficios {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.beneficios .beneficios-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-top: 35px;
+}
+
+.beneficio {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  font-size: 0.7em;
+  border-radius: 10px;
+}
+
+#sinfilas .almacenes {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.almacenes .almacenes-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.almacenes .almacenes-title span {
+  font-weight: 700;
+}
+
+.almacenes .almacenes-container{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin-top: 35px;
+}
+
+.almacenes .almacenes-container img {
+  width: 100%;
+}
+
+.almacenes-container .almacenes-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.almacenes-container .almacenes-list .almacen {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.almacenes-container .almacenes-list .almacen span{
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.almacenes-container .almacenes-list .almacen span::after {
+    display: inline-block;
+    content: "";
+    border-top: .2rem solid #feeb00;
+    width: 6rem;
+    transform: translateY(-0.5rem);
+}
+
+#sinfilas .recuerda {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#sinfilas .recuerda .recuerda-container {
+  text-align: center;
+}
+
+#sinfilas .recuerda .recuerda-container ul {
+  list-style-type: none;
+  padding: 0 2px;
+}
+
+#sinfilas .recuerda .recuerda-container h4 {
+  color: #0193c0;
+}
+
+#sinfilas .footer {
+  margin-top: 35px;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.footer-container img { 
+  width: 100%;
+}
+
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "description description"
+                         "badge title";
+    grid-gap: 10px;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+
+  .header-container .title h2 {
+    font-size: 0.8em;
+  }
+  
+  .header-container .title h1 {
+    font-size: 1.8em;
+  }
+  .no-screen {
+    display: block;
+  }
+
+  .almacenes .almacenes-container{
+    grid-template-columns: 1fr;
+  }
+
+  .como-funciona .como-funciona-container .pasos-container {
+    grid-template-columns: 1fr;
+  }
+  .beneficios-title span::before, .beneficios-title span::after {
+    width: 8rem;
+  }
+
+  .beneficios .beneficios-container, .almacenes-container .almacenes-list, .steps .steps-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .almacenes-title span::before,
+  .almacenes-title span::after {
+    display: none;
+  }
+
+  .como-funciona .como-funciona-container .beneficios-title span::before,
+  .como-funciona .como-funciona-container .beneficios-title span::after {
+    display: none;
+  }
+}
