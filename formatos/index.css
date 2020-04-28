@@ -20,6 +20,14 @@
   grid-gap: 10px;
 }
 
+.header-container .badge span {
+  color: #fff;
+}
+
+.header-container .badge a {
+  text-decoration: none;
+}
+
 .header-container .badge {
   padding: 15px;
   grid-area: badge;
@@ -33,12 +41,10 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
   grid-area: description;
 }
 
 .header-container .description span strong {
-  font-size: 0.8em;
   grid-area: description;
   color: #ffeb00;
   font-weight: 700;
@@ -111,12 +117,12 @@
 }
 .tienda-description {
   grid-area: tienda-description;
-  font-size: 0.8em;
 }
 
 
 .tienda-photo {
   grid-area: tienda-photo;
+  align-self: center;
 }
 
 .tienda-photo img { 
@@ -162,7 +168,7 @@
 
   .header .header-container {
     display: grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 60px 1fr;
     grid-template-areas: "description description"
                          "badge title";
     grid-gap: 10px;

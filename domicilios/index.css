@@ -37,7 +37,6 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
   grid-area: description;
 }
 
@@ -46,7 +45,6 @@
 }
 
 .header-container .description span strong {
-  font-size: 0.8em;
   grid-area: description;
   color: #ffeb00;
   font-weight: 700;
@@ -148,8 +146,11 @@
   display: inline-block;
   border-radius: 10px;
   padding: 8px 20px;
+  margin-top: 20px;
   color: black;
-  font-size: 0.9em;
+  -webkit-box-shadow: 4px 6px 7px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 4px 6px 7px 0px rgba(0,0,0,0.3);
+  box-shadow: 4px 6px 7px 0px rgba(0,0,0,0.3);
 }
 
 .domicilio-facil-container .llevamos-opcion p {
@@ -168,13 +169,13 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
+  margin-top: 20px;
 }
 
 .telefonos-container .telefonos-lista .telefono {
   background: #f8f8f8;
   border-radius: 10px;
   padding: 15px 0;
-  margin-top: 20px;
 }
 
 .telefonos-container .telefonos-lista .telefono h4 {
@@ -189,7 +190,7 @@
 #domicilios .costos {
   background: #f8f8f8;
   color: #000;
-  padding: 32px 15px;
+  padding: 20px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
@@ -215,18 +216,26 @@
   color: #fff;
   border-radius: 10px;
   padding: 10px;
-  height: 100px;
+  height: 165px;
 }
 
 .costos .costos-container .costo img {
   width: 100%;
-  margin-top: 28px;
+  margin-top: 48px;
+}
+
+.costos .costos-container .costo:first-child p {
+  margin-top: 20px;
+}
+
+.costos .costos-container .costo:last-child p {
+  margin-top: 18px;
 }
 
 .costos .costos-container .costo p {
-  font-size: 0.8em;
   text-align: left;
   margin-left: 10px;
+  margin-top: 5px;
 }
 
 #domicilios .ten-en-cuenta {
@@ -242,7 +251,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   text-align: center;
-  grid-gap: 20px
+  grid-gap: 30px
 }
 
 .ten-en-cuenta .ten-en-cuenta-container h3 {
@@ -259,6 +268,7 @@
 .footer .footer-container {
   display: grid;
   grid-gap: 5px;
+  text-align: center;
 }
 
 .footer-container img { 
@@ -266,8 +276,8 @@
 }
 
 .footer-container span { 
-  font-size: 0.8em;
   margin-bottom: 30px;
+  padding: 0 20px;
 }
 
 .no-mobile {
