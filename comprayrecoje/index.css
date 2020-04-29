@@ -96,6 +96,58 @@
   font-size: 25px;
 }
 
+#compra-y-recoje .video {
+  background: #ffeb00;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#compra-y-recoje .video .video-beneficios {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+}
+
+#compra-y-recoje .video .video-beneficios .beneficio {
+  justify-content: center;
+  display: grid;
+  text-align: center;
+}
+
+#compra-y-recoje .video .video-beneficios .beneficio img {
+  width: 120px;
+  margin: 0 auto;
+}
+
+#compra-y-recoje .video .video-beneficios .beneficio span {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+#compra-y-recoje .video .video-container {
+  margin-top: 20px;
+}
+
+
+#compra-y-recoje .compra {
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+  text-align: center;
+}
+
+#compra-y-recoje .video .tabs-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #fff;
+  grid-gap: 10px;
+}
+
 .footer .footer-container {
   display: grid;
   grid-gap: 5px;
