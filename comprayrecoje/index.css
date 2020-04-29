@@ -49,6 +49,53 @@
   font-weight: 300;
 }
 
+#compra-y-recoje .instructions {
+  background: #0193bf;
+  color: #fff;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+#compra-y-recoje .instructions .instructions-container {
+  text-align: center;
+  display: grid;
+  padding: 10px;
+  text-align: center;
+}
+
+#compra-y-recoje .instructions .instructions-container .instructions-steps {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.instructions .instructions-container .instructions-steps .instruction {
+  text-align: center;
+  padding: 20px;
+}
+
+.instructions .instructions-container .instructions-steps .instruction .instruction-img-compra {
+  width: 200px;
+  margin: 2px;
+}
+
+.instructions .instructions-container .instructions-steps .instruction .instruction-img-recoge {
+  width: 430px;
+  margin: 2px;
+}
+
+.instructions .instructions-container h3 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.instructions .instructions-container span {
+  font-size: 25px;
+}
+
 .footer .footer-container {
   display: grid;
   grid-gap: 5px;
