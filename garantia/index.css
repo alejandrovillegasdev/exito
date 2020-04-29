@@ -29,7 +29,6 @@
 }
 
 .header-container .description {
-  font-size: 0.7em;
   text-align: justify;
   grid-area: description;
 }
@@ -39,7 +38,6 @@
 }
 
 .header-container .description span strong {
-  font-size: 0.7em;
   color: #ffeb00;
   font-weight: 700;
 }
@@ -166,7 +164,6 @@
   background: #f8f8f8;
   padding: 14px 2px 0px 2px;
   border-radius: 10px;
-  font-size: 0.8em;
 }
 
 #garantia .aplica .aplica-container .aplica-option img {
@@ -184,7 +181,6 @@
 }
 
 #garantia .aplica .aplica-cubrimiento p {
-  font-size: 0.8em;
   padding: 20px;
 }
 
@@ -195,12 +191,11 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 30px;
   grid-gap: 20px;
-  font-size: 0.8em;
 }
 
 #garantia .aplica .aplica-incluye .incluye-title {
   background: #ffeb00;
-  padding: 1px 38px;
+  padding: 1px 15px;
   border-radius: 10px;
   font-weight: 700;
   font-size: 1.1em;
@@ -213,7 +208,7 @@
 #garantia .aplica .aplica-incluye article {
   background: #f8f8f8;
   padding: 10px;
-  height: 240px;
+  height: 400px;
 }
 
 
@@ -272,7 +267,6 @@
   background-color: #f8f8f8;
   text-align: center;
   padding: 10px 10px 0 10px;
-  font-size: 0.8em;
   border-radius: 10px;
 }
 

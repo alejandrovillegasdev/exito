@@ -28,7 +28,6 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
   text-align: justify;
   grid-area: description;
 }
@@ -106,7 +105,6 @@
   grid-template-columns: 90px 1fr;
   background: #f8f8f8;
   margin-bottom: 10px;
-  font-size: 0.8em;
   align-items: center;
   border-radius: 10px;
 }
@@ -134,7 +132,6 @@
   color: #fff;
   width: 338px;
   margin-bottom: 10px;
-  font-size: 0.8em;
 }
 
 .beneficios .beneficios-title {
@@ -188,7 +185,6 @@
   background-color: #f8f8f8;
   text-align: center;
   padding: 10px 10px 0 10px;
-  font-size: 0.8em;
   border-radius: 10px;
 }
 
@@ -260,7 +256,8 @@
   }
 
   #ventas-empresariales .description .description-container img,
-  beneficios-title span::before, .beneficios-title span::after {
+  beneficios-title span::before, .beneficios-title span::after,
+  #ventas-empresariales .como-utilizar h3::before, #ventas-empresariales .como-utilizar h3::after {
     display: none;
   }
 

@@ -35,7 +35,6 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
   text-align: justify;
   grid-area: description;
 }
@@ -114,7 +113,6 @@
   color: #fff;
   width: 338px;
   margin-bottom: 10px;
-  font-size: 0.8em;
 }
 
 #ventas-empresariales .como-inscribirse {
@@ -162,7 +160,6 @@
   background-color: #f8f8f8;
   padding: 10px 10px 0 10px;
   border-radius: 10px;
-  font-size: 0.8em;
 }
 
 .como-inscribirse-container .paso-container .paso-container-header {
@@ -171,7 +168,6 @@
 }
 
 .como-inscribirse-container .paso-container .paso-container-header h4{
-  font-size: 1.4em;
   margin: 10px;
   color: #3e2f5a;
 }
@@ -229,7 +225,6 @@
   background-color: #f8f8f8;
   text-align: center;
   padding: 10px 5px 0 5px;
-  font-size: 0.8em;
   border-radius: 10px;
 }
 .beneficios-container .beneficio img {

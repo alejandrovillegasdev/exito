@@ -29,7 +29,6 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
   text-align: justify;
   grid-area: description;
 }
@@ -47,7 +46,6 @@
 }
 
 .header-container .description span strong {
-  font-size: 0.8em;
   color: #ffeb00;
   font-weight: 700;
 }
@@ -193,9 +191,10 @@
 .description-container .description-info .description-paquetes .phone-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   position: absolute;
+  right: 30%;
 }
 
 .description-container .description-info .description-paquetes .phone-container .phone{
@@ -230,7 +229,6 @@
   display: grid;
   justify-content: center;
   grid-template-columns: 100px 1fr;
-  font-size: 0.8em;
   color: #fff;
   align-items: center;
 }
@@ -300,6 +298,7 @@
   .description-container .description-info .description-paquetes .phone-container {
     grid-template-columns: 1fr 1fr;
     position: relative;
+    right: 0;
   }
 
   #puntos-exito .description .description-container img {

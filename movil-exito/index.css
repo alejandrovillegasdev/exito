@@ -37,7 +37,6 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
   text-align: justify;
   grid-area: description;
 }
@@ -47,7 +46,6 @@
 }
 
 .header-container .description span strong {
-  font-size: 0.8em;
   color: #ffeb00;
   font-weight: 700;
 }
@@ -96,7 +94,7 @@
 .description-paquetes {
   background-color: #f8f8f8;
   text-align: center;
-  padding: 20px;
+  padding: 8px;
 }
 
 #movil-exito .description .description-container .description-text {
@@ -144,6 +142,8 @@
 
 .activar .activar-title span {
   font-weight: 700;
+  margin: 30px 0;
+  font-size: 1.19em;
 }
 
 .activar .activar-title span::before,
@@ -170,7 +170,6 @@
   grid-gap: 10px;
   color: #fff;
   background: #5f268d;
-  font-size: 0.8em;
   padding: 10px;
   text-align: initial;
   border-radius: 10px;
@@ -178,6 +177,11 @@
 
 .activar .activar-container .activar-option img {
   width: 100%;
+}
+
+.activar .activar-container .activar-option h3 {
+  margin: 5px;
+  font-size: 1em;
 }
 
 .activar .activar-container .activar-option h3::after {
@@ -214,7 +218,6 @@
   background-color: #f8f8f8;
   color: #000;
   text-align: center;
-  font-size: 0.7em;
   border-radius: 10px;
 }
 
@@ -228,7 +231,7 @@
   padding: 10px;
   background: #fff;
   border-radius: 10px;
-  height: 250px;
+  height: 400px;
 }
 
 .beneficios .beneficios-title span {

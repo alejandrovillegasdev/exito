@@ -29,7 +29,6 @@
 }
 
 .header-container .description {
-  font-size: 0.8em;
   text-align: justify;
   grid-area: description;
 }
@@ -47,7 +46,6 @@
 }
 
 .header-container .description span strong {
-  font-size: 0.8em;
   color: #ffeb00;
   font-weight: 700;
 }
@@ -180,7 +178,6 @@
 
 #rappi-exito .como-comprar .como-comprar-container .como-comprar-item p {
   text-align: initial;
-  font-size: 0.8em;
   padding: 10px;
 }
 
