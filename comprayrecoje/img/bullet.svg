@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>bullet</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Compra-y-Recoge" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME---Servicios---Compra-y-Recoge-V2---Desktop-HD" transform="translate(-615.000000, -2797.000000)">
+            <g id="Group-28" transform="translate(407.000000, 2725.000000)">
+                <g id="Group-27" transform="translate(208.000000, 9.000000)">
+                    <g id="bullet" transform="translate(0.000000, 63.000000)">
+                        <circle id="Oval" fill="#FFEB00" cx="16.5" cy="16.5" r="16.5"></circle>
+                        <g id="check-mark" transform="translate(6.000000, 9.000000)" fill="#000000" fill-rule="nonzero">
+                            <path d="M9.50585326,14.3158605 C8.55375156,15.2280465 7.00888383,15.2280465 6.05724164,14.3158605 L0.714076278,9.1967011 C-0.238025426,8.28495539 -0.238025426,6.80485443 0.714076278,5.89310871 C1.66571847,4.98092275 3.2105862,4.98092275 4.16268791,5.89310871 L7.3461631,8.94268021 C7.58648607,9.17248767 7.97660883,9.17248767 8.2173913,8.94268021 L16.8373121,0.684139469 C17.7889543,-0.22804649 19.333822,-0.22804649 20.2859237,0.684139469 C20.7431347,1.12218244 21,1.71651209 21,2.33593567 C21,2.95535924 20.7431347,3.54968889 20.2859237,3.98773186 L9.50585326,14.3158605 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

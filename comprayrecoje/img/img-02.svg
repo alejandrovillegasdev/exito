@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>img-02</title>
     <desc>Created with Sketch.</desc>
-    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="HOME---Servicios---Compra-y-Recoge---Desktop-HD" transform="translate(-762.000000, -561.000000)" fill="#FFEB00" fill-rule="nonzero">
-            <g id="img-02" transform="translate(762.000000, 561.000000)">
-                <path d="M31,62 C22.7196094,62 14.9348555,58.7753945 9.07960938,52.9203906 C3.22460547,47.0651445 0,39.2803906 0,31 C0,22.7196094 3.22460547,14.9348555 9.07960938,9.07960938 C14.9348555,3.22460547 22.7196094,0 31,0 C39.2803906,0 47.0651445,3.22460547 52.9203906,9.07960938 C58.7753945,14.9348555 62,22.7196094 62,31 C62,39.2803906 58.7753945,47.0651445 52.9203906,52.9203906 C47.0651445,58.7753945 39.2803906,62 31,62 Z M31,3.6328125 C23.6899336,3.6328125 16.8175,6.47948438 11.6484922,11.6484922 C6.47948437,16.8175 3.6328125,23.6899336 3.6328125,31 C3.6328125,38.3100664 6.47948437,45.1825 11.6484922,50.3515078 C16.8175,55.5205156 23.6899336,58.3671875 31,58.3671875 C38.3100664,58.3671875 45.1825,55.5205156 50.3515078,50.3515078 C55.5205156,45.1825 58.3671875,38.3100664 58.3671875,31 C58.3671875,23.6899336 55.5205156,16.8175 50.3515078,11.6484922 C45.1825,6.47948438 38.3100664,3.6328125 31,3.6328125 Z" id="Shape"></path>
-                <polygon id="Path" points="30 7 34 7 34 12 30 12"></polygon>
-                <polygon id="Path" transform="translate(46.059098, 15.937464) rotate(-45.000000) translate(-46.059098, -15.937464) " points="43.6356512 14.1213318 48.4825441 14.1213318 48.4825441 17.7535957 43.6356512 17.7535957"></polygon>
-                <polygon id="Path" points="50 30 55 30 55 34 50 34"></polygon>
-                <polygon id="Path" transform="translate(46.055876, 46.065758) rotate(-45.000000) translate(-46.055876, -46.065758) " points="44.2397441 43.6423113 47.872008 43.6423113 47.872008 48.4892043 44.2397441 48.4892043"></polygon>
-                <polygon id="Path" points="30 50 34 50 34 55 30 55"></polygon>
-                <polygon id="Path" transform="translate(15.927582, 46.062536) rotate(-45.000000) translate(-15.927582, -46.062536) " points="13.5041356 44.2464043 18.3510285 44.2464043 18.3510285 47.8786682 13.5041356 47.8786682"></polygon>
-                <polygon id="Path" points="7 30 12 30 12 34 7 34"></polygon>
-                <polygon id="Path" transform="translate(15.930804, 15.934242) rotate(-45.000000) translate(-15.930804, -15.934242) " points="14.1146717 13.5107957 17.7469356 13.5107957 17.7469356 18.3576887 14.1146717 18.3576887"></polygon>
-                <polygon id="Path" points="44 32 30 32 30 18 33.4741753 18 33.4741753 28.5258247 44 28.5258247"></polygon>
+    <g id="Compra-y-Recoge" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME---Servicios---Compra-y-Recoge-V2---Desktop-HD" transform="translate(-231.000000, -2524.000000)">
+            <g id="img-02" transform="translate(231.000000, 2524.000000)">
+                <g id="img-01" fill="#FFEB00">
+                    <rect id="Rectangle" x="0" y="0" width="50" height="50" rx="10"></rect>
+                </g>
+                <path d="M30.643,34.74 L30.643,31.126 L23.623,31.126 C26.639,28.812 30.357,25.484 30.357,21.324 C30.357,18.126 28.433,15.604 24.117,15.604 C20.659,15.604 17.669,17.58 17.539,22.182 L21.829,22.182 C21.829,20.388 22.609,19.348 23.935,19.348 C25.287,19.348 25.911,20.232 25.911,21.61 C25.911,24.808 21.621,28.11 17.591,31.438 L17.591,34.74 L30.643,34.74 Z" id="2" fill="#000000" fill-rule="nonzero"></path>
             </g>
         </g>
     </g>
