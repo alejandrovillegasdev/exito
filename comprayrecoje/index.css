@@ -133,7 +133,7 @@
 }
 
 
-#compra-y-recoje .compra {
+#compra-y-recoje .compras {
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
@@ -142,10 +142,27 @@
 
 #compra-y-recoje .video .tabs-container {
   text-align: center;
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background: #fff;
+  grid-template-columns: repeat(2, 400px);
   grid-gap: 10px;
+}
+
+#compra-y-recoje .video .tabs-container .tab {
+  display: flex;
+  margin: 0 10px;
+  background: #f8f8f8;
+  align-items: center;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+
+#compra-y-recoje .video .tabs-container .tab:first-child img {
+  width: 100px;
+  padding: 5px;
 }
 
 .footer .footer-container {
@@ -216,4 +233,23 @@
   .no-screen {
     display: block;
   }
+}
+
+.tabs-container button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }

@@ -44,45 +44,49 @@
   </section>
 
   <section class="video">
-      <div class="video-beneficios">
-        <div class="beneficio">
-          <img src="./img/item-01.svg" alt="Sin bajarte del carro">
-          <span>Sin bajarte del carro</span>
-        </div>
-        <div class="beneficio">
-          <img src="./img/item-02.svg" alt="Sin contacto">
-          <span>Sin contacto</span>
-        </div>
-        <div class="beneficio">
-          <img src="./img/item-03.svg" alt="Servicio gratuito">
-          <span>Servicio gratuito</span>
-        </div>
+    <div class="video-beneficios">
+      <div class="beneficio">
+        <img src="./img/item-01.svg" alt="Sin bajarte del carro">
+        <span>Sin bajarte del carro</span>
       </div>
-      <!-- <div class="video-container">
+      <div class="beneficio">
+        <img src="./img/item-02.svg" alt="Sin contacto">
+        <span>Sin contacto</span>
+      </div>
+      <div class="beneficio">
+        <img src="./img/item-03.svg" alt="Servicio gratuito">
+        <span>Servicio gratuito</span>
+      </div>
+    </div>
+    <!-- <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/C4HsMuGPBhs" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> -->
     <div class="tabs-container">
-      <div class="tab">
+      <button class="tab tablinks" id="defaultOpen" onclick="openCity(event, 'appexito')">
         <span>compra en</span>
         <img src="./img/exitopuntocom.svg" alt="exitopuntocom">
         <img src="./img/appexito.svg" alt="appexito">
-      </div>
-      <div class="tab">
+      </button>
+      <button class="tab tablinks" onclick="openCity(event, 'whatsapp')">
         <span>compra por</span>
         <img src="./img/whatsapp.svg" alt="whatsapp">
         Whatsapp
-      </div>
+      </button>
     </div>
   </section>
 
-  <!-- <section class="compra">
-    <ul class="tabs">
-      <li class="active" rel="tab1">Tab 1</li>
-      <li rel="tab2">Tab 2</li>
-    </ul>
-  </section> -->
-
+  <section class="compras">
+    <div id="appexito" class="tabcontent compras-app">
+      <p>cuando compras en tu app o en <strong>exito.com</strong>, puedes comprar tu mercado y tambien miles de
+        productos para ti y para tu hogar.</p>
+      <p>Consulta acá cómo funciona el servicio</p>
+    </div>
+    <div id="whatsapp" class="tabcontent compras-whatsapp">
+      <p>WhatsApp</p>
+    </div>
+  </section>
+  <script type='text/javascript' src="./index.js"></script>
 </body>
 
 </html>
