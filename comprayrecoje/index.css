@@ -159,6 +159,49 @@
   cursor: pointer;
 }
 
+.compras .mercado-container {
+  display: grid;
+  grid-template-columns: minmax(auto, 800px);
+  justify-content: center;
+}
+
+.compras .mercado-container .mercados-steps {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.compras .mercado-container .mercados-steps .mercado {
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.compras .otros-container {
+  display: grid;
+  grid-template-columns: minmax(auto, 800px);
+  justify-content: center;
+}
+
+.compras .otros-container .mercados-steps {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.compras .otros-container .mercados-steps .mercado {
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
 
 #compra-y-recoje .video .tabs-container .tab:first-child img {
   width: 100px;
