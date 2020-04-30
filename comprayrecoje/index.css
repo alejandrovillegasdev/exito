@@ -203,9 +203,45 @@
   justify-content: space-between;
 }
 
+.compras .compras-app .recuerda-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 300px 1fr;
+  grid-gap: 10px;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.compras .compras-app .recuerda-container .bullet {
+  display: flex;
+  align-items: center;
+  text-align: initial;
+}
+
+.compras .compras-app .recuerda-container .recuerda-steps {
+  border-left: 1px solid black;
+}
+
+.compras .compras-app .recuerda-container h3 {
+  text-align: end;
+  margin-right: 20px;
+}
+
+.compras .compras-app .recuerda-container .bullet img {
+  margin: 0 10px;
+}
+
 #compra-y-recoje .video .tabs-container .tab:first-child img {
   width: 100px;
   padding: 5px;
+}
+
+#compra-y-recoje .footer {
+  margin-top: 30px;
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
 }
 
 .footer .footer-container {
