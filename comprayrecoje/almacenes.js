@@ -22,7 +22,7 @@ function methodI() {
             var strContenido = $("#divAlmacenes").text();
             if (strContenido == "") {
                 var rptJson = $.getJSON(
-                    "https://d1rnpo543m3vxh.cloudfront.net/content/Almacenes.json",
+                    "https://raw.githubusercontent.com/alejandrovillegasdev/exito/master/comprayrecoje/data.json",
                     function (data) {
                         if (data != null && data.departamento.length != 0) {
                             $("#ddlDepartamento").empty();
@@ -105,32 +105,33 @@ function methodI() {
                 .attr("class", "almacen-direccion")
                 .html(almacen.direccion)
                 .appendTo(divAlmacen);
-            var tel = "";
-            for (var i = 0; i < almacen.telefonos.length; i++) {
-                if (i == 0) {
-                    tel = almacen.telefonos[i];
-                } else {
-                    tel = tel + " - " + almacen.telefonos[i];
-                }
-            }
-            if (tel != "") {
-                $("<p />")
-                    .attr("class", "almacen-tel")
-                    .html(tel)
-                    .appendTo(divAlmacen);
-            }
 
-            var horario = "";
-            for (var j = 0; j < almacen.horarios.length; j++) {
-                $("<p />")
-                    .attr("class", "almacen-horario")
-                    .html(almacen.horarios[j])
-                    .appendTo(divAlmacen);
-            }
+            // var horario = "";
+            // for (var j = 0; j < almacen.horarios.length; j++) {
+            //     $("<p />")
+            //         .attr("class", "almacen-horario")
+            //         .html(almacen.horarios[j])
+            //         .appendTo(divAlmacen);
+            // }
             $("<p />")
                 .attr("class", "pFormato")
                 .html(almacen.tipo)
                 .appendTo(divAlmacen);
+
+            var tel = "";
+                for (var i = 0; i < almacen.telefonos.length; i++) {
+                    if (i == 0) {
+                        tel = almacen.telefonos[i];
+                    } else {
+                        tel = tel + " - " + almacen.telefonos[i];
+                    }
+                }
+                if (tel != "") {
+                    $("<p />")
+                        .attr("class", "almacen-tel")
+                        .html(tel)
+                        .appendTo(divAlmacen);
+                }
             return divAlmacen;
         }
 
