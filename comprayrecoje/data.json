@@ -30,6 +30,48 @@
               "tipo": "Supermercado"
             }
 					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "la Ceja",
+					"almacenes" : [
+						{
+              "nombre": "Exito La Ceja",
+              "telefonos": 3052206960,
+              "horarios": "L-V 7:00 A.M A 4:00 P.M. S-D CERRADO",
+              "direccion": "Cr 13 # 26B – 56 barrio Ofir; centro comercial Viva La Ceja local 122.",
+              "ciudad": "LA CEJA",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Caucasia",
+					"almacenes" : [
+						{
+              "nombre": "EXITO CAUCASIA",
+              "telefonos": 3052321494,
+              "horarios": "L-S 7:00 A.M. A 7:00 P.M. D Y F 7:00 A.M A 5:00 P.M.",
+              "direccion": "Carrera 20 # 28-12 Barrio La Y",
+              "ciudad": "CAUCASIA",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Itagüí",
+					"almacenes" : [
+						{
+              "nombre": "Exito Itagui",
+              "telefonos": 3216297703,
+              "horarios": "L-S 7:00 A.M A 8:00 P.M. D: 7:00 A.M. A 6:00 P.M.",
+              "direccion": "Carrera 50 A # 41 - 42",
+              "ciudad": "ITAGUI",
+              "tipo": "Supermercado"
+            }
+					]
 				},
 				{
 					"domicilio" : "",
@@ -48,6 +90,134 @@
 					"domicilio" : "(4) 514 6666",
 					"nombreMun" : "Medellín",
 					"almacenes" : [
+            {
+              "nombre": "Exito Robledo",
+              "telefonos": 3053682058,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 5:00 P.M.",
+              "direccion": "Carrera 80 # 64 - 61",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito La Central",
+              "telefonos": 3053497757,
+              "horarios": "L-D 7:00 A.M A 6:00 P.M.",
+              "direccion": "Calle 49 # 20 - 90",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO UNICENTRO MEDELLIN",
+              "telefonos": 3052221225,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 6:00 P.M.",
+              "direccion": "Carrera 66 A # 34 A 25",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO MOLINOS",
+              "telefonos": 3053103232,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 30 A # 82 A 50 Local 119 Centro comercial los Molinos",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO DEL ESTE",
+              "telefonos": 3053100529,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Carrera 25 # 3 - 1 (Local 9901)",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO SANDIEGO",
+              "telefonos": 3053324898,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 34 #  43 - 65",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO BELEN",
+              "telefonos": 3052272820,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 6:00 P.M.",
+              "direccion": "Carrera 77 # 28 - 124",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO LA 33",
+              "telefonos": 3053135390,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 6:00 P.M.",
+              "direccion": "Carrera 66 B # 32 D 35",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO DE LA 70",
+              "telefonos": 3053149655,
+              "horarios": "L-S 7:00 A.M A 8:00 P.M. D: 7:00 A.M. A 5:00 P.M.",
+              "direccion": "Carrera 70 # 43 - 31",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO ARANJUEZ",
+              "telefonos": 3052201610,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 94 # 48 - 13",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO JUNIN",
+              "telefonos": 3054027800,
+              "horarios": "L-S 7:00 A.M A 6:00 P.M. D: CERRADO",
+              "direccion": "Calle 50 # 49 - 33",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO AVENTURA",
+              "telefonos": 3052201605,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 67 No. 53 - 28",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO MARACAIBO",
+              "telefonos": 3052424236,
+              "horarios": "L-S 7:00 A.M A 6:00 P.M. D: CERRADO",
+              "direccion": "Carrera 49 # 52 - 165",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO COLOMBIA",
+              "telefonos": 3053794460,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Carrera 66 #  49 - 01",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito Gran Via",
+              "telefonos": 3053303223,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 5:00 P.M.",
+              "direccion": "Diagonal 75 B # 6-105",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito Laureles",
+              "telefonos": 3053984060,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Carrera 81 # 37 - 100",
+              "ciudad": "MEDELLIN",
+              "tipo": "Supermercado"
+            },
             {
               "nombre": "ÉXITO EXPRESS PADRE MARIANITO",
               "telefonos": "6045856\nOpción 0",
@@ -140,54 +310,113 @@
 					"nombreMun" : "Sabaneta", 
 					"almacenes" : [
 						{
-              "nombre": "ÉXITO EXPRESS EDS VARIANTE CALDAS",
-              "telefonos": "6049348\nOpción 0",
-              "Celular": 3217493632,
-              "tipo": "EXPRESS",
-              "direccion": "VARIANTE VIA CALDAS"
+              "nombre": "Exito Sabaneta",
+              "telefonos": 3216297488,
+              "horarios": "L-D 7:00 A.M A 5:00 P.M.",
+              "direccion": "Carrera 45 # 74 A Sur 57",
+              "ciudad": "SABANETA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO MAYORCA",
+              "telefonos": 3053135940,
+              "horarios": "L-D 7:00 A.M A 5:00 P.M.",
+              "direccion": "Calle 44 No. 50 Sur 45 Locales 1110 - 1111 - 2207",
+              "ciudad": "SABANETA",
+              "tipo": "Supermercado"
             }
 					]
-				},
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Turbo",
+					"almacenes" : [
+						{
+              "nombre": "EXITO TURBO",
+              "telefonos": 3053276100,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Carrera 14 # 105 - 16 Parqueadero Mago Quinto",
+              "ciudad": "TURBO",
+              "tipo": "Supermercado"
+            }
+					]
+        },
 				{
 					"domicilio" : "",
 					"nombreMun" : "San Jerónimo",
 					"almacenes" : [
 						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito San Jerónimo",
-							"direccion"	: "Carrera 12AA No. 22 - 13",
-							"telefonos"	: [ "6041919 207400" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+              "nombre": "EXITO SAN JERONIMO",
+              "telefonos": 3053208932,
+              "horarios": "L-D 7:00 A.M A 5:00 P.M.",
+              "direccion": "Carrera 12 AA # 22 - 13",
+              "ciudad": "SAN JERONIMO",
+              "tipo": "Supermercado"
+            }
 					]
-
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Envigado",
+					"almacenes" : [
+            {
+              "nombre": "EXITO INDIANA",
+              "telefonos": 3052958028,
+              "horarios": "L-D 7:00 A.M A 6:00 P.M.",
+              "direccion": "",
+              "ciudad": "ENVIGADO",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO ENVIGADO CENTRO",
+              "telefonos": 3052991349,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 36  # 43 - 40",
+              "ciudad": "ENVIGADO",
+              "tipo": "Supermercado"
+            }
+					]
 				},
 				{
 					"domicilio" : "",
 					"nombreMun" : "Carepa",
 					"almacenes" : [
-
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Carepa",
-							"direccion"	: "Carrera 80 No. 68 - 40",
-							"telefonos"	: [ "217600 - 217601 " ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+            {
+              "nombre": "EXITO CAREPA",
+              "telefonos": 3052220263,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Carrera 80 # 68 - 40",
+              "ciudad": "CAREPA",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "La Estrella",
+					"almacenes" : [
+            {
+              "nombre": "EXITO PLAZA 77 SUR",
+              "telefonos": 3052218181,
+              "horarios": "L-D 7:00 A.M A 8:00 P.M. D: 7:00 A.M. A 7:00 P.M.",
+              "direccion": "Carrera 50 D  calle 77 Sur. Mall plaza 77",
+              "ciudad": "LA ESTRELLA",
+              "tipo": "Supermercado"
+            },
 					]
 				},
 				{
 					"domicilio" : "",
-					"nombreMun" : "Turbo",
+					"nombreMun" : "Bello",
 					"almacenes" : [
-
 						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Turbo",
-							"direccion"	: "Carrera 14 No. 105 - 16 Parqueadero Mago Quinto ",
-							"telefonos"	: [ "217700 - 217701 - 217702" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+              "nombre": "EXITO BELLO CENTRO",
+              "telefonos": 3053127765,
+              "horarios": "L-S 7:00 A.M A 6:00 P.M.",
+              "direccion": "Diagonal 51 # 35 - 120",
+              "ciudad": "BELLO",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -204,6 +433,46 @@
               "telefonos": 3053856765,
               "horarios": "7 am a 6 pm",
               "direccion": "Carrera 53 con Calle 98 Esquina Centro Comercial BuenaVista",
+              "ciudad": "BARRANQUILLA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO SAN BLAS BARRANQUILLA",
+              "telefonos": 3053430100,
+              "horarios": "7 am a 3 pm / Cerrado domingo",
+              "direccion": "Carrera 41 # 36 - 81 esquina",
+              "ciudad": "BARRANQUILLA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito Calle 77",
+              "telefonos": 3053407905,
+              "horarios": "7 am a 5 pm / Cerrado domingo",
+              "direccion": "Calle 77 # 71 - 49 Esquina",
+              "ciudad": "BARRANQUILLA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito Murillo",
+              "telefonos": 3053477100,
+              "horarios": "7 am a 7 pm",
+              "direccion": "Calle 45 # 26 - 129",
+              "ciudad": "BARRANQUILLA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito San Francisco",
+              "telefonos": 3053478633,
+              "horarios": "7 am a 7 pm",
+              "direccion": "Carrera 38 # 70 B 177",
+              "ciudad": "BARRANQUILLA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito Panorama",
+              "telefonos": 3053341766,
+              "horarios": "7 am a 7 pm",
+              "direccion": "Calle 31 # 6 B 135",
               "ciudad": "BARRANQUILLA",
               "tipo": "Supermercado"
             },
@@ -230,12 +499,27 @@
 					"nombreMun" : "Malambo",
 					"almacenes" : [
 						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Malambo",
-
-							"telefonos"	: [ "3854218 Ext 400100" ],
-							"horarios"	: ["Lunes a Sábado: 7: 00 a.m. - 9:00 p.m.", "Domingos y festivos:  8:00 a.m. - 8:00 p.m."]
-						}
+              "nombre": "EXITO MALAMBO",
+              "telefonos": 3052585433,
+              "horarios": "7 am a 5 pm",
+              "direccion": "Cl. 2e #17 Sur-2 a 17 Sur-144",
+              "ciudad": "MALAMBO",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Soledad",
+					"almacenes" : [
+						{
+              "nombre": "Exito Soledad",
+              "telefonos": 3053116244,
+              "horarios": "7 am a 7 pm",
+              "direccion": "Calle 32 # 30 - 15 Soledad",
+              "ciudad": "SOLEDAD",
+              "tipo": "Supermercado"
+            }
 					]
 				},
 				{
@@ -243,12 +527,13 @@
 					"nombreMun" : "Sabanalarga",
 					"almacenes" : [
 						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Sabanalarga",
-
-							"telefonos"	: [ "3117979 Ext 403600" ],
-							"horarios"	: ["Todos los días de 7: 00 a.m. - 9:00 p.m."]
-						}
+              "nombre": "Exito sabanalarga",
+              "telefonos": 3052403406,
+              "horarios": "7 am a 5 pm / Cerrado fin de semana",
+              "direccion": "Calle 21 con Carrea 19 # 21 - 50",
+              "ciudad": "SABANALARGA",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -268,11 +553,43 @@
                 "direccion": "Calle San Agustín # 6 – 33 Cartagena"
               },
               {
+                "nombre": "EXITO CARTAGENA",
+                "telefonos": 3053319335,
+                "horarios": "L-D 7:00 A.M. A 4:00 P.M.",
+                "direccion": "Calle 31 # 69-75 Sector Contadora",
+                "ciudad": "CARTAGENA",
+                "tipo": "Supermercado"
+              },
+              {
+                "nombre": "EXITO MATUNA CARTAGENA",
+                "telefonos": 3052394021,
+                "horarios": "L-D 7:00 A.M. A 4:00 P.M.",
+                "direccion": "Avenida Venezuela, Carrera 35 # 9 - 41",
+                "ciudad": "CARTAGENA",
+                "tipo": "Supermercado"
+              },
+              {
                 "nombre": "ÉXITO EXPRESS LAS VELAS",
                 "telefonos": "6049696\nExtensión 249604",
                 "Celular": 3216271326,
                 "tipo": "EXPRESS",
                 "direccion": "CRA 1 A No. 1 A - 10 LOCAL 1-19"
+              },
+              {
+                "nombre": "EXITO EJECUTIVOS",
+                "telefonos": 3053443819,
+                "horarios": "L-D 7:00 A.M. A 4:00 P.M.",
+                "direccion": "Calle 31 # 57 - 106 Local 121 Centro Comercial Super Centro Los Ejecutivos",
+                "ciudad": "CARTAGENA",
+                "tipo": "Supermercado"
+              },
+              {
+                "nombre": "EXITO LA CASTELLANA",
+                "telefonos": 3053111927,
+                "horarios": "L-D 7:00 A.M. A 4:00 P.M.",
+                "direccion": "Avenida Pedro de Heredia, Sector Villa Sandra # 30-14 local 100",
+                "ciudad": "CARTAGENA",
+                "tipo": "Supermercado"
               },
               {
                 "nombre": "EXITO SAN DIEGO CARTAGENA",
@@ -310,12 +627,13 @@
 					"nombreMun" : "Magangué",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Magangue",
-							"direccion"	: "Calle 16 No. 10 Esquina Magangue",
-							"telefonos"	: [ "217200 - 217201" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 4:00 p.m."]
-						}
+              "nombre": "EXITO MAGANGUE",
+              "telefonos": 3053433122,
+              "horarios": "L-S 8:00 A.M. A 6:00 P.M. D Y F 8:00 A.M A 4:00 P.M.",
+              "direccion": "Calle 16 # 10 Esquina Magangue",
+              "ciudad": "MAGANGUE",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -327,14 +645,28 @@
 					"domicilio" : "",
 					"nombreMun" : "Duitama",
 					"almacenes" : [
+            {
+              "nombre": "EXITO DUITAMA",
+              "telefonos": 3053730674,
+              "horarios": "07:00 AM - 02:00 PM",
+              "direccion": "Calle 15 # 17 - 45",
+              "ciudad": "DUITAMA",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Chiquinquirá",
+					"almacenes" : [
 						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Duitama",
-							"direccion"	: "Calle 15 No. 17 - 45 ",
-							"telefonos"	: [ "7653737" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 5:00 p.m."]
-						}
-
+              "nombre": "EXITO CHIQUINQUIRA",
+              "telefonos": 3053960251,
+              "horarios": "07:00 AM - 05:00 PM Cerrado fin de semana 25 y 26",
+              "direccion": "Cl. 17 # 6-70 Parque Julio Florez",
+              "ciudad": "CHIQUINQUIRA",
+              "tipo": "Supermercado"
+            }
 					]
 				},
 				{
@@ -342,18 +674,27 @@
 					"nombreMun" : "Sogamoso",
 					"almacenes" : [
 						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Sogamoso",
-							"direccion"	: "Carrera 13 No. 11 - 50 ",
-							"telefonos"	: [ "7753535" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 6:00 p.m."]
-						}
+              "nombre": "EXITO SOGAMOSO",
+              "telefonos": 3053949665,
+              "horarios": "07:00 AM - 06:00 PM",
+              "direccion": "Carrera 13 # 11 - 50",
+              "ciudad": "SOGAMOSO",
+              "tipo": "Supermercado"
+            }
 					]
 				},
 				{
 					"domicilio" : "",
 					"nombreMun" : "Tunja",
 					"almacenes" : [
+            {
+              "nombre": "EXITO TUNJA",
+              "telefonos": 3052473029,
+              "horarios": "07:00 AM - 06:00 PM",
+              "direccion": "Carrera 11 # 18 - 28",
+              "ciudad": "TUNJA",
+              "tipo": "Supermercado"
+            },
 						{
               "nombre": "EXITO VIVA TUNJA",
               "telefonos": 3052664003,
@@ -380,6 +721,28 @@
               "direccion": "Calle 33 # 20 - 72 Centro Comercial Fundadores",
               "ciudad": "MANIZALES",
               "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito SanCancio",
+              "telefonos": 3052271163,
+              "horarios": "L-D: 7:00 A.M.-1:00 P.M.",
+              "direccion": "Calle 66, Carrera 28 Esquina, Centro Comercial SanCancio",
+              "ciudad": "MANIZALES",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "La Dorada",
+					"almacenes" : [
+						{
+              "nombre": "EXITO LA DORADA",
+              "telefonos": 3052926529,
+              "horarios": "L-D: 7:00 A.M.-3:00 P.M.",
+              "direccion": "Cra 3 #  14 - 02",
+              "ciudad": "LA DORADA",
+              "tipo": "Supermercado"
             }
 					]
 				}
@@ -392,13 +755,22 @@
 					"domicilio" : "",
 					"nombreMun" : "Florencia",
 					"almacenes" : [
+            {
+              "nombre": "EXITO FLORENCIA CENTRO",
+              "telefonos": 3052516037,
+              "horarios": "6:00 am - 1:00 pm / Solo domicilios 26 de Abril",
+              "direccion": "Calle 15 # 10 - 23",
+              "ciudad": "FLORENCIA",
+              "tipo": "Supermercado"
+            },
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Florencia",
-							"direccion"	: "Carrera 3ª Bis No. 21ª 14/D 22 C.C Gran Plaza Florencia ",
-							"telefonos"	: [ "7451777 - 404400" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 2:00 p.m."]
-						}
+              "nombre": "EXITO FLORENCIA",
+              "telefonos": 3052516157,
+              "horarios": "6:00 am - 1:00 pm / Solo domicilios 26 de Abril",
+              "direccion": "Carrera 3ª Bis # 21ª 14 / D 22 C.C Gran plaza Florencia",
+              "ciudad": "FLORENCIA",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -410,6 +782,14 @@
 					"domicilio" : "",
 					"nombreMun" : "Yopal",
 					"almacenes" : [
+            {
+              "nombre": "EXITO YOPAL CENTRO",
+              "telefonos": 3052522122,
+              "horarios": "7:00 am - 6:00 pm",
+              "direccion": "Calle 10 Transversal 18 – 26",
+              "ciudad": "YOPAL",
+              "tipo": "Supermercado"
+            },
             {
               "nombre": "EXITO YOPAL",
               "telefonos": 3054394991,
@@ -436,6 +816,14 @@
               "direccion": "K 9 # 6N - 03 Avenida Panamericana",
               "ciudad": "POPAYAN",
               "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO POPAYAN CENTRO",
+              "telefonos": 3216298040,
+              "horarios": "L-S 7:00 A.M A 6:00 P.M. D: 7:00 A.M. A 4:00 P.M.",
+              "direccion": "Cra 5 N° 6 - 45",
+              "ciudad": "POPAYAN",
+              "tipo": "Supermercado"
             }
 					]
 				}
@@ -448,6 +836,22 @@
 					"domicilio" : "",
 					"nombreMun" : "Valledupar",
 					"almacenes" : [
+            {
+              "nombre": "EXITO UNICENTRO VALLEDUPAR",
+              "telefonos": 3053360814,
+              "horarios": "7 am a 6 pm",
+              "direccion": "Carrera 51 B 87 - 50",
+              "ciudad": "VALLEDUPAR",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO VALLEDUPAR CENTRO",
+              "telefonos": 3053380001,
+              "horarios": "7 am a 6 pm / Cerrado domingo",
+              "direccion": "Carrera 7 # 16 A 79",
+              "ciudad": "VALLEDUPAR",
+              "tipo": "Supermercado"
+            },
             {
               "nombre": "Exito las flores",
               "telefonos": 3053528235,
@@ -467,6 +871,22 @@
 					"domicilio" : "",
 					"nombreMun" : "Montería",
 					"almacenes" : [
+            {
+              "nombre": "EXITO MONTERIA CENTRO",
+              "telefonos": 3052378181,
+              "horarios": "L-S 8:00 A.M. A 6:00 P.M. D NO ABRE",
+              "direccion": "Carrera 2 # 35 - 43",
+              "ciudad": "MONTERIA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO MONTERIA NORTE",
+              "telefonos": 3052455832,
+              "horarios": "L-D 8:00 A.M. A 6:00 P.M.",
+              "direccion": "Carrera 6ta # 62 - 21 Urbanización Los Bongos",
+              "ciudad": "MONTERIA",
+              "tipo": "Supermercado"
+            },
 						{
               "nombre": "EXITO ALAMEDAS DEL SINU",
               "telefonos": 3053466877,
@@ -482,12 +902,13 @@
 					"nombreMun" : "Lorica",
 					"almacenes" : [
 						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Lorica",
-
-							"telefonos"	: [ "403300 - 403301" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 6:00 p.m."]
-						}
+              "nombre": "EXITO LORICA",
+              "telefonos": 3052401928,
+              "horarios": "L-S 8:00 A.M. A 6:00 P.M. D Y F 8:00 A.M A 5:00 P.M.",
+              "direccion": "Kra 21ª # 17B -72",
+              "ciudad": "LORICA",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -504,6 +925,126 @@
               "telefonos": 3053917171,
               "horarios": "07:00 AM - 07:00 PM",
               "direccion": "Carrera 114 A # 78 B 35",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO NIZA",
+              "telefonos": 3053709860,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Calle 120 # 60 - 31",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO ESPERANZA",
+              "telefonos": 3053968058,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Calle 35 A # 73 - 02",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO LA FELICIDAD",
+              "telefonos": 3053968006,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Calle 19 A #72-57 Av Boyacá con calle 13. Centro Comercial Multiplaza.",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO CALIMA",
+              "telefonos": 3053583007,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Calle 19 # 28-80 (CC Calima)",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO SAN MARTIN",
+              "telefonos": 3052466470,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Carrera 7 # 32-84 Local 201",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO MODELIA (CAF)",
+              "telefonos": 3053968055,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Carrera 75 # 23 F 30",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO FONTIBON",
+              "telefonos": 3052904544,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Av.Centenario con la 106/104 al frente de la zona Franca",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO TINTAL (CAF)",
+              "telefonos": 3052979007,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Av. carrera 86 # 6-37 local 177 Centro comercial TINTAL",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO VEINTE DE JULIO (CAF)",
+              "telefonos": 3053622085,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Calle 21 Sur # 5 A 34",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO CENTENARIO (CAF)",
+              "telefonos": 3053016129,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Calle 27 Sur # 26-24",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO RESTREPO (CAF)",
+              "telefonos": 3054107645,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Carrera 20 # 14 - 17 Sur",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO LAS NIEVES",
+              "telefonos": 3053892186,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Carrera 7 # 22 - 36",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO PLAZA BOLIVAR",
+              "telefonos": 3053261375,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Carrera 7 # 11 - 30",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO CIUDAD JARDIN",
+              "telefonos": 3053610697,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Carrera 13 # 16 - 48 Sur",
+              "ciudad": "BOGOTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO EL ENSUENO",
+              "telefonos": 3053698063,
+              "horarios": "07:00 AM - 07:00 PM",
+              "direccion": "Cl. 59 Sur #51-21",
               "ciudad": "BOGOTA",
               "tipo": "Supermercado"
             },
@@ -955,6 +1496,20 @@
         },
         {
 					"domicilio" : "",
+					"nombreMun" : "Soacha",
+					"almacenes" : [
+						{
+              "nombre": "EXITO SOACHA",
+              "telefonos": 3052635419,
+              "horarios": "7:00 am - 4:00 pm",
+              "direccion": "Cra 7B  N° 30 139 local 101. (CC Antares)",
+              "ciudad": "SOACHA",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
 					"nombreMun" : "Chia",
 					"almacenes" : [
             {
@@ -1030,6 +1585,20 @@
 				},
         {
 					"domicilio" : "",
+					"nombreMun" : "Mosquera",
+					"almacenes" : [
+            {
+              "nombre": "EXITO MOSQUERA",
+              "telefonos": 3217856714,
+              "horarios": "9:00 am - 5:00 pm",
+              "direccion": "Cr 3ra #15 A 57 local 102 Centro Comercial Eco Plaza",
+              "ciudad": "MOSQUERA",
+              "tipo": "Supermercado"
+            }
+					]
+				},
+        {
+					"domicilio" : "",
 					"nombreMun" : "Fusagasugá",
 					"almacenes" : [
             {
@@ -1046,12 +1615,21 @@
 					"domicilio" : "",
 					"nombreMun" : "Girardot",
 					"almacenes" : [
+            {
+              "nombre": "EXITO GIRARDOT CENTRO",
+              "telefonos": 3053642738,
+              "horarios": "7:00 am - 5:00 pm",
+              "direccion": "Carrera 10 # 12 - 01",
+              "ciudad": "GIRARDOT",
+              "tipo": "Supermercado"
+            },
 						{
-              "nombre": "ÉXITO EXPRESS EL PEÑON",
-              "telefonos": "8886990\nOpción 0",
-              "Celular": 3216269989,
-              "tipo": "EXPRESS",
-              "direccion": "LAGOS DEL PEÑON ZONA COMERCIAL LOCAL # 4"
+              "nombre": "EXITO GIRARDOT",
+              "telefonos": 3053894256,
+              "horarios": "7:00 am - 5:00 pm",
+              "direccion": "Calle 10 # 25 - 53",
+              "ciudad": "GIRARDOT",
+              "tipo": "Supermercado"
             }
 					]
 				}
@@ -1065,10 +1643,34 @@
 					"nombreMun" : "Neiva",
 					"almacenes" : [
             {
-              "nombre": "EXITO SAN PEDRO",
-              "telefonos": 3216285417,
-              "horarios": "7:00 am - 6:00 pm",
-              "direccion": "Avenida 26 Con Calle 39 Esquina",
+              "nombre": "EXITO NEIVA CENTRO",
+              "telefonos": 3054540275,
+              "horarios": "7:00 am - 3:00 pm / Solo domicilios 25 y 26 Abril",
+              "direccion": "Calle 8 # 2 - 21",
+              "ciudad": "NEIVA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO NEIVA LA TOMA",
+              "telefonos": 3052906766,
+              "horarios": "7:00 am - 6:00 pm / Solo domicilios 25 y 26 Abril",
+              "direccion": "Calle 5 # 5 - 39",
+              "ciudad": "NEIVA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO UNICO NEIVA",
+              "telefonos": 3054415746,
+              "horarios": "7:00 am - 6:00 pm / Solo domicilios 25 y 26 Abril",
+              "direccion": "Calle 64 # 1D-140 Centro Comercial Unico, Local 25 Barrio las Mercedes",
+              "ciudad": "NEIVA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO UNICENTRO NEIVA",
+              "telefonos": 3053669306,
+              "horarios": "7:00 am - 6:00 pm / Solo domicilios 25 y 26 Abril",
+              "direccion": "Cra 7 con Cll. 19 a 26 Sur, Local 1 - 15",
               "ciudad": "NEIVA",
               "tipo": "Supermercado"
             }
@@ -1079,12 +1681,13 @@
 					"nombreMun" : "Pitalito",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Pitalito",
-							"direccion"	: "Carrera 15 No. 19A - 31 Sur, C. C. San Antonio Plaza, Local 1",
-							"telefonos"	: [ "237904 - 237900" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						}
+              "nombre": "EXITO PITALITO",
+              "telefonos": 3054101444,
+              "horarios": "7:00 am - 6:00 pm / Solo domicilios 25 y 26 Abril",
+              "direccion": "Carrera 15 # 19 A 31 Sur, Centro Comercial San Antonio Plaza",
+              "ciudad": "PITALITO",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -1102,6 +1705,22 @@
               "Celular": 3216269734,
               "tipo": "EXPRESS",
               "direccion": "CRA 2 No. 6 - 26"
+            },
+            {
+              "nombre": "EXITO SANTA MARTA",
+              "telefonos": 3052578359,
+              "horarios": "7 am a 3 pm / Cerrado fin de semana",
+              "direccion": "Carrera 5ta # 19 - 20 Centro",
+              "ciudad": "SANTA MARTA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito Libertador",
+              "telefonos": 3053064552,
+              "horarios": "7 am a 4 pm / Cerrado fin de semana",
+              "direccion": "Avenida Libertador carrera 20 Esquina",
+              "ciudad": "SANTA MARTA",
+              "tipo": "Supermercado"
             },
             {
               "nombre": "ÉXITO EXPRESS PRESENTE SANTA MARTA",
@@ -1158,6 +1777,14 @@
               "direccion": "Crr 22 # 10-89 Sur  Villavicencio"
             },
             {
+              "nombre": "EXITO VILLAVICENCIO CENTRO",
+              "telefonos": 3053689111,
+              "horarios": "7:00 am - 6:00 pm",
+              "direccion": "Calle 37 B # 29 - 83",
+              "ciudad": "VILLAVICENCIO",
+              "tipo": "Supermercado"
+            },
+            {
               "nombre": "EXITO SABANA VILLAVICENCIO",
               "telefonos": 3052315853,
               "horarios": "7:00 am - 6:00 pm",
@@ -1199,6 +1826,14 @@
               "tipo": "Supermercado"
             },
             {
+              "nombre": "EXITO AVENIDA QUINTA CUCUTA",
+              "telefonos": 3053623215,
+              "horarios": "07:00 AM - 06:00 PM",
+              "direccion": "Avenida 5ta Calle 12 - 68",
+              "ciudad": "CUCUTA",
+              "tipo": "Supermercado"
+            },
+            {
               "nombre": "ÉXITO EXPRESS SANTA ANA",
               "telefonos": "5956262\nOpción 0",
               "Celular": 3113572181,
@@ -1225,6 +1860,14 @@
               "direccion": "CR 22 B # 2-57",
               "ciudad": "PASTO",
               "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO PASTO CENTRO",
+              "telefonos": 3052614302,
+              "horarios": "L-D 7:00 A.M A 4:00 P.M.",
+              "direccion": "Calle 18 N° 26 - 40",
+              "ciudad": "PASTO",
+              "tipo": "Supermercado"
             }
 					]
 				},
@@ -1233,12 +1876,13 @@
 					"nombreMun" : "Ipiales",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Ipiales",
-							"direccion"	: "Calle 13 Avenida Panamerica",
-							"telefonos"	: [ "7374588" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						}
+              "nombre": "Exito Ipiales",
+              "telefonos": "PENDIENTE NUMERO",
+              "horarios": "L-D 7:00 A.M A 4:00 P.M.",
+              "direccion": "Calle 13 Av. Panamerica",
+              "ciudad": "IPIALES",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -1265,6 +1909,20 @@
 							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
 						}
 					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Ocaña",
+					"almacenes" : [
+						{
+              "nombre": "EXITO OCANA",
+              "telefonos": 3052218069,
+              "horarios": "07:00 AM - 04:00 PM",
+              "direccion": "Calle 11 No. 10-55 Edificio Timaná",
+              "ciudad": "OCAÑA",
+              "tipo": "Supermercado"
+            }
+					]
 				}
 			]
 		},
@@ -1282,6 +1940,22 @@
               "direccion": "Carrera 14  #  14 - 34   Centro Comercial Unicentro",
               "ciudad": "ARMENIA",
               "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO ARMENIA",
+              "telefonos": 3053289900,
+              "horarios": "L-S: 7:00 A.M.-5:00 P.M. D: CERRADO",
+              "direccion": "Calle 19 # 17 - 27",
+              "ciudad": "ARMENIA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito Cristal",
+              "telefonos": 3053635241,
+              "horarios": "L-D: 7:00 A.M.-5:00 P.M.",
+              "direccion": "Carrera 14 # 10 - 21",
+              "ciudad": "ARMENIA",
+              "tipo": "Supermercado"
             }
 					]
 				}
@@ -1294,34 +1968,38 @@
 					"domicilio" : "",
 					"nombreMun" : "Pereira",
 					"almacenes" : [
+            {
+              "nombre": "EXITO CUBA",
+              "telefonos": 3052995353,
+              "horarios": "L-D: 7:00 A.M.-6:00 P.M.",
+              "direccion": "Carrera 26, Calle 72 Esquina",
+              "ciudad": "PEREIRA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO PEREIRA CENTRO",
+              "telefonos": 3053291110,
+              "horarios": "L-S: 7:00 A.M.-6:00 P.M. D: CERRADO",
+              "direccion": "Carrera 8 # 17 - 35",
+              "ciudad": "PEREIRA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO VICTORIA",
+              "telefonos": 3052664062,
+              "horarios": "L-D: 7:00 A.M.-6:00 P.M.",
+              "direccion": "Cra. 10 #14 - 71",
+              "ciudad": "PEREIRA",
+              "tipo": "Supermercado"
+            },
 						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Parque Arboleda",
-							"direccion"	: "Avenida Circunvalar Calle 12 No. 5 - 20",
-							"telefonos"	: [ "206200" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Pereira Centro",
-							"direccion"	: "Carrera 8 No. 17 - 35",
-							"telefonos"	: [ "242400" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 5:00 p.m."]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Pereica Cuba",
-							"direccion"	: "Carrera 26, Calle 72 Esquina",
-							"telefonos"	: [ "217400" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Victoria",
-							"direccion"	: "Carrera 10 No. 14 - 71",
-							"telefonos"	: [ "206300" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						}
+              "nombre": "Exito Parque Arboleda",
+              "telefonos": 3053638406,
+              "horarios": "L-D: 7:00 A.M.-6:00 P.M.",
+              "direccion": "Avenida Circunvalar Calle 12 # 5 - 20",
+              "ciudad": "PEREIRA",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -1338,6 +2016,38 @@
               "telefonos": 3053404678,
               "horarios": "07:00 AM - 06:00 PM Cerrado fin de semana 25 y 26",
               "direccion": "Carrera 17 # 45 - 77",
+              "ciudad": "BUCARAMANGA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO CAÑAVERAL",
+              "telefonos": 3053754560,
+              "horarios": "07:00 AM - 07:00 PM Cerrado fin de semana 25 y 26",
+              "direccion": "CL 30 # 25-71 C.C. Cañaveral local 100",
+              "ciudad": "BUCARAMANGA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO BUCARAMANGA CABECERA",
+              "telefonos": 3053597450,
+              "horarios": "07:00 AM - 05:00 PM Cerrado fin de semana 25 y 26",
+              "direccion": "Cra. 35A # 49 - 27",
+              "ciudad": "BUCARAMANGA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO BUCARAMANGA CENTRO",
+              "telefonos": 3053993852,
+              "horarios": "07:00 AM - 06:00 PM Cerrado fin de semana 25 y 26",
+              "direccion": "Calle 36 # 15 - 33",
+              "ciudad": "BUCARAMANGA",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO PASEO DEL PUENTE",
+              "telefonos": 3052927718,
+              "horarios": "07:00 AM - 05:00 PM Cerrado fin de semana 25 y 26",
+              "direccion": "Cra 6 con Calle 22 Paseo del Puente 2",
               "ciudad": "BUCARAMANGA",
               "tipo": "Supermercado"
             },
@@ -1389,24 +2099,18 @@
 					"nombreMun" : "Piedecuesta",
 					"almacenes" : [
 						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Paseo Del Puente",
-
-							"telefonos"	: [ "6654669" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 5:00 p.m."]
-						},
-						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Piedecuesta",
-
-							"telefonos"	: [ "6650404" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 5:00 p.m."]
-						}
+              "nombre": "EXITO PIEDECUESTA",
+              "telefonos": 3053761000,
+              "horarios": "07:00 AM - 07:00 PM Cerrado fin de semana 25 y 26",
+              "direccion": "Carrera 15 # 3 A N 40 Centro Comercial De La Cuesta",
+              "ciudad": "PIEDECUESTA",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
-		},
-		{
+    },
+    {
 			"nombreDep" : "Sucre",
 			"municipios" : [
 				{
@@ -1420,12 +2124,52 @@
               "direccion": "Carrera 25 # 23 - 49 Avenida Las Peñitas",
               "ciudad": "SINCELEJO",
               "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO SINCELEJO CENTRO",
+              "telefonos": 3053572571,
+              "horarios": "L-S 7:00 A.M. A 5:00 P.M. D: 7:00 A.M-3:00 P.M.",
+              "direccion": "Carrera 18 # 20 - 34 Centro",
+              "ciudad": "SINCELEJO",
+              "tipo": "Supermercado"
             }
 					]
 				},
 				{
 					"domicilio" : "",
 					"nombreMun" : "Cobeñas",
+					"almacenes" : [
+						{
+              "nombre": "ÉXITO EXPRESS COSTA AZUL",
+              "telefonos": "6049696 \nExtensión 417504",
+              "Celular": 3052670707,
+              "tipo": "EXPRESS",
+              "direccion": "La Marta a 1700mt adelante del puente de la cienega la caimanera CENTRO VACACIONAL COSTA AZUL"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Santiago de Tolú",
+					"almacenes" : [
+						{
+              "nombre": "EXITO TOLU",
+              "telefonos": 3217856293,
+              "horarios": "L-D 7:00 A.M. A 5:00 P.M.",
+              "direccion": "Calle 15 Con Carrera 3",
+              "ciudad": "SANTIAGO DE TOLU",
+              "tipo": "Supermercado"
+            }
+					]
+				}
+			]
+		},
+		{
+			"nombreDep" : "Guajira",
+			"municipios" : [
+				{
+					"domicilio" : "",
+					"nombreMun" : "Riohacha",
 					"almacenes" : [
 						{
               "nombre": "ÉXITO EXPRESS COSTA AZUL",
@@ -1445,6 +2189,14 @@
 					"domicilio" : "",
 					"nombreMun" : "Ibagué",
 					"almacenes" : [
+            {
+              "nombre": "EXITO ARKACENTRO",
+              "telefonos": 3052293721,
+              "horarios": "L-D: 7:00 A.M.-6:00 P.M.",
+              "direccion": "Cra 5, Cll. 64 - 65 Paseo Ccial Arkacentro Modulo T",
+              "ciudad": "IBAGUE",
+              "tipo": "Supermercado"
+            },
 						{
               "nombre": "Exito Ibague",
               "telefonos": 3052663996,
@@ -1454,18 +2206,33 @@
               "tipo": "Supermercado"
             }
 					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Espinal",
+					"almacenes" : [
+						{
+              "nombre": "EXITO ESPINAL",
+              "telefonos": 3053742934,
+              "horarios": "8:30 am - 5:30 pm / 26 de Abril cerrado por decreto",
+              "direccion": "Carrera 4 con calle 7 esquina Espinal, Tolima Dep 078",
+              "ciudad": "ESPINAL",
+              "tipo": "Supermercado"
+            }
+					]
 				},
 				{
 					"domicilio" : "",
 					"nombreMun" : "Melgar",
 					"almacenes" : [
 						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Melgar",
-							"direccion"	: "Carrera 5 No.80 - 60",
-							"telefonos"	: [ "240700 - 240701" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						}
+              "nombre": "EXITO MELGAR",
+              "telefonos": 3054100156,
+              "horarios": "7:00 am - 6:00 pm",
+              "direccion": "Calle 8 Carrera 15 Centro",
+              "ciudad": "MELGAR",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
@@ -1478,12 +2245,13 @@
 					"nombreMun" : "Buenaventura",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Buenaventura",
-							"direccion"	: "Calle 2 No. 66 - 86 Kilometro 11 Via Cabal Pombo",
-							"telefonos"	: [ "2978585" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						}
+              "nombre": "EXITO BUENAVENTURA",
+              "telefonos": 3217605948,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 2 # 66 - 86 Kilometro 11 Via Cabal Pombo",
+              "ciudad": "BUENAVENTURA",
+              "tipo": "Supermercado"
+            }
 					]
 				},
 				{
@@ -1491,12 +2259,13 @@
 					"nombreMun" : "Buga",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Buga",
-							"direccion"	: "Carrera 13 No. 8 - 40",
-							"telefonos"	: [ "260300" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						}
+              "nombre": "EXITO BUGA",
+              "telefonos": 3052543761,
+              "horarios": "L-S: 7:00 A.M.-7:00 P.M. D:7:00 A.M.-5:00 P.M",
+              "direccion": "Carrera 13 # 8 - 40",
+              "ciudad": "BUGA",
+              "tipo": "Supermercado"
+            }
 					]
 				},
 				{
@@ -1510,6 +2279,54 @@
               "direccion": "Av. 3 F Norte 52N- 46",
               "ciudad": "CALI",
               "tipo": "WOW"
+            },
+            {
+              "nombre": "EXITO CHIPICHAPE",
+              "telefonos": 3216299627,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Avenida 6a Norte # 35-47 L-519",
+              "ciudad": "CALI",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO SIMON BOLIVAR",
+              "telefonos": 3053298339,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 6:00 P.M",
+              "direccion": "Calle 70 Avenida Simón Bolivar con Carrera 28 D 20",
+              "ciudad": "CALI",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO PALMETO",
+              "telefonos": 3053316564,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 6:00 P.M",
+              "direccion": "Calle 9 B # 49 - 50 local 119 C.C Palmetto P",
+              "ciudad": "CALI",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO PASOANCHO",
+              "telefonos": 3053326840,
+              "horarios": "L-S 7:00 A.M A 7:00 P.M. D: 7:00 A.M. A 6:00 P.M",
+              "direccion": "Calle 13 N° 31-45 C.C PRYCA",
+              "ciudad": "CALI",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "EXITO CRA. 8 CALI",
+              "telefonos": 3052392261,
+              "horarios": "L-S 7:00 A.M A 4:00 P.M. D: CERRADO",
+              "direccion": "Cra. 8 # 13 - 68",
+              "ciudad": "CALI",
+              "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Exito San Fernando",
+              "telefonos": 3216299641,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 5 # 38 D 35",
+              "ciudad": "CALI",
+              "tipo": "Supermercado"
             },
             {
               "nombre": "Exito WOW UNICENTRO CALI",
@@ -1540,12 +2357,13 @@
 					"nombreMun" : "Palmira",
 					"almacenes" : [
 						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Palmira",
-							"direccion"	: "Calle 29 No.25 - 51",
-							"telefonos"	: [ "2856060" ],
-							"horarios"	: ["7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m."]
-						}
+              "nombre": "EXITO PALMIRA",
+              "telefonos": 3052963744,
+              "horarios": "L-S 7:00 A.M A 5:00 P.M. D: CERRADO",
+              "direccion": "Calle 29 # 25 - 51",
+              "ciudad": "PALMIRA",
+              "tipo": "Supermercado"
+            }
 					]
 				}
 			]
