@@ -95,7 +95,10 @@ function methodI() {
                 class: "divAlmacen " + almacen.tipo + " col-xs-12 col-sm-6 col-md-3"
             });
             $("<h4 />")
-                .html(almacen.nombre)
+                .html(almacen.nombre.toLowerCase()
+                .split(' ')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' '))
                 .appendTo(divAlmacen);
             $("<div />")
                 .attr({
@@ -118,20 +121,25 @@ function methodI() {
                 .html(almacen.tipo)
                 .appendTo(divAlmacen);
 
-            var tel = "";
-                for (var i = 0; i < almacen.telefonos.length; i++) {
-                    if (i == 0) {
-                        tel = almacen.telefonos[i];
-                    } else {
-                        tel = tel + " - " + almacen.telefonos[i];
-                    }
-                }
-                if (tel != "") {
-                    $("<p />")
-                        .attr("class", "almacen-tel")
-                        .html(tel)
-                        .appendTo(divAlmacen);
-                }
+                $("<p />")
+                .attr("class", "almacen-tel")
+                .html(almacen.telefonos)
+                .appendTo(divAlmacen);
+
+            // var tel = "";
+            //     for (var i = 0; i < almacen.telefonos.length; i++) {
+            //         if (i == 0) {
+            //             tel = almacen.telefonos[i];
+            //         } else {
+            //             tel = tel + " - " + almacen.telefonos[i];
+            //         }
+            //     }
+            //     if (tel != "") {
+            //         $("<p />")
+            //             .attr("class", "almacen-tel")
+            //             .html(tel)
+            //             .appendTo(divAlmacen);
+            //     }
             return divAlmacen;
         }
 
