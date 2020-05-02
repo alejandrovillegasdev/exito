@@ -6,7 +6,7 @@
 #compra-y-recoje .header {
   background: #ffeb00;
   display: grid;
-  grid-template-columns: minmax(auto, 1024px);
+  grid-template-columns: minmax(auto, 1280px);
   justify-content: center;
 }
 
@@ -136,10 +136,26 @@
 
 #compra-y-recoje .compras {
   display: grid;
-  grid-template-columns: minmax(auto, 1024px);
+  grid-template-columns: minmax(auto, 1124px);
   justify-content: center;
   text-align: center;
   background: #0193bf;
+}
+
+.etiqueta {
+  color: #fff;
+}
+
+.etiqueta:first-child {
+  padding: 0;
+}
+
+.almacen-cel {
+  background: #2cb740;
+  border-radius: 10px;
+  padding: 3px 15px;
+  color: #fff;
+  text-align: center;
 }
 
 #compra-y-recoje .video .tabs-container {
@@ -210,6 +226,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 800px);
   justify-content: center;
+  padding: 0 20px;
 }
 
 .compras .mercado-container .mercados-steps {
@@ -286,7 +303,7 @@
 #compra-y-recoje .footer {
   padding: 30px 15px;
   display: grid;
-  grid-template-columns: minmax(auto, 1024px);
+  grid-template-columns: minmax(auto, 1280px);
   justify-content: center;
   background: #0193bf;
 }
@@ -311,16 +328,16 @@
 .divAlmacen {
   background-color: #f8f8f8;
   border-radius: 5px;
-  height: 220px;
   margin: 14px 0;
-  padding: 16px 5px 20px 10px;
+  padding: 10px;
   text-align: justify;
   overflow: hidden;
+  font-size: 0.9em;
 }
 
 .divAlmacen h4 {
   color: #000;
-  font-size: 0.8em;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.3em;
 }
@@ -344,6 +361,11 @@
 	margin-right: 5px;
 }
 
+.almacen-cel::before {
+	content: url('./img/whatsapp.svg');
+	margin-right: 5px;
+}
+
 .almacen-horario::before {
 	content: url('./img/icon-03.svg');
 	margin-right: 5px;
@@ -363,7 +385,7 @@
 
 .flsForm {
   background-color: #0193bf;
-  padding: 30px 6% 10px 6%;
+  padding: 30px 10px;
 }
 
 .control select {
@@ -375,7 +397,7 @@
 
 .divDepartamento h2 {
   line-height: 1.75em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #ffeb00;
 }
 
@@ -409,17 +431,30 @@
 @media screen and (min-width: 992px) {
   .divAlmacen {
     max-width: 24%;
-    margin: 10px 5px;
+    margin: 5px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header .header-container {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    grid-template-areas: "description description"
-                         "badge title";
-    grid-gap: 10px;
+
+  #compra-y-recoje .instructions .instructions-container img {
+    width: 100%;
+  }
+
+  .compras .compras-app .recuerda-container .recuerda-steps {
+    border-left: none;
+    border-top: 1px solid black;
+    padding-top: 16px;
+  }
+
+  .header .header-container img:nth-child(2) {
+    position: initial;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  #compra-y-recoje .breadcrumb .breadcrumb-container {
+    font-size: 0.8em;
   }
 
   .almacenes-title span::before, .almacenes-title span::after {
@@ -439,6 +474,7 @@
   #compra-y-recoje .instructions .instructions-container .instructions-steps,
   #compra-y-recoje .video .tabs-container,
   .compras .mercado-container .mercados-steps,
+  .compras .otros-container .mercados-steps,
   #compra-y-recoje .compras .products-container,
   .compras .compras-app .recuerda-container {
     grid-template-columns: 1fr;
