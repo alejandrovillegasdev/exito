@@ -163,6 +163,7 @@
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(2, 400px);
+  padding-top: 20px;
 }
 
 #compra-y-recoje .video .tabs-container .tab {
@@ -176,6 +177,8 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 #compra-y-recoje .video .tabs-container .active,
