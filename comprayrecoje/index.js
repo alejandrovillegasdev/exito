@@ -40,5 +40,7 @@ function opentypesOfProducts(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-document.getElementById("defaultOpen").click();
-document.getElementById("defaultOpenProducts").click();
+$( document ).ready(function() {
+  document.getElementById("defaultOpen").click();
+  document.getElementById("defaultOpenProducts").click();
+});

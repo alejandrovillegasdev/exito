@@ -87,18 +87,20 @@
       </div>
 
       <div class="products-container">
-        <button class="products tablinks" id="defaultOpenProducts" onclick="opentypesOfProducts(event, 'mercado')">
+        <div class="products tablinks" id="defaultOpenProducts" onclick="opentypesOfProducts(event, 'mercado')">
           <img src="./img/mercado.png" alt="mercado">
           <span><strong>Productos de Mercado</strong></span>
-        </button>
-        <button class="products tablinks" onclick="opentypesOfProducts(event, 'otros')">
+        </div>
+        <div class="products tablinks" onclick="opentypesOfProducts(event, 'otros')">
           <img src="./img/Group 11.svg" alt="whatsapp">
           <span><strong>Otros Productos</strong></span>
-        </button>
+        </div>
       </div>
 
       <div id="mercado" class="tabcontent2 mercado-container">
-        <p>Haz tu mercado en nuestra app, exito.com o Domicilios Éxito y recógelo en tu almacén más cercano</p>
+        <div class="mercado-note-container">
+          <p>Haz tu mercado en nuestra app, exito.com o Domicilios Éxito y recógelo en tu almacén más cercano</p>
+        </div>
         <div class="mercados-steps">
           <div class="mercado">
             <img src="./img/img-01.png" alt="step 1">
@@ -176,7 +178,10 @@
       </div>
     </div>
     <div id="whatsapp" class="tabcontent compras-whatsapp">
-      <p>WhatsApp</p>
+      <div class="whatsapp-note-container">
+        <p>También puedes comprar a través de tu celular <strong>llamándonos al #428</strong> o a través de la línea telefónica de tu almacén de prederencia</p>
+        <p>Encuéntralo aquí</p>
+      </div>
       <fieldset class="flsForm col-12">
         <div class="row">
           <span class="col-xs-12 col-md-4 filter">

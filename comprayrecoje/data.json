@@ -3,90 +3,7 @@
 		{
 			"nombreDep" : "Antioquia",
 			"municipios" : [
-				{
-					"domicilio" : "",
-					"nombreMun" : "Apartadó",
-					"almacenes" : [
-						{
-              "nombre": "Éxito Apartado",
-              "telefonos": 3052228961,
-              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
-              "direccion": "Calle 103 con Cra 100 CC Plaza  del Rio",
-              "ciudad": "APARTADO",
-              "tipo": "Supermercado"
-            }
-					]
-        },
         {
-					"domicilio" : "",
-					"nombreMun" : "Rionegro",
-					"almacenes" : [
-						{
-              "nombre": "Éxito Rionegro",
-              "telefonos": 3053336832,
-              "horarios": "L-V 7:00 A.M A 4:00 P.M. S-D CERRADO",
-              "direccion": "Calle 43 Avevida Galan con Cra 56 CC San Nicolas",
-              "ciudad": "RIONEGRO",
-              "tipo": "Supermercado"
-            }
-					]
-        },
-        {
-					"domicilio" : "",
-					"nombreMun" : "la Ceja",
-					"almacenes" : [
-						{
-              "nombre": "Éxito La Ceja",
-              "telefonos": 3052206960,
-              "horarios": "L-V 7:00 A.M A 4:00 P.M. S-D CERRADO",
-              "direccion": "Cr 13 # 26B – 56 barrio Ofir; CC Viva La Ceja local 122.",
-              "ciudad": "LA CEJA",
-              "tipo": "Supermercado"
-            }
-					]
-        },
-        {
-					"domicilio" : "",
-					"nombreMun" : "Caucasia",
-					"almacenes" : [
-						{
-              "nombre": "ÉXITO CAUCASIA",
-              "telefonos": 3052321494,
-              "horarios": "L-S 7:00 A.M. A 7:00 P.M. D Y F 7:00 A.M A 5:00 P.M.",
-              "direccion": "Cra 20 # 28-12 Barrio La Y",
-              "ciudad": "CAUCASIA",
-              "tipo": "Supermercado"
-            }
-					]
-        },
-        {
-					"domicilio" : "",
-					"nombreMun" : "Itagüí",
-					"almacenes" : [
-						{
-              "nombre": "Éxito Itagui",
-              "telefonos": 3216297703,
-              "horarios": "L-S 7:00 A.M A 8:00 P.M. D: 7:00 A.M. A 6:00 P.M.",
-              "direccion": "Cra 50 A # 41 - 42",
-              "ciudad": "ITAGUI",
-              "tipo": "Supermercado"
-            }
-					]
-				},
-				{
-					"domicilio" : "",
-					"nombreMun" : "Caucasia",
-					"almacenes" : [
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Caucasia",
-							"direccion"	: "Cra 20 No. 28 - 12, Barrio La Y",
-							"telefonos"	: [ "226500 - 226501 - 226502" ],
-							"horarios"	: [ "Todos los días de 8:00 a.m. - 9:00 p.m." ]
-						}
-					]
-				},
-				{
 					"domicilio" : "(4) 514 6666",
 					"nombreMun" : "Medellín",
 					"almacenes" : [
@@ -291,6 +208,89 @@
               "tipo": "Supermercado"
             }
           ]
+				},
+				{
+					"domicilio" : "",
+					"nombreMun" : "Apartadó",
+					"almacenes" : [
+						{
+              "nombre": "Éxito Apartado",
+              "telefonos": 3052228961,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 103 con Cra 100 CC Plaza  del Rio",
+              "ciudad": "APARTADO",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Rionegro",
+					"almacenes" : [
+						{
+              "nombre": "Éxito Rionegro",
+              "telefonos": 3053336832,
+              "horarios": "L-V 7:00 A.M A 4:00 P.M. S-D CERRADO",
+              "direccion": "Calle 43 Avevida Galan con Cra 56 CC San Nicolas",
+              "ciudad": "RIONEGRO",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "la Ceja",
+					"almacenes" : [
+						{
+              "nombre": "Éxito La Ceja",
+              "telefonos": 3052206960,
+              "horarios": "L-V 7:00 A.M A 4:00 P.M. S-D CERRADO",
+              "direccion": "Cr 13 # 26B – 56 barrio Ofir; CC Viva La Ceja local 122.",
+              "ciudad": "LA CEJA",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Caucasia",
+					"almacenes" : [
+						{
+              "nombre": "ÉXITO CAUCASIA",
+              "telefonos": 3052321494,
+              "horarios": "L-S 7:00 A.M. A 7:00 P.M. D Y F 7:00 A.M A 5:00 P.M.",
+              "direccion": "Cra 20 # 28-12 Barrio La Y",
+              "ciudad": "CAUCASIA",
+              "tipo": "Supermercado"
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Itagüí",
+					"almacenes" : [
+						{
+              "nombre": "Éxito Itagui",
+              "telefonos": 3216297703,
+              "horarios": "L-S 7:00 A.M A 8:00 P.M. D: 7:00 A.M. A 6:00 P.M.",
+              "direccion": "Cra 50 A # 41 - 42",
+              "ciudad": "ITAGUI",
+              "tipo": "Supermercado"
+            }
+					]
+				},
+				{
+					"domicilio" : "",
+					"nombreMun" : "Caucasia",
+					"almacenes" : [
+						{
+							"tipo"		: "Hipermercado",
+							"nombre"	: "Éxito Caucasia",
+							"direccion"	: "Cra 20 No. 28 - 12, Barrio La Y",
+							"telefonos"	: [ "226500 - 226501 - 226502" ],
+							"horarios"	: [ "Todos los días de 8:00 a.m. - 9:00 p.m." ]
+						}
+					]
 				},
 				{
 					"domicilio" : "",
