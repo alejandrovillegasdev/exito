@@ -31,6 +31,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
+  margin: 0;
 }
 
 #compra-y-recoje .breadcrumb .breadcrumb-container {
@@ -145,15 +146,48 @@
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(2, 400px);
-  grid-gap: 10px;
 }
 
 #compra-y-recoje .video .tabs-container .tab {
   display: flex;
   margin: 0 10px;
-  background: #f8f8f8;
+  background: #f2f2f2;
   align-items: center;
   padding: 10px;
+  border: 0;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+#compra-y-recoje .video .tabs-container .active {
+  background: #fff;
+}
+
+#compra-y-recoje .compras .products-container {
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+}
+
+#compra-y-recoje .compras-app .compras-notes-container,
+#compra-y-recoje .compras-app .mercado-container p:first-child {
+  margin: 35px 0;
+  display: grid;
+  grid-template-columns: minmax(auto, 550px);
+  justify-content: center;
+}
+
+#compra-y-recoje .compras .compras-app .products-container .products {
+  display: flex;
+  margin: 0 10px;
+  background: #f2f2f2;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+  justify-content: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   cursor: pointer;

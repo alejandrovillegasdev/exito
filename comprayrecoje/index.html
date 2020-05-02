@@ -65,24 +65,26 @@
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> -->
     <div class="tabs-container">
-      <button class="tab tablinks" id="defaultOpen" onclick="openTienda(event, 'appexito')">
+      <div class="tab tablinks" id="defaultOpen" onclick="openTienda(event, 'appexito')">
         <span>compra en</span>
         <img src="./img/exitopuntocom.svg" alt="exitopuntocom">
         <img src="./img/appexito.svg" alt="appexito">
-      </button>
-      <button class="tab tablinks" onclick="openTienda(event, 'whatsapp')">
+      </div>
+      <div class="tab tablinks" onclick="openTienda(event, 'whatsapp')">
         <span>compra por</span>
         <img src="./img/whatsapp.svg" alt="whatsapp">
         Whatsapp
-      </button>
+      </div>
     </div>
   </section>
 
   <section class="compras">
     <div id="appexito" class="tabcontent compras-app">
-      <p>cuando compras en tu app o en <strong>exito.com</strong>, puedes comprar tu mercado y tambien miles de
-        productos para ti y para tu hogar.</p>
-      <p>Consulta acá cómo funciona el servicio</p>
+      <div class="compras-notes-container">
+        <p>cuando compras en tu app o en <strong>exito.com</strong>, puedes comprar tu mercado y tambien miles de
+          productos para ti y para tu hogar.</p>
+        <p>Consulta acá cómo funciona el servicio</p>
+      </div>
 
       <div class="products-container">
         <button class="products tablinks" id="defaultOpenProducts" onclick="opentypesOfProducts(event, 'mercado')">
