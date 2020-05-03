@@ -103,7 +103,6 @@
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
   text-align: center;
-  padding-top: 20px;
 }
 
 #compra-y-recoje .video .video-beneficios {
@@ -117,6 +116,7 @@
   justify-content: center;
   display: grid;
   text-align: center;
+  padding-top: 30px;
 }
 
 #compra-y-recoje .video .video-beneficios .beneficio img {
@@ -130,7 +130,19 @@
 }
 
 #compra-y-recoje .video .video-container {
-  margin-top: 20px;
+  margin-top: 10px;
+  position: relative;
+	padding-bottom: 330px; /*panorámico*/
+	padding-top: 25px;
+  height: 0;
+}
+
+#compra-y-recoje .video .video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -246,6 +258,10 @@
   padding: 10px;
   border-radius: 10px;
   justify-content: space-between;
+}
+
+.compras .mercado-container .mercados-steps .mercado p {
+  margin: 0 10px;
 }
 
 .compras .otros-container {
@@ -366,7 +382,8 @@
 
 .almacen-cel::before {
 	content: url('./img/whatsapp.svg');
-	margin-right: 5px;
+  margin-right: 5px;
+  background-size: 10px;
 }
 
 .almacen-horario::before {
@@ -442,6 +459,12 @@
 
   #compra-y-recoje .instructions .instructions-container img {
     width: 100%;
+  }
+
+  .divDepartamento {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
   }
 
   .compras .compras-app .recuerda-container .recuerda-steps {
