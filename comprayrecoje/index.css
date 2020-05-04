@@ -56,7 +56,8 @@
 	color: #fff;
 	display: grid;
 	grid-template-columns: minmax(auto, 1024px);
-	justify-content: center;
+  justify-content: center;
+  padding: 30px 0;
 }
 
 #compra-y-recoje .instructions .instructions-container {
@@ -95,7 +96,8 @@
 
 .instructions .instructions-container h3 {
 	font-size: 2.5em;
-	margin: 0;
+  margin: 0;
+  font-weight: 700;
 }
 
 .instructions .instructions-container span {
@@ -141,9 +143,9 @@
 #compra-y-recoje .video .video-container {
 	margin-top: 10px;
 	position: relative;
-	padding-bottom: 330px; /*panorámico*/
+	padding-bottom: 510px; /*panorámico*/
 	padding-top: 25px;
-	height: 0;
+  height: 0;
 }
 
 #compra-y-recoje .video .video-container iframe {
