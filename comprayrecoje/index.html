@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compra y Recoje</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./index.css">
 </head>
@@ -33,12 +33,14 @@
       <div class="instructions-steps">
         <div class="instruction">
           <img class="instruction-img-compra" src="./img/compra.png" alt="compra">
-          <p>Compra desde tu casa a través de exito.com, app Éxito o Domicilios Éxito</p>
+          <p><strong class="comprayrecoje-strong">Compra</strong> <strong>desde tu casa </strong> a través de exito.com,
+            app Éxito o Domicilios Éxito</p>
           <img src="./img/logos.svg" alt="">
         </div>
         <div class="instruction">
           <img class="instruction-img-recoge" src="./img/recoge.png" alt="recoge">
-          <p>Y <strong>recoge en nuestro almacén</strong> en la fecha y hora pactadas. Nosotros te entregamos tu pedido
+          <p>Y <strong class="comprayrecoje-strong">recoge</strong> <strong>en nuestro almacén</strong> en la fecha y
+            hora pactadas. Nosotros te entregamos tu pedido
             directamente en el baúl de tu carro </p>
         </div>
       </div>
@@ -60,10 +62,12 @@
         <span>Servicio gratuito</span>
       </div>
     </div>
+    <h3><strong>Conoce aquí cómo funciona</strong></h3>
     <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/C4HsMuGPBhs" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/C4HsMuGPBhs" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <p class="video-note">Selecciona el medio por el cual quieres realizar tu compra para conocer más información. </p>
     <div class="tabs-container">
       <div class="tab tablinks" id="defaultOpen" onclick="openTienda(event, 'appexito')">
         <span>compra en</span>
@@ -71,9 +75,9 @@
         <img src="./img/appexito.svg" alt="appexito">
       </div>
       <div class="tab tablinks" onclick="openTienda(event, 'whatsapp')">
-        <span>compra por  &nbsp;</span>
+        <span>compra por &nbsp;</span>
         <img src="./img/whatsapp.svg" alt="whatsapp">
-        <span>&nbsp;  Whatsapp</span>
+        <span>&nbsp; Whatsapp</span>
       </div>
     </div>
   </section>
@@ -89,11 +93,11 @@
       <div class="products-container">
         <div class="products tablinks" id="defaultOpenProducts" onclick="opentypesOfProducts(event, 'mercado')">
           <img src="./img/mercado.png" alt="mercado">
-          <span><strong>Productos de Mercado</strong></span>
+          <span><strong>&nbsp;&nbsp;Productos de Mercado</strong></span>
         </div>
         <div class="products tablinks" onclick="opentypesOfProducts(event, 'otros')">
           <img src="./img/Group 11.svg" alt="whatsapp">
-          <span><strong>Otros Productos</strong></span>
+          <span><strong>&nbsp;&nbsp;Otros Productos</strong></span>
         </div>
       </div>
 
@@ -114,7 +118,7 @@
           </div>
           <div class="mercado">
             <img src="./img/img-03.png" alt="step 3">
-            <p>Selecciona la opción compra y recoje, <strong>elige ciudad y almacén</strong> que más te conviene</p>
+            <p>Selecciona la opción Compra y Recoje, <strong>elige ciudad y almacén</strong> que más te conviene</p>
             <img src="./img/item3.png" alt="">
           </div>
           <div class="mercado">
@@ -147,6 +151,71 @@
             </div>
           </div>
         </div>
+        <div class="almacenes-mercado-container">
+          <p>Si compras a través de exito.com y app Éxito puedes recoger en los <strong>siguientes almacenes:</strong>
+          </p>
+          <div class="almacenes-mercado-list">
+            <div class="almacenes">
+              <strong>Exito</strong>
+            </div>
+            <div class="almacenes">
+              <ul>
+                <li>Éxito La Flora</li>
+                <li>Éxito Gran Estación</li>
+                <li>Éxito Envigado</li>
+                <li>Éxito Country</li>
+                <li>Éxito Colina</li>
+                <li>Éxito Chia Fontanar</li>
+                <li>Éxito Chapinero</li>
+                <li>Éxito Bello</li>
+                <li>Éxito Barranquilla</li>
+                <li>Éxito Américas</li>
+              </ul>
+            </div>
+            <div class="almacenes">
+              <ul>
+                <li>Éxito Calle 51</li>
+                <li>Éxito La Colina</li>
+                <li>Éxito Unicentro Bogotá</li>
+                <li>Éxito Villamayor</li>
+                <li>Éxito Gran Estación</li>
+                <li>Éxito Norte</li>
+                <li>Éxito Americas</li>
+                <li>Éxito Calle 80</li>
+                <li>Éxito Floresta</li>
+                <li>Éxito Chapinero</li>
+              </ul>
+            </div>
+            <div class="almacenes">
+              <ul>
+                <li>Éxito Fontanar Chia</li>
+                <li>Punto entrega Oviedo</li>
+                <li>Éxito Envigado</li>
+                <li>Éxito Poblado</li>
+                <li>Éxito San Antonio</li>
+                <li>Éxito Del Este</li>
+                <li>Éxito Bello</li>
+                <li>Éxito Rionegro</li>
+                <li>Éxito Metropolitano</li>
+                <li>Éxito Barranquilla</li>
+              </ul>
+            </div>
+            <div class="almacenes">
+              <ul>
+                <li>Bucaramanga la rosita</li>
+                <li>Bucaramanga Oriental</li>
+                <li>Éxito UniCali</li>
+                <li>Éxito La Flora</li>
+                <li>Éxito San Diego</li>
+                <li>Las Flores Valledupar</li>
+                <li>Éxito Sincelejo</li>
+                <li>Buenavista Santa Marta</li>
+                <li>Unicentro Armenia</li>
+                <li>Cúcuta San Mateo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="otros" class="tabcontent2 otros-container">
@@ -158,13 +227,16 @@
           </div>
           <div class="mercado">
             <img src="./img/img-02.png" alt="step 2">
-            <p><strong>Escoge tus compras</strong> Selecciona los productos con la imagen de compra y recoge, agrégalos al carrito e inicia el proceso de
+            <p><strong>Escoge tus compras</strong> Selecciona los productos con la imagen de compra y recoge, agrégalos
+              al carrito e inicia el proceso de
               compra.</p>
             <img src="./img/item2.png" alt="">
           </div>
           <div class="mercado">
             <img src="./img/img-03.png" alt="step 3">
-            <p><strong> Elige tu almacén.</strong> Cuando estés en el paso de información de envío, escoge la opción “compra y recoge”. Allí tendrás disponible un listado de almacenes donde podrás recoger tus productos. Elige el que prefieras.
+            <p><strong> Elige tu almacén.</strong> Cuando estés en el paso de información de envío, escoge la opción
+              “compra y recoge”. Allí tendrás disponible un listado de almacenes donde podrás recoger tus productos.
+              Elige el que prefieras.
             </p>
             <img src="./img/item3.png" alt="">
           </div>
@@ -181,12 +253,29 @@
             <img src="./img/item5.png" alt="">
           </div>
         </div>
+        <div class="recuerda-container">
+          <h4>Recuerda que:</h4>
+          <div class="recuerda-steps">
+            <div class="bullet">
+              <img src="./img/bullet.svg" alt="bullet">
+              <p>Este pedido se entrega en el día y hora que indiques, mínimo 3 horas después de haberlo solicitado.</p>
+            </div>
+            <div class="bullet">
+              <img src="./img/bullet.svg" alt="bullet">
+              <p>Este servicio es totalmente gratis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="almacenes-otros-container">
+          <h3>Lista de amacenes :D</h3>
+        </div>
       </div>
     </div>
     <div id="whatsapp" class="tabcontent compras-whatsapp">
       <div class="whatsapp-note-container">
-        <p>También puedes comprar a través de tu celular <strong>llamándonos al #428</strong> o a través de la línea telefónica de tu almacén de prederencia</p>
-        <p>Encuéntralo aquí</p>
+        <p>Puedes comprar a través de las líneas nacionales, llamándonos al <strong>#428</strong> o escribiéndonos al
+          <strong>+57 305 4829046</strong>. </p>
+        <p>También, puedes escribir directamente a tu almacén más cercano.</p>
       </div>
       <fieldset class="flsForm col-12">
         <div class="row">

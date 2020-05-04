@@ -83,6 +83,10 @@
   margin: 2px;
 }
 
+.instructions .instructions-container .comprayrecoje-strong {
+  font-size: 1.25em;
+}
+
 .instructions .instructions-container .instructions-steps .instruction .instruction-img-recoge {
   width: 430px;
   margin: 2px;
@@ -105,11 +109,15 @@
   text-align: center;
 }
 
+#compra-y-recoje .video .video-note {
+  margin-top: 40px;
+}
+
 #compra-y-recoje .video .video-beneficios {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 20px;
+  padding: 35px;
 }
 
 #compra-y-recoje .video .video-beneficios .beneficio {
@@ -175,7 +183,6 @@
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(2, 400px);
-  padding-top: 20px;
 }
 
 #compra-y-recoje .video .tabs-container .tab {
@@ -303,6 +310,39 @@
   grid-gap: 10px;
   padding: 10px 40px;
   margin-top: 20px;
+}
+
+.compras .compras-app .almacenes-mercado-container {
+  background: #f8f8f8;
+  padding: 40px 0px;
+}
+
+.compras .compras-app .almacenes-mercado-container .almacenes-mercado-list {
+  padding-top: 10px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.almacenes-mercado-container .almacenes-mercado-list .almacenes {
+  border-left: 2px solid black;
+}
+
+.almacenes-mercado-container .almacenes-mercado-list .almacenes:first-child {
+  align-self: center;
+}
+
+.almacenes-mercado-container .almacenes-mercado-list .almacenes:first-child {
+  border: none;
+}
+
+.almacenes-mercado-container .almacenes-mercado-list .almacenes ul {
+  list-style-type: none;
+  text-align: initial;
+  padding-left: 5px;
+}
+.almacenes-mercado-container .almacenes-mercado-list .almacenes li {
+  padding-left: 5px;
 }
 
 .compras .compras-app .recuerda-container .bullet {
