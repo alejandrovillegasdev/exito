@@ -251,6 +251,14 @@
   grid-gap: 10px;
 }
 
+.compras .mercado-container .mercados-steps .mercado p {
+  max-width: 400px;
+}
+
+.compras .otros-container .mercados-steps .mercado p {
+  max-width: 400px;
+}
+
 .compras .mercado-container .mercados-steps .mercado {
   display: flex;
   align-items: center;
@@ -268,6 +276,8 @@
   display: grid;
   grid-template-columns: minmax(auto, 800px);
   justify-content: center;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .compras .otros-container .mercados-steps {
