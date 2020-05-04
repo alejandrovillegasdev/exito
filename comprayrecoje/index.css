@@ -1,148 +1,148 @@
 #compra-y-recoje {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
 }
 
 #compra-y-recoje .header {
-  background: #ffeb00;
-  display: grid;
-  grid-template-columns: minmax(auto, 1280px);
-  justify-content: center;
+	background: #ffeb00;
+	display: grid;
+	grid-template-columns: minmax(auto, 1280px);
+	justify-content: center;
 }
 
 #compra-y-recoje .header .header-container {
-  position: relative;
+	position: relative;
 }
 
 .header .header-container img:first-child {
-  width: 100%;
+	width: 100%;
 }
 
 .header .header-container img:nth-child(2) {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  width: 321;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	width: 321;
 }
 
 #compra-y-recoje .breadcrumb {
-  background: #000;
-  color: #fff;
-  display: grid;
-  grid-template-columns: minmax(auto, 1024px);
-  justify-content: center;
-  margin: 0;
+	background: #000;
+	color: #fff;
+	display: grid;
+	grid-template-columns: minmax(auto, 1024px);
+	justify-content: center;
+	margin: 0;
 }
 
 #compra-y-recoje .breadcrumb .breadcrumb-container {
-  text-align: initial;
-  display: flex;
-  grid-template-columns: minmax(auto, 1024px);
-  padding: 10px;
+	text-align: initial;
+	display: flex;
+	grid-template-columns: minmax(auto, 1024px);
+	padding: 10px;
 }
 
 #compra-y-recoje .breadcrumb .breadcrumb-container img {
-  padding: 2px 10px;
+	padding: 2px 10px;
 }
 
 #compra-y-recoje .breadcrumb .breadcrumb-container strong {
-  color: #ffeb00;
-  font-weight: 300;
+	color: #ffeb00;
+	font-weight: 300;
 }
 
 #compra-y-recoje .instructions {
-  background: #0193bf;
-  color: #fff;
-  display: grid;
-  grid-template-columns: minmax(auto, 1024px);
-  justify-content: center;
+	background: #0193bf;
+	color: #fff;
+	display: grid;
+	grid-template-columns: minmax(auto, 1024px);
+	justify-content: center;
 }
 
 #compra-y-recoje .instructions .instructions-container {
-  text-align: center;
-  display: grid;
-  padding: 10px;
-  text-align: center;
+	text-align: center;
+	display: grid;
+	padding: 10px;
+	text-align: center;
 }
 
 #compra-y-recoje .instructions .instructions-container .instructions-steps {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  margin-top: 20px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	margin-top: 20px;
 }
 
 .instructions .instructions-container .instructions-steps .instruction {
-  text-align: center;
-  padding: 20px;
+	text-align: center;
+	padding: 20px;
 }
 
 .instructions .instructions-container .instructions-steps .instruction .instruction-img-compra {
-  width: 200px;
-  margin: 2px;
+	width: 200px;
+	margin: 2px;
 }
 
 .instructions .instructions-container .comprayrecoje-strong {
-  font-size: 1.25em;
+	font-size: 1.25em;
 }
 
 .instructions .instructions-container .instructions-steps .instruction .instruction-img-recoge {
-  width: 430px;
-  margin: 2px;
+	width: 430px;
+	margin: 2px;
 }
 
 .instructions .instructions-container h3 {
-  font-size: 2.5em;
-  margin: 0;
+	font-size: 2.5em;
+	margin: 0;
 }
 
 .instructions .instructions-container span {
-  font-size: 25px;
+	font-size: 25px;
 }
 
 #compra-y-recoje .video {
-  background: #ffeb00;
-  display: grid;
-  grid-template-columns: minmax(auto, 1024px);
-  justify-content: center;
-  text-align: center;
+	background: #ffeb00;
+	display: grid;
+	grid-template-columns: minmax(auto, 1024px);
+	justify-content: center;
+	text-align: center;
 }
 
 #compra-y-recoje .video .video-note {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 #compra-y-recoje .video .video-beneficios {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 35px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 35px;
 }
 
 #compra-y-recoje .video .video-beneficios .beneficio {
-  justify-content: center;
-  display: grid;
-  text-align: center;
-  padding-top: 30px;
+	justify-content: center;
+	display: grid;
+	text-align: center;
+	padding-top: 30px;
 }
 
 #compra-y-recoje .video .video-beneficios .beneficio img {
-  width: 120px;
-  margin: 0 auto;
+	width: 120px;
+	margin: 0 auto;
 }
 
 #compra-y-recoje .video .video-beneficios .beneficio span {
-  margin-top: 15px;
-  font-weight: 700;
+	margin-top: 15px;
+	font-weight: 700;
 }
 
 #compra-y-recoje .video .video-container {
-  margin-top: 10px;
-  position: relative;
+	margin-top: 10px;
+	position: relative;
 	padding-bottom: 330px; /*panorámico*/
 	padding-top: 25px;
-  height: 0;
+	height: 0;
 }
 
 #compra-y-recoje .video .video-container iframe {
@@ -153,278 +153,277 @@
 	height: 100%;
 }
 
-
 #compra-y-recoje .compras {
-  display: grid;
-  grid-template-columns: minmax(auto, 1124px);
-  justify-content: center;
-  text-align: center;
-  background: #0193bf;
+	display: grid;
+	grid-template-columns: minmax(auto, 1124px);
+	justify-content: center;
+	text-align: center;
+	background: #0193bf;
 }
 
 .etiqueta {
-  color: #fff;
+	color: #fff;
 }
 
 .etiqueta:first-child {
-  padding: 0;
+	padding: 0;
 }
 
 .almacen-cel {
-  background: #2cb740;
-  border-radius: 10px;
-  padding: 3px 15px;
-  color: #fff;
-  text-align: center;
+	background: #2cb740;
+	border-radius: 10px;
+	padding: 3px 15px;
+	color: #fff;
+	text-align: center;
 }
 
 #compra-y-recoje .video .tabs-container {
-  text-align: center;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(2, 400px);
+	text-align: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(2, 400px);
 }
 
 #compra-y-recoje .video .tabs-container .tab {
-  display: flex;
-  margin: 0 10px;
-  background: #f2f2f2;
-  align-items: center;
-  padding: 10px;
-  border: 0;
-  justify-content: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  cursor: pointer;
-  font-size: 1.2em;
-  font-weight: 700;
+	display: flex;
+	margin: 0 10px;
+	background: #f2f2f2;
+	align-items: center;
+	padding: 10px;
+	border: 0;
+	justify-content: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor: pointer;
+	font-size: 1.2em;
+	font-weight: 700;
 }
 
 #compra-y-recoje .video .tabs-container .active,
 #compra-y-recoje .compras .compras-app .products-container .active {
-  background: #fff !important;
-  border-bottom: 1px solid #fff !important;
+	background: #fff !important;
+	border-bottom: 1px solid #fff !important;
 }
 
 #compra-y-recoje .compras .products-container {
-  text-align: center;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(2, 400px);
-  border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(2, 400px);
+	border-bottom: 1px solid #e3e3e3;
 }
 
 #compra-y-recoje .compras-app .mercado-container .mercado-note-container {
-  padding: 35px 30px;
+	padding: 35px 30px;
 }
 
 #compra-y-recoje .compras-app {
-  background: #fff;
-  border-radius: 10px;
+	background: #fff;
+	border-radius: 10px;
 }
 
-#compra-y-recoje .compras-app .compras-notes-container{
-  display: grid;
-  grid-template-columns: minmax(auto, 550px);
-  justify-content: center;
-  padding: 30px 0;
+#compra-y-recoje .compras-app .compras-notes-container {
+	display: grid;
+	grid-template-columns: minmax(auto, 550px);
+	justify-content: center;
+	padding: 30px 0;
 }
 
 #compra-y-recoje .compras .compras-app .products-container .products {
-  display: flex;
-  margin: -1px 10px;
-  background: #f2f2f2;
-  align-items: center;
-  padding: 10px;
-  border: 0;
-  justify-content: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border: 1px solid #e3e3e3;
-  cursor: pointer;
+	display: flex;
+	margin: -1px 10px;
+	background: #f2f2f2;
+	align-items: center;
+	padding: 10px;
+	border: 0;
+	justify-content: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid #e3e3e3;
+	cursor: pointer;
 }
 
 .compras .mercado-container {
-  display: grid;
-  grid-template-columns: minmax(auto, 800px);
-  justify-content: center;
-  padding: 0 20px;
+	display: grid;
+	grid-template-columns: minmax(auto, 800px);
+	justify-content: center;
+	padding: 0 20px;
 }
 
 .compras .mercado-container .mercados-steps {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
 }
 
 .compras .mercado-container .mercados-steps .mercado p {
-  max-width: 400px;
+	max-width: 400px;
 }
 
 .compras .otros-container .mercados-steps .mercado p {
-  max-width: 400px;
+	max-width: 400px;
 }
 
 .compras .mercado-container .mercados-steps .mercado {
-  display: flex;
-  align-items: center;
-  background: #f8f8f8;
-  padding: 10px;
-  border-radius: 10px;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	background: #f8f8f8;
+	padding: 10px;
+	border-radius: 10px;
+	justify-content: space-between;
 }
 
 .compras .mercado-container .mercados-steps .mercado p {
-  margin: 0 10px;
+	margin: 0 10px;
 }
 
 .compras .otros-container {
-  display: grid;
-  grid-template-columns: minmax(auto, 800px);
-  justify-content: center;
-  padding: 20px;
-  margin-top: 10px;
+	display: grid;
+	grid-template-columns: minmax(auto, 800px);
+	justify-content: center;
+	padding: 20px;
+	margin-top: 10px;
 }
 
 .compras .otros-container .mercados-steps {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
 }
 
 .compras .otros-container .mercados-steps .mercado {
-  display: flex;
-  align-items: center;
-  background: #f8f8f8;
-  padding: 10px;
-  border-radius: 10px;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	background: #f8f8f8;
+	padding: 10px;
+	border-radius: 10px;
+	justify-content: space-between;
 }
 
 .compras .compras-app .recuerda-container {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 300px 1fr;
-  grid-gap: 10px;
-  padding: 10px 40px;
-  margin-top: 20px;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 300px 1fr;
+	grid-gap: 10px;
+	padding: 10px 40px;
+	margin-top: 20px;
 }
 
 .compras .compras-app .almacenes-mercado-container,
 .compras .compras-app .almacenes-otros-container {
-  background: #f8f8f8;
-  padding: 40px 0px;
+	background: #f8f8f8;
+	padding: 40px 0px;
 }
 
 .compras .compras-app .almacenes-mercado-container .almacenes-mercado-list,
 .compras .compras-app .almacenes-otros-container .almacenes-mercado-list {
-  padding-top: 10px;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+	padding-top: 10px;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
 }
 
 .almacenes-mercado-container .almacenes-mercado-list .almacenes,
 .almacenes-otros-container .almacenes-mercado-list .almacenes {
-  border-left: 2px solid black;
+	border-left: 2px solid black;
 }
 
 .almacenes-mercado-container .almacenes-mercado-list .almacenes:first-child,
 .almacenes-otros-container .almacenes-mercado-list .almacenes:first-child {
-  align-self: center;
+	align-self: center;
 }
 
 .almacenes-mercado-container .almacenes-mercado-list .almacenes:first-child,
 .almacenes-otros-container .almacenes-mercado-list .almacenes:first-child {
-  border: none;
+	border: none;
 }
 
 .almacenes-mercado-container .almacenes-mercado-list .almacenes ul,
 .almacenes-otros-container .almacenes-mercado-list .almacenes ul {
-  list-style-type: none;
-  text-align: initial;
-  padding-left: 5px;
+	list-style-type: none;
+	text-align: initial;
+	padding-left: 5px;
 }
 .almacenes-mercado-container .almacenes-mercado-list .almacenes li {
-  padding-left: 5px;
+	padding-left: 5px;
 }
 
 .compras .compras-app .recuerda-container .bullet {
-  display: flex;
-  align-items: center;
-  text-align: initial;
+	display: flex;
+	align-items: center;
+	text-align: initial;
 }
 
 .compras .compras-app .recuerda-container .recuerda-steps {
-  border-left: 1px solid black;
+	border-left: 1px solid black;
 }
 
 .compras .compras-app .recuerda-container h3 {
-  text-align: end;
-  margin-right: 20px;
+	text-align: end;
+	margin-right: 20px;
 }
 
 .compras .compras-app .recuerda-container .bullet img {
-  margin: 0 10px;
+	margin: 0 10px;
 }
 
 #compra-y-recoje .video .tabs-container .tab:first-child img {
-  width: 100px;
-  padding: 5px;
+	width: 100px;
+	padding: 5px;
 }
 
 #compra-y-recoje .footer {
-  padding: 30px 15px;
-  display: grid;
-  grid-template-columns: minmax(auto, 1280px);
-  justify-content: center;
-  background: #0193bf;
+	padding: 30px 15px;
+	display: grid;
+	grid-template-columns: minmax(auto, 1280px);
+	justify-content: center;
+	background: #0193bf;
 }
 
 .footer .footer-container {
-  display: grid;
-  grid-gap: 5px;
+	display: grid;
+	grid-gap: 5px;
 }
 
-.footer-container img { 
-  width: 100%;
+.footer-container img {
+	width: 100%;
 }
 
 .no-mobile {
-  display: block;
+	display: block;
 }
 
 .no-screen {
-  display: none;
+	display: none;
 }
 
 .divAlmacen {
-  background-color: #f8f8f8;
-  border-radius: 5px;
-  margin: 14px 0;
-  padding: 10px;
-  text-align: justify;
-  overflow: hidden;
-  font-size: 0.9em;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+	margin: 14px 0;
+	padding: 10px;
+	text-align: justify;
+	overflow: hidden;
+	font-size: 0.9em;
 }
 
 .divAlmacen h4 {
-  color: #000;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.3em;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.3em;
 }
 
 .almacen-divider {
-  display: flex;
-  width: 93px;
-  height: 2px;
-  margin-top: 14px;
-  margin-bottom: 13px;
-  border: 0 #000;
-  background-color: #f7e73d;
+	display: flex;
+	width: 93px;
+	height: 2px;
+	margin-top: 14px;
+	margin-bottom: 13px;
+	border: 0 #000;
+	background-color: #f7e73d;
 }
 .almacen-direccion::before {
 	content: url('./img/icon-01.svg');
@@ -438,8 +437,8 @@
 
 .almacen-cel::before {
 	content: url('./img/whatsapp.svg');
-  margin-right: 5px;
-  background-size: 10px;
+	margin-right: 5px;
+	background-size: 10px;
 }
 
 .almacen-horario::before {
@@ -453,163 +452,181 @@
 }
 
 .compras-whatsapp .whatsapp-note-container {
-  padding: 30px 60px;
-  background: #fff;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+	padding: 30px 60px;
+	background: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .flsForm {
-  background-color: #0193bf;
-  padding: 30px 10px;
+	background-color: #0193bf;
+	padding: 30px 10px;
 }
 
 .control select {
-  margin: 0;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.9em;
+	margin: 0;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.9em;
 }
 
 .divDepartamento h2 {
-  line-height: 1.75em;
-  font-size: 1.5em;
-  color: #ffeb00;
+	line-height: 1.75em;
+	font-size: 1.5em;
+	color: #ffeb00;
 }
 
 .divMunicipio h3 {
-  color: #fff;
-  font-size: 1.25em;
-  font-weight: bold;
-  line-height: 1.5em;
-  margin-left: 10px;
-  margin-top: 12px;
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin-left: 10px;
+	margin-top: 12px;
 }
 
 .mun-divider {
-  display: flex;
-  align-items: center;
-  text-align: center;
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
 
-.mun-divider::before, .mun-divider::after {
-  content: '';
-  flex: 1;
-  border-bottom: 3px solid #f8f8f8;
+.mun-divider::before,
+.mun-divider::after {
+	content: '';
+	flex: 1;
+	border-bottom: 3px solid #f8f8f8;
 }
 .mun-divider::before {
-  margin-right: 1.25em;
+	margin-right: 1.25em;
 }
 .mun-divider::after {
-  margin-left: 1.25em;
+	margin-left: 1.25em;
 }
 
 @media screen and (min-width: 992px) {
-  .divAlmacen {
-    max-width: 24%;
-    margin: 5px;
-  }
+	.divAlmacen {
+		max-width: 24%;
+		margin: 5px;
+	}
 }
 
 @media screen and (max-width: 768px) {
+	#compra-y-recoje .instructions .instructions-container img {
+		width: 100%;
+	}
 
-  #compra-y-recoje .instructions .instructions-container img {
-    width: 100%;
-  }
+	.divDepartamento {
+		margin-left: 0;
+		margin-right: 0;
+		justify-content: center;
+	}
 
-  .divDepartamento {
-    margin-left: 0;
-    margin-right: 0;
-    justify-content: center;
-  }
+	.compras .compras-app .recuerda-container .recuerda-steps {
+		border-left: none;
+		border-top: 1px solid black;
+		padding-top: 16px;
+	}
 
-  .compras .compras-app .recuerda-container .recuerda-steps {
-    border-left: none;
-    border-top: 1px solid black;
-    padding-top: 16px;
-  }
+	.header .header-container img:nth-child(2) {
+		position: initial;
+		margin: 0 auto;
+		padding: 10px;
+	}
 
-  .header .header-container img:nth-child(2) {
-    position: initial;
-    margin: 0 auto;
-    padding: 10px;
-  }
+	#compra-y-recoje .breadcrumb .breadcrumb-container {
+		font-size: 0.8em;
+	}
 
-  #compra-y-recoje .breadcrumb .breadcrumb-container {
-    font-size: 0.8em;
-  }
+	.almacenes-title span::before,
+	.almacenes-title span::after {
+		width: 1rem;
+	}
 
-  .almacenes-title span::before, .almacenes-title span::after {
-    width: 1rem;
-  }
+	.beneficios-title span::before,
+	.beneficios-title span::after {
+		width: 8rem;
+	}
 
-  .beneficios-title span::before, .beneficios-title span::after {
-    width: 8rem;
-  }
-
-  .steps .steps-container {
-    grid-template-columns: 1fr;
-  }
-
-  .beneficios .beneficios-container,
-  #compra-y-recoje .video .video-beneficios,
-  #compra-y-recoje .instructions .instructions-container .instructions-steps,
-  #compra-y-recoje .video .tabs-container,
-  .compras .mercado-container .mercados-steps,
-  .compras .otros-container .mercados-steps,
-  #compra-y-recoje .compras .products-container,
-  .compras .compras-app .recuerda-container {
-    grid-template-columns: 1fr;
-  }
-
-  .almacenes-container .almacenes-list {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .almacenes .almacenes-container{
-    grid-template-columns: 1fr;
-  }
-
-  .header-formatos {
-    display: none;
+	.steps .steps-container {
+		grid-template-columns: 1fr;
   }
   
-  .no-mobile {
-    display: none;
+  .almacenes-mercado-container .almacenes-mercado-list .almacenes, 
+  .almacenes-otros-container .almacenes-mercado-list .almacenes {
+    border: 0;
   }
 
-  .header-container .title h2 {
-    font-size: 0.8em;
+  .almacenes-mercado-container .almacenes-mercado-list .almacenes ul, 
+  .almacenes-otros-container .almacenes-mercado-list .almacenes ul {
+    text-align: center;
   }
-  
-  .header-container .title h1 {
-    font-size: 1.8em;
-  }
-  .no-screen {
-    display: block;
-  }
+
+	.beneficios .beneficios-container,
+	#compra-y-recoje .video .video-beneficios,
+	#compra-y-recoje .instructions .instructions-container .instructions-steps,
+	#compra-y-recoje .video .tabs-container,
+	.compras .mercado-container .mercados-steps,
+	.compras .otros-container .mercados-steps,
+	#compra-y-recoje .compras .products-container,
+	.compras .compras-app .almacenes-mercado-container .almacenes-mercado-list,
+	.compras .compras-app .almacenes-otros-container .almacenes-mercado-list,
+	.compras .compras-app .recuerda-container {
+		grid-template-columns: 1fr;
+	}
+
+	.almacenes-container .almacenes-list {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.almacenes .almacenes-container {
+		grid-template-columns: 1fr;
+	}
+
+	.header-formatos {
+		display: none;
+	}
+
+	.no-mobile {
+		display: none;
+	}
+
+	.header-container .title h2 {
+		font-size: 0.8em;
+	}
+
+	.header-container .title h1 {
+		font-size: 1.8em;
+	}
+	.no-screen {
+		display: block;
+	}
 }
 
 .tabcontent {
-  display: none;
-  border-top: none;
+	display: none;
+	border-top: none;
 }
 
 .tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+	animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .tabcontent2 {
-  display: none;
-  border-top: none;
+	display: none;
+	border-top: none;
 }
 
 .tabcontent2 {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+	animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
