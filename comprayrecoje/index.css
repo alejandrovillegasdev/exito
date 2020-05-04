@@ -323,6 +323,7 @@
 	justify-content: center;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
+	/* grid-template-columns: 150px 1fr 1fr 1fr 1fr; */
 }
 
 .almacenes-mercado-container .almacenes-mercado-list .almacenes,
