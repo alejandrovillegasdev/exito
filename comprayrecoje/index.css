@@ -6,8 +6,8 @@
 #compra-y-recoje .header {
 	background: #ffeb00;
 	display: grid;
-	grid-template-columns: minmax(auto, 1280px);
-	justify-content: center;
+	grid-template-columns: 500px 1fr;
+	justify-content: initial;
 }
 
 #compra-y-recoje .header .header-container {
@@ -18,11 +18,10 @@
 	width: 100%;
 }
 
-.header .header-container img:nth-child(2) {
-	position: absolute;
-	top: 40px;
-	right: 30px;
-	width: 321;
+.header img:nth-child(2) {
+  position: absolute;
+  top: 62px;
+  right: 60px;
 }
 
 #compra-y-recoje .breadcrumb {
@@ -552,7 +551,7 @@
 		padding-top: 16px;
 	}
 
-	.header .header-container img:nth-child(2) {
+	.header img:nth-child(2) {
 		position: initial;
 		margin: 0 auto;
 		padding: 10px;
@@ -592,7 +591,11 @@
 	.almacenes-mercado-container .almacenes-mercado-list .almacenes ul,
 	.almacenes-otros-container .almacenes-mercado-list .almacenes ul {
 		text-align: center;
-	}
+  }
+  
+  .almacenes-container {
+    padding: 0;
+  }
 
 	.beneficios .beneficios-container,
 	#compra-y-recoje .video .video-beneficios,
@@ -600,7 +603,8 @@
 	#compra-y-recoje .video .tabs-container,
 	.compras .mercado-container .mercados-steps,
 	.compras .otros-container .mercados-steps,
-	#compra-y-recoje .compras .products-container,
+  #compra-y-recoje .compras .products-container,
+  #compra-y-recoje .header,
 	.compras .compras-app .almacenes-mercado-container .almacenes-mercado-list,
 	.compras .compras-app .almacenes-otros-container .almacenes-mercado-list,
 	.compras .compras-app .recuerda-container {
