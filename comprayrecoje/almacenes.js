@@ -82,6 +82,12 @@ function methodI() {
                         }
                         $optMunicipios = $("#ddlMunicipio").children("option");
                         opcionesFormato();
+
+                        // hide all deparments (for compra y recoje purposes)
+                        $(".divDepartamento").hide();
+                        $(".divMunicipio").hide();
+                        $(".divAlmacen").hide();
+
                     }
                 );
                 rptJson.error(function () {
