@@ -344,7 +344,7 @@ p.almacen-horario {
 	}
 }
 
-#sinfilas .footer {
+.footer {
 	margin-top: 35px;
 	padding: 10px 15px;
 	display: grid;

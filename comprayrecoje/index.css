@@ -174,10 +174,11 @@
 
 .almacen-cel {
 	background: #2cb740;
-	border-radius: 10px;
-	padding: 3px 15px;
-	color: #fff;
-	text-align: center;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
 }
 
 #compra-y-recoje .video .tabs-container {
@@ -395,7 +396,6 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 1280px);
 	justify-content: center;
-	background: #0193bf;
 }
 
 .footer .footer-container {
@@ -486,7 +486,8 @@
 	margin: 0;
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
-	font-size: 0.9em;
+  font-size: 0.9em;
+  background: #f8f8f8;
 }
 
 .divDepartamento h2 {
