@@ -20,7 +20,7 @@
 
 .header .header-container img:nth-child(2) {
 	position: absolute;
-	top: 20px;
+	top: 40px;
 	right: 30px;
 	width: 321;
 }
@@ -31,8 +31,8 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 1024px);
 	justify-content: center;
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #compra-y-recoje .breadcrumb .breadcrumb-container {
@@ -56,8 +56,8 @@
 	color: #fff;
 	display: grid;
 	grid-template-columns: minmax(auto, 1024px);
-  justify-content: center;
-  padding: 30px 0;
+	justify-content: center;
+	padding: 30px 0;
 }
 
 #compra-y-recoje .instructions .instructions-container {
@@ -96,8 +96,8 @@
 
 .instructions .instructions-container h3 {
 	font-size: 2.5em;
-  margin: 0;
-  font-weight: 700;
+	margin: 0;
+	font-weight: 700;
 }
 
 .instructions .instructions-container span {
@@ -114,6 +114,7 @@
 
 #compra-y-recoje .video .video-note {
 	margin-top: 40px;
+	margin-bottom: 2rem;
 }
 
 #compra-y-recoje .video .video-beneficios {
@@ -145,7 +146,7 @@
 	position: relative;
 	padding-bottom: 510px; /*panorámico*/
 	padding-top: 25px;
-  height: 0;
+	height: 0;
 }
 
 #compra-y-recoje .video .video-container iframe {
@@ -161,7 +162,7 @@
 	grid-template-columns: minmax(auto, 1124px);
 	justify-content: center;
 	text-align: center;
-	background: #0193bf;
+	/* background: #0193bf; */
 }
 
 .etiqueta {
@@ -250,7 +251,11 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 800px);
 	justify-content: center;
-	padding: 0 20px;
+	padding: 20px;
+	margin: 0 20px 20px;
+	border: 1px solid #e3e3e3;
+	border-radius: 10px;
+	box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1);
 }
 
 .compras .mercado-container .mercados-steps {
@@ -282,11 +287,14 @@
 }
 
 .compras .otros-container {
-	display: grid;
-	grid-template-columns: minmax(auto, 800px);
-	justify-content: center;
-	padding: 20px;
-	margin-top: 10px;
+  display: grid;
+  grid-template-columns: minmax(auto, 800px);
+  justify-content: center;
+  padding: 20px;
+  margin: 0 20px 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.1);
 }
 
 .compras .otros-container .mercados-steps {
@@ -348,8 +356,8 @@
 .almacenes-otros-container .almacenes-mercado-list .almacenes ul {
 	list-style-type: none;
 	text-align: initial;
-  padding-left: 5px;
-  font-size: 14px;
+	padding-left: 5px;
+	font-size: 14px;
 }
 .almacenes-mercado-container .almacenes-mercado-list .almacenes li {
 	padding-left: 5px;
@@ -371,7 +379,12 @@
 }
 
 .compras .compras-app .recuerda-container .bullet img {
-	margin: 0 10px;
+  margin: auto 0;
+  padding: 10px;
+}
+
+.compras .compras-app .recuerda-container .bullet p {
+  margin: 0;
 }
 
 #compra-y-recoje .video .tabs-container .tab:first-child img {
@@ -456,16 +469,18 @@
 	margin-right: 5px;
 }
 
+.compras-whatsapp {
+	background: #0193bf;
+}
+
 .compras-whatsapp .whatsapp-note-container {
 	padding: 30px 60px;
 	background: #fff;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
 }
 
 .flsForm {
 	background-color: #0193bf;
-	padding: 30px 10px;
+	padding: 30px;
 }
 
 .control select {
@@ -507,6 +522,10 @@
 }
 .mun-divider::after {
 	margin-left: 1.25em;
+}
+
+.almacenes .almacenes-container {
+  padding: 0 25px;
 }
 
 @media screen and (min-width: 992px) {
@@ -555,17 +574,25 @@
 
 	.steps .steps-container {
 		grid-template-columns: 1fr;
-  }
-  
-  .almacenes-mercado-container .almacenes-mercado-list .almacenes, 
-  .almacenes-otros-container .almacenes-mercado-list .almacenes {
-    border: 0;
-  }
+	}
 
+	.almacenes-mercado-container .almacenes-mercado-list .almacenes,
+  .almacenes-mercado-container .almacenes-mercado-list .almacenes, 
+	.almacenes-mercado-container .almacenes-mercado-list .almacenes,
+  .almacenes-mercado-container .almacenes-mercado-list .almacenes, 
+	.almacenes-mercado-container .almacenes-mercado-list .almacenes,
+	.almacenes-otros-container .almacenes-mercado-list .almacenes {
+		border: 0;
+	}
+
+	.almacenes-mercado-container .almacenes-mercado-list .almacenes ul,
   .almacenes-mercado-container .almacenes-mercado-list .almacenes ul, 
-  .almacenes-otros-container .almacenes-mercado-list .almacenes ul {
-    text-align: center;
-  }
+	.almacenes-mercado-container .almacenes-mercado-list .almacenes ul,
+  .almacenes-mercado-container .almacenes-mercado-list .almacenes ul, 
+	.almacenes-mercado-container .almacenes-mercado-list .almacenes ul,
+	.almacenes-otros-container .almacenes-mercado-list .almacenes ul {
+		text-align: center;
+	}
 
 	.beneficios .beneficios-container,
 	#compra-y-recoje .video .video-beneficios,
