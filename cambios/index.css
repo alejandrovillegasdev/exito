@@ -4,72 +4,67 @@
 }
 
 #viajes-exito .header {
-  background: #ffeb00;
-  padding: 25px 15px;
-  display: grid;
-  grid-template-columns: minmax(auto, 1024px);
-  justify-content: center;
+  padding: 15px 15px 0 15px;
+	display: grid;
+	grid-template-columns: minmax(auto, 1680px);
+	justify-content: center;
+	background: #ffeb00;
 }
 
-.header .header-container {
-  display: grid;
-  grid-template-columns: 70px 2fr 1fr;
-  grid-template-areas: ". description header-logo"
-                       "badge title header-logo";
-  grid-gap: 10px;
-}
-
-.header-container .badge {
-  padding: 15px;
-  grid-area: badge;
-}
-.header-container .badge img {
-  max-width: 70px;
-}
-
-.header-container .description {
-  font-size: 0.8em;
-  text-align: justify;
-  grid-area: description;
-}
-
-.header-container .header-logo {
-  grid-area: header-logo;
-}
-
-.header-container .description span strong {
-  font-size: 0.8em;
-  color: #ffeb00;
-  font-weight: 700;
-}
-
-.header-logo img {
+.header .header-container img {
   width: 100%;
-  margin-top: 20px;
 }
 
-.header-container .title {
-  grid-area: title;
-  font-weight: normal;
-  margin: 0;
-  align-items: center;
+#viajes-exito .breadcrumb {
+	background: #000;
+	color: #fff;
+	display: grid;
+	grid-template-columns: minmax(auto, 1680px);
+	justify-content: center;
+	margin: 0;
+	padding: 0;
 }
 
-.header-container .title h1{
-  font-weight: 700;
-  font-size: 2.8em;
-  margin: 0;
+#viajes-exito .breadcrumb .breadcrumb-container span a {
+	text-decoration: none;
+	color: #fff;
 }
 
-.header-container .title h2{
-  font-weight: 700;
-  font-size: 1.8em;
+#viajes-exito .breadcrumb .breadcrumb-container span a:hover {
+	color: #ffeb00;
+}
+
+#viajes-exito .breadcrumb .breadcrumb-container {
+	text-align: initial;
+	display: flex;
+	grid-template-columns: minmax(auto, 1024px);
+	padding: 10px;
+}
+
+#viajes-exito .breadcrumb .breadcrumb-container img {
+	padding: 0 10px;
+}
+
+#viajes-exito .breadcrumb .breadcrumb-container strong {
+	color: #ffeb00;
+	font-weight: 300;
+}
+
+.header .header-title {
+  text-align: center;
+}
+
+.header .header-title h1 {
+  font-size: 2em;
+}
+
+.header .header-title h2 {
+  font-size: 1.3em;
   margin: 0;
 }
 
 #viajes-exito .nota {
-  background: #000000;
-  color: #fff;
+  background: #ffeb00;
   padding: 10px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 900px);
@@ -98,8 +93,9 @@
 
 #viajes-exito .description .description-container .puntos-exito-img {
   background: #5a216e;
-  padding: 90px 20px;
+  padding: 120px 20px;
   border-radius: 10px;
+  align-self: center;
 }
 
 #viajes-exito .description .description-container img {
@@ -266,6 +262,14 @@
   border-radius: 10px;
 }
 
+.beneficios-container .beneficio img {
+  height: 70px;
+}
+
+.beneficios-container .beneficio:first-child img {
+  width: 70px;
+}
+
 #viajes-exito .electrodomesticos {
   display: grid;
   background: #f8f8f8;
@@ -324,13 +328,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header .header-container {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    grid-template-areas: "description description"
-                         "badge title";
-    grid-gap: 10px;
-  }
 
   .no-mobile {
     display: none;
