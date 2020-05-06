@@ -4,74 +4,62 @@
 }
 
 #movil-exito .header {
-  background: #5f268d;
-  color: #fff;
-  padding: 32px 15px;
-  display: grid;
-  grid-template-columns: minmax(auto, 1024px);
-  justify-content: center;
+  padding: 15px 15px 0 15px;
+	display: grid;
+	grid-template-columns: minmax(auto, 1680px);
+	justify-content: center;
+	background: #ffeb00;
 }
 
-.header .header-container {
-  display: grid;
-  grid-template-columns: 70px 2fr 1fr;
-  grid-template-areas: ". description header-logo"
-                       "badge title header-logo";
-  grid-gap: 10px;
-}
-
-.header-container .badge {
-  padding: 15px;
-  grid-area: badge;
-}
-.header-container .badge img {
-  max-width: 70px;
-}
-
-.header-container .badge span {
-  color: #fff;
-}
-
-.header-container .badge a {
-  text-decoration: none;
-}
-
-.header-container .description {
-  text-align: justify;
-  grid-area: description;
-}
-
-.header-container .header-logo {
-  grid-area: header-logo;
-}
-
-.header-container .description span strong {
-  color: #ffeb00;
-  font-weight: 700;
-}
-
-.header-logo img {
+.header .header-container img {
   width: 100%;
-  margin-top: 20px;
 }
 
-.header-container .title {
-  grid-area: title;
-  font-weight: normal;
-  margin: 0;
-  align-items: center;
+#movil-exito .breadcrumb {
+	background: #000;
+	color: #fff;
+	display: grid;
+	grid-template-columns: minmax(auto, 1680px);
+	justify-content: center;
+	margin: 0;
+	padding: 0;
 }
 
-.header-container .title h1{
-  font-weight: 700;
-  font-size: 2.8em;
-  margin: 0;
+#movil-exito .breadcrumb .breadcrumb-container span a {
+	text-decoration: none;
+	color: #fff;
 }
 
-.header-container .title h2{
-  font-weight: 700;
-  font-size: 1.8em;
-  margin: 0;
+#movil-exito .breadcrumb .breadcrumb-container span a:hover {
+	color: #ffeb00;
+}
+
+#movil-exito .breadcrumb .breadcrumb-container {
+	text-align: initial;
+	display: flex;
+	grid-template-columns: minmax(auto, 1024px);
+	padding: 10px;
+}
+
+#movil-exito .breadcrumb .breadcrumb-container img {
+	padding: 0 10px;
+}
+
+#movil-exito .breadcrumb .breadcrumb-container strong {
+	color: #ffeb00;
+	font-weight: 300;
+}
+
+.header .header-title {
+  text-align: center;
+}
+
+.header .header-title h1 {
+  font-size: 2em;
+}
+
+.header .header-title h2 {
+  font-size: 1.3em;
 }
 
 #movil-exito .description {
@@ -315,13 +303,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header .header-container {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    grid-template-areas: "description description"
-                         "badge title";
-    grid-gap: 10px;
-  }
 
   .no-mobile {
     display: none;
