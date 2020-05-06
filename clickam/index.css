@@ -19,7 +19,7 @@
 	background: #000;
 	color: #fff;
 	display: grid;
-	grid-template-columns: minmax(auto, 1024px);
+	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
 	margin: 0;
 	padding: 0;
