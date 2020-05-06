@@ -18,6 +18,18 @@
   grid-gap: 10px;
 }
 
+.description-paquetes .no-satisfecho-option{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 40px 1fr;
+  background: #f8f8f8;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
 .header-container .badge {
   padding: 15px;
   grid-area: badge;
@@ -72,8 +84,8 @@
 }
 
 #ventas-empresariales .nota {
-  background: #3e2f5a;
-  color: #fff;
+  background: #ffeb00;
+  color: #000;
   padding: 10px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 900px);
@@ -97,6 +109,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
+  margin: 20px;
 }
 
 #ventas-empresariales .como-utilizar .como-usar-info {
@@ -120,7 +133,7 @@
   padding: 30px;
   grid-template-columns: minmax(auto, 1024px);
   justify-content: center;
-  background: #f31a07;
+  background: #000;
 }
 
 .como-inscribirse .como-inscribirse-title {
@@ -229,6 +242,13 @@
 }
 .beneficios-container .beneficio img {
   width: 60px;
+  height: 60px;
+}
+
+.beneficios-container .beneficio:nth-child(2) img {
+  width: 45px;
+  height: 45px;
+  padding: 7.5px 0;
 }
 
 .beneficios-container .beneficio p {

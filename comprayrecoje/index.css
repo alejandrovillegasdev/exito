@@ -30,6 +30,16 @@
 	display: flex;
 	grid-template-columns: minmax(auto, 1024px);
 	padding: 10px;
+	font-size: 0.8em;
+}
+
+#compra-y-recoje .breadcrumb .breadcrumb-container span a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#compra-y-recoje .breadcrumb .breadcrumb-container span a:hover {
+	color: #ffeb00;
 }
 
 #compra-y-recoje .breadcrumb .breadcrumb-container img {
@@ -385,7 +395,7 @@
 #compra-y-recoje .footer {
 	padding: 30px 15px;
 	display: grid;
-	grid-template-columns: minmax(auto, 1280px);
+	grid-template-columns: minmax(auto, 1024px);
 	justify-content: center;
 }
 

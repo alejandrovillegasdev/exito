@@ -194,6 +194,15 @@
   border-radius: 10px;
 }
 
+.beneficio img {
+  width: 85px;
+}
+
+.beneficio:nth-child(1) img {
+  height: 60px;
+}
+
+
 #sinfilas .almacenes {
   display: grid;
   grid-template-columns: minmax(auto, 900px);
