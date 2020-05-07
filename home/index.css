@@ -16,6 +16,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 4.3rem;
+  color: #fff;
 }
 
 .banner-container {
@@ -45,7 +46,7 @@
 
 .banner-logo {
   padding: 0px 14px 33px 0px;
-  width: 140px;
+  width: 157px;
   position: absolute;
   right: 110px;
   top: 60px;
@@ -53,7 +54,7 @@
 
 .banner-logo-container {
   position: absolute;
-  top: 60px;
+  top: 110px;
   left: 7pc;
 }
 
