@@ -4,7 +4,7 @@
 }
 
 #ventas-empresariales .header {
-	padding: 15px 15px 30px 15px;
+	padding: 15px 15px 0 15px;
 	display: grid;
 	grid-template-columns: minmax(auto, 1680);
 	justify-content: center;
@@ -38,7 +38,30 @@
 	text-align: initial;
 	display: flex;
 	grid-template-columns: minmax(auto, 1024px);
-	padding: 10px;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+.header .header-title {
+  text-align: center;
+}
+
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
+}
+
+.header .header-title h1 {
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 0;
+
+}
+
+.header .header-title h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 #ventas-empresariales .breadcrumb .breadcrumb-container img {

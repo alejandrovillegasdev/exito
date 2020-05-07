@@ -22,7 +22,12 @@
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
 }
 
 #medios-pago .breadcrumb .breadcrumb-container span a {
@@ -180,7 +185,6 @@
   justify-content: center;
   grid-template-columns: 1fr 200px;
   align-items: center;
-  font-size: 0.8em;
 }
 
 .regalo .regalo-container {
@@ -188,7 +192,6 @@
   justify-content: center;
   grid-template-columns: 1fr 200px;
   align-items: center;
-  font-size: 0.8em;
 }
 
 .regalo .regalo-container .regalo-beneficios {
@@ -236,7 +239,6 @@
   justify-content: center;
   grid-template-columns: 1fr 200px;
   align-items: center;
-  font-size: 0.8em;
 }
 
 .codensa .codensa-container {
@@ -244,7 +246,6 @@
   justify-content: center;
   grid-template-columns: 1fr 200px;
   align-items: center;
-  font-size: 0.8em;
 }
 
 .separe .separe-container .separe-opciones {
@@ -307,7 +308,18 @@
   color: #d82339;
   padding-left: 10px;
   font-size: 1.12em;
-  margin: 2px 21px;
+  margin: 5px 0 0 10px;
+}
+
+.header .header-title {
+  text-align: center;
+}
+
+.header .header-title h1 {
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 0;
+
 }
 
 .brilla .brilla-container {
@@ -315,7 +327,6 @@
   justify-content: center;
   grid-template-columns: 1fr 200px;
   align-items: center;
-  font-size: 0.8em;
 }
 
 #medios-pago .brilla-sitios {
@@ -334,7 +345,7 @@
 .brilla .brilla-container .brilla-opciones {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1.3fr 1fr;
   align-items: center;
 }
 
@@ -345,7 +356,7 @@
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
-  height: 120px;
+  height: 150px;
 }
 
 .brilla .brilla-container .brilla-opciones .brilla-opcion .brilla-title {

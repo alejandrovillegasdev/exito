@@ -22,7 +22,12 @@
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
 }
 
 #sinfilas .breadcrumb .breadcrumb-container span a {
@@ -55,12 +60,17 @@
 }
 
 .header .header-title h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 0;
+
 }
 
 .header .header-title h2 {
-  font-size: 1.3em;
-  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 #sinfilas .nota {
@@ -96,6 +106,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
+  text-align: center;
 }
 
 .como-funciona .como-funciona-container .beneficios-title span {
@@ -338,7 +349,7 @@
     grid-template-columns: 1fr;
   }
   .beneficios-title span::before, .beneficios-title span::after {
-    width: 8rem;
+    display: none;
   }
 
   .beneficios .beneficios-container, .almacenes-container .almacenes-list, .steps .steps-container {

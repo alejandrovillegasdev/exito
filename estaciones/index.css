@@ -22,7 +22,12 @@
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
 }
 
 #estaciones .breadcrumb .breadcrumb-container span a {
@@ -77,7 +82,7 @@
   grid-template-columns: minmax(auto, 900px);
   justify-content: center;
   text-align: center;
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
 }
 .beneficios .beneficios-title {
   display: grid;
@@ -141,7 +146,7 @@
   background-color: #f8f8f8;
   text-align: center;
   padding: 10px 10px 0 10px;
-  font-size: 0.7em;
+  font-size: 0.9em;
   border-radius: 10px;
 }
 
@@ -195,14 +200,14 @@
 }
 
 .almacenes-container .almacenes-list .almacen p{
-  font-size: 0.7em;
+  font-size: 0.9em;
   margin: 1px;
 }
 
 .almacenes-container .almacenes-list .almacen span{
   font-weight: 700;
   margin-right: 40px;
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
 }
 
 .almacenes-container .almacenes-list .almacen span::after {

@@ -22,7 +22,12 @@
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
 }
 
 #viajes-exito .breadcrumb .breadcrumb-container span a {
@@ -164,7 +169,7 @@
   background: #f8f8f8;
   border-radius: 10px;
   padding: 10px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 #viajes-exito .tarjetas .tarjetas-container .tarjeta .tarjeta-info ul{

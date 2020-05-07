@@ -22,7 +22,24 @@
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.header .header-title {
+  text-align: center;
+}
+
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
+}
+
+.header .header-title h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-bottom: 20px;
+
 }
 
 #ventas-empresariales .breadcrumb .breadcrumb-container span a {
@@ -213,13 +230,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header .header-container {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    grid-template-areas: "description description"
-                         "badge title";
-    grid-gap: 10px;
-  }
 
   .no-mobile {
     display: none;

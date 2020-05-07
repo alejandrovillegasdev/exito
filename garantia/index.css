@@ -22,7 +22,12 @@
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
 }
 
 #garantia .breadcrumb .breadcrumb-container span a {
