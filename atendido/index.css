@@ -156,13 +156,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header .header-container {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    grid-template-areas: "description description"
-                         "badge title";
-    grid-gap: 10px;
-  }
 
   .no-mobile {
     display: none;
