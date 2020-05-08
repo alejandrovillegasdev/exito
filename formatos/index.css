@@ -3,69 +3,77 @@
   margin: 0;
 }
 
-#formatos .header {
-  background: #000;
-  color: white;
-  padding: 32px 15px;
-  display: grid;
-  grid-template-columns: minmax(auto, 1024px);
-  justify-content: center;
+.header {
+  padding: 15px 15px 0 15px;
+	display: grid;
+	grid-template-columns: minmax(auto, 1680px);
+	justify-content: center;
+	/* background: #ffeb00; */
 }
 
-.header .header-container {
-  display: grid;
-  grid-template-columns: 70px 1fr 100px;
-  grid-template-areas: ". description header-formatos"
-                       "badge title header-formatos";
-  grid-gap: 10px;
+.header .header-container img {
+  width: 100%;
 }
 
-.header-container .badge span {
-  color: #fff;
+.breadcrumb {
+	background: #000;
+	color: #fff;
+	display: grid;
+	grid-template-columns: minmax(auto, 1680px);
+	justify-content: center;
+	margin: 0;
+  padding: 0;
+  border-radius: 0rem;
 }
 
-.header-container .badge a {
-  text-decoration: none;
+.breadcrumb .breadcrumb-container span {
+  padding-top: 5px;
 }
 
-.header-container .badge {
-  padding: 15px;
-  grid-area: badge;
-}
-.header-container .badge img {
-  max-width: 70px;
+.breadcrumb .breadcrumb-container span a {
+	text-decoration: none;
+	color: #fff;
 }
 
-.header-container .header-formatos {
-  grid-area: header-formatos;
+.breadcrumb .breadcrumb-container span a:hover {
+	color: #ffeb00;
 }
 
-.header-container .description {
-  grid-area: description;
+.breadcrumb .breadcrumb-container {
+	text-align: initial;
+	display: flex;
+	grid-template-columns: minmax(auto, 1024px);
+  padding: 10px;
+  font-size: 0.8em;
 }
 
-.header-container .description span strong {
-  grid-area: description;
-  color: #ffeb00;
-  font-weight: 700;
+.breadcrumb .breadcrumb-container img {
+	padding: 0 10px;
 }
 
-.header-formatos img {
-  max-width: 70px;
+.breadcrumb .breadcrumb-container strong {
+	color: #ffeb00;
+	font-weight: 300;
 }
 
-.header-container .title {
-  grid-area: title;
-  font-size: 36px;
-  font-weight: normal;
-  margin: 0;
-  align-items: center;
+.header .header-title {
+  text-align: center;
 }
 
-.header-container .title {
-  font-weight: 700;
-  font-size: 2.8em;
+.header .header-title h1 {
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
+
+.header .header-title h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 
 #formatos .nota {
   background: #f8f8f8;
@@ -164,14 +172,6 @@
     position: relative;
     padding: 10px;
     top: 1px;
-  }
-
-  .header .header-container {
-    display: grid;
-    grid-template-columns: 60px 1fr;
-    grid-template-areas: "description description"
-                         "badge title";
-    grid-gap: 10px;
   }
 
   .header-formatos {
