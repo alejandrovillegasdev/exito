@@ -207,6 +207,11 @@
   padding: 32px 15px;
 }
 
+#movil-exito .beneficios .banner-recargas {
+  width: 100%;
+  margin: 20px 0;
+}
+
 .beneficios .beneficios-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
