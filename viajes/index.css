@@ -69,6 +69,36 @@
 	padding: 0 10px;
 }
 
+#viajes-exito .beneficios {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.beneficios .beneficios-container{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 35px;
+}
+
+.beneficios-container .beneficio {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  border-radius: 10px;
+}
+
+.beneficios .beneficios-title {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 #viajes-exito .breadcrumb .breadcrumb-container strong {
 	color: #ffeb00;
 	font-weight: 300;
@@ -169,7 +199,8 @@
     display: block;
   }
 
-  #viajes-exito .description .description-container{
+  #viajes-exito .description .description-container,
+  .beneficios .beneficios-container{
     grid-template-columns: 1fr;
   }
 

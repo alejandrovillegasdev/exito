@@ -220,6 +220,7 @@
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  font-size: 0.9em;
 }
 
 #puntos-exito .productos-marcados-container .punto .punto-text {
@@ -230,6 +231,7 @@
   grid-template-columns: 100px 1fr;
   color: #fff;
   align-items: center;
+  height: 145px;
 }
 
 #puntos-exito .productos-marcados-container .punto:nth-child(1) .punto-text {
