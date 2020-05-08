@@ -37,6 +37,8 @@
   position: relative;
   max-width: 1680px;
   margin: 0 auto;
+  padding: 0;
+  width: 100%;
 }
 
 .servicios-container span {
