@@ -8,7 +8,7 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
-	background: #ffeb00;
+	/* background: #ffeb00; */
 }
 
 .header .header-container img {
@@ -70,7 +70,7 @@
 .header .header-title h2 {
   font-size: 25px;
   font-weight: 400;
-  margin-top: 5px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -99,7 +99,7 @@
 .description-paquetes {
   background-color: #f8f8f8;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 #puntos-exito .description .description-container .description-text {
@@ -283,6 +283,7 @@
   }
 
   #puntos-exito .description .description-container,
+  .description-container .description-info .description-paquetes .phone-container,
   #puntos-exito .productos-marcados-container {
     grid-template-columns: 1fr;
   }

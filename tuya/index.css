@@ -8,7 +8,7 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
-	background: #ffeb00;
+	/* background: #ffeb00; */
 }
 
 .header .header-container img {
@@ -61,12 +61,17 @@
 }
 
 .header .header-title h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 0;
+
 }
 
 .header .header-title h2 {
-  font-size: 1.3em;
-  margin: 10px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 #viajes-exito .description {

@@ -8,7 +8,6 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
-	background: #ffeb00;
 }
 
 .header .header-container img {
@@ -57,7 +56,7 @@
 }
 
 #estaciones .nota {
-  background: #ffeb00;
+  /* background: #ffeb00; */
   padding: 10px 15px;
   display: grid;
   grid-template-columns: minmax(auto, 900px);

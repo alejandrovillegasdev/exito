@@ -8,7 +8,7 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
-	background: #ffeb00;
+	/* background: #ffeb00; */
 }
 
 .header .header-container img {

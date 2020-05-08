@@ -8,7 +8,7 @@
 	display: grid;
 	grid-template-columns: minmax(auto, 1680px);
 	justify-content: center;
-	background: #ffeb00;
+	/* background: #ffeb00; */
 }
 
 .header .header-container img {
@@ -184,7 +184,7 @@
 .separe .separe-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 250px;
   align-items: center;
 }
 
@@ -238,14 +238,14 @@
 .epm .epm-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 250px;
   align-items: center;
 }
 
 .codensa .codensa-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 250px;
   align-items: center;
 }
 
@@ -287,6 +287,7 @@
 
 #medios-pago .brilla .brilla-container h3 {
   font-size: 1.7em;
+  margin: 0;
 }
 
 #medios-pago .brilla .cupos-brilla {
@@ -308,7 +309,6 @@
 .brilla .brilla-container .brilla-opciones .brilla-opcion .brilla-title h5 {
   color: #d82339;
   padding-left: 10px;
-  font-size: 1.12em;
   margin: 5px 0 0 10px;
 }
 
@@ -326,7 +326,7 @@
 .brilla .brilla-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 260px;
   align-items: center;
 }
 
@@ -357,7 +357,7 @@
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
-  height: 150px;
+  height: 190px;
 }
 
 .brilla .brilla-container .brilla-opciones .brilla-opcion .brilla-title {

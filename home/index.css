@@ -8,7 +8,7 @@
 }
 
 .banner-header-img {
-  width: 90%;
+  width: 100%;
   margin-top: 30px;
 }
 
@@ -35,7 +35,7 @@
 
 .header-container {
   position: relative;
-  max-width: 1280px;
+  max-width: 1680px;
   margin: 0 auto;
 }
 
@@ -151,6 +151,14 @@
   line-height: 38px;
 }
 
+.no-mobile {
+  display: block;
+}
+
+.no-screen {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   
   .section-servicios {
@@ -165,6 +173,14 @@
     width: 60%;
   }
 
+  .no-mobile {
+    display: none;
+  }
+
+  .no-screen {
+    display: block;
+  }
+
   .banner-logo-container {
     position: absolute;
     top: 50px;
@@ -173,14 +189,14 @@
 
   .banner-logo {
     padding: 0px 10px 5px 0px;
-    width: 90px;
+    width: 130px;
     right: 15px;
     top: 37px;
   }
 
   .heder-logo-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.3rem;
+    font-size: 3rem;
   }
 
   .home-header {
