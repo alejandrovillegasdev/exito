@@ -291,7 +291,7 @@
 #movil-exito .puntos .puntos-container .logos-line-2{
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   align-items: center;
 }
 #movil-exito .footer {
