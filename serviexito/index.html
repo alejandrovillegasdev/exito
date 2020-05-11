@@ -152,7 +152,8 @@
       </div>
       <img class="giros-img" src="./img/img-07.svg" alt="Remesas">
     </div>
-    <div class="politicas-container">
+    <button type="button" class="collapsible"><strong>Políticas para el proceso de envío</strong></button>
+    <div class="politicas-container content">
       <div>
         <p>&#9725; <strong>Cada giro internacional </strong>se hace a través de empresas transmisoras de dinero y será responsabilidad de
           Transnetworking hacer el monitoreo regulatorio en tiempo real conforme a regulaciones aplicables en países de
@@ -250,7 +251,22 @@
       <img class="no-screen" src="./img/footer-clickam-mobile.png" alt="clickam">
     </div>
   </footer>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
 
 </html>
