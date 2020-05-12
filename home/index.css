@@ -181,6 +181,7 @@
 
   .no-screen {
     display: block;
+    width: 100%;
   }
 
   .banner-logo-container {
