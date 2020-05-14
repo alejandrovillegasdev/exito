@@ -7,7 +7,8 @@
   padding: 15px 15px 0 15px;
 	display: grid;
 	grid-template-columns: minmax(auto, 1680px);
-	justify-content: center;
+  justify-content: center;
+  text-align: center;
 	/* background: #ffeb00; */
 }
 
