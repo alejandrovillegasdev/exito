@@ -119,6 +119,8 @@
 
 .description-paquetes .description-paquetes-container .option p {
   margin: 5px 0;
+  color: #000;
+  text-decoration: none;
 }
 
 #viajes-exito .description .description-container .description-text {
@@ -250,7 +252,16 @@
   padding-left: 10px;
 }
 
-#viajes-exito .description .description-container .description-info .description-paquetes a {
+html {
+  scroll-behavior: smooth !important;
+}
+
+.link-medio {
+  text-decoration: none;
+}
+
+
+/* #viajes-exito .description .description-container .description-info .description-paquetes a {
   margin-top: 10px;
   background: #e3241c;
   text-decoration: none;
@@ -260,7 +271,7 @@
   color: #fff;
   width: 200px;
   margin-bottom: 10px;
-}
+} */
 
 #viajes-exito .footer {
   margin-top: 30px;

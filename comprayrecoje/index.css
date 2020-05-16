@@ -139,7 +139,8 @@
 
 #compra-y-recoje .video .video-beneficios .beneficio span {
 	margin-top: 15px;
-	font-weight: 700;
+	font-weight: 900;
+	font-size: 1.4em;
 }
 
 #compra-y-recoje .video .video-container {
@@ -201,7 +202,7 @@
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	cursor: pointer;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 700;
 }
 
