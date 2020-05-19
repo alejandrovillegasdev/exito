@@ -174,10 +174,12 @@
   background: #f8f8f8;
   border-radius: 10px;
   padding: 15px 0;
+  text-decoration: none;
 }
 
 .telefonos-container .telefonos-lista .telefono h4 {
   margin: 0;
+  color: #000;
 }
 
 .telefonos-container .telefonos-lista .telefono span {

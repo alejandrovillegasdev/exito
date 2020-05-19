@@ -166,6 +166,8 @@
   padding:10px 10px 0 10px;
   font-size: 0.8em;
   border-radius: 10px;
+  text-decoration: none;
+  color: #000;
 }
 
 .beneficios .beneficios-title {
