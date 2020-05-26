@@ -410,8 +410,8 @@
 }
 
 #compra-y-recoje .video .tabs-container .tab:first-child img {
-	width: 100px;
-	padding: 5px;
+	height: 40px;
+    padding: 2px;
 }
 
 #compra-y-recoje .footer {
