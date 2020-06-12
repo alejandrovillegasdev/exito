@@ -31,6 +31,45 @@
         },
         {
 					"domicilio" : "",
+					"nombreMun" : "Itagüí",
+					"almacenes" : [
+						{
+              "tipo": "Supermercado",
+              "nombre": "Éxito Itagui",
+              "direccion": "Carrera 50 A # 41 - 42",
+              "telefonos": ["6048529"],
+              "horarios": []
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "La Ceja",
+					"almacenes" : [
+						{
+              "tipo": "Vecino",
+              "nombre": "Éxito La Ceja",
+              "direccion": "Carrera 13 # 26B – 56 barrio Ofir; centro comercial Viva La Ceja local 122.",
+              "telefonos": ["6051175"],
+              "horarios": []
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "La Estrella",
+					"almacenes" : [
+						{
+              "tipo": "Supermercado",
+              "nombre": "Éxito Plaza 77 Sur",
+              "direccion": "Carrera 50 D  calle 77 Sur. Mall plaza 77",
+              "telefonos": ["3206948175"],
+              "horarios": []
+            }
+					]
+        },
+        {
+					"domicilio" : "",
 					"nombreMun" : "Envigado",
 					"almacenes" : [
 						{
@@ -383,6 +422,19 @@
               "horarios": []
             }
 					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Soledad",
+					"almacenes" : [
+            {
+              "tipo": "Soledad",
+              "nombre": "Éxito Soledad",
+              "direccion": "Calle 32 # 30 - 15 Soledad",
+              "telefonos": ["3136568364"],
+              "horarios": []
+            }
+					]
 				},
 				{
 					"domicilio" : "",
@@ -486,6 +538,19 @@
               "horarios": []
             }
 					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Chiquinquirá",
+					"almacenes" : [
+            {
+              "tipo": "Vecino",
+              "nombre": "Éxito Chiquinquira",
+              "direccion": "Calle. 17 # 6-70 Parque Julio Florez",
+              "telefonos": ["3053960251"],
+              "horarios": []
+            }
+					]
 				},
 				{
 					"domicilio" : "",
@@ -531,6 +596,19 @@
               "horarios": []
             }
 					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "La Dorada",
+					"almacenes" : [
+						{
+              "tipo": "Vecino",
+              "nombre": "Éxito La Dorada",
+              "direccion": "Carrera 3 #  14 - 02",
+              "telefonos": ["3054080295"],
+              "horarios": []
+            }
+					]
 				}
 			]
 		},
@@ -546,6 +624,13 @@
               "nombre": "Éxito Florencia",
               "direccion": "Carrera 3ra a bis 21 a 14 cccial gran plaza",
               "telefonos": ["3232844860"],
+              "horarios": []
+            },
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Florencia Centro",
+              "direccion": "Calle 15 # 10 23 barrio centro",
+              "telefonos": ["4380276"],
               "horarios": []
             }
 					]
@@ -919,8 +1004,8 @@
               "horarios": []
             }
           ]
-				},
-				{
+        },
+        {
 					"domicilio" : "",
 					"nombreMun" : "Fusagasugá",
 					"almacenes" : [
@@ -929,6 +1014,58 @@
               "nombre": "Éxito Fusagasuga",
               "direccion": "Diagonal 18 # 15 - 90 - C.Comercial Manila",
               "telefonos": ["(031)7444182"],
+              "horarios": []
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Mosquera",
+					"almacenes" : [
+						{
+              "tipo": "Vecino",
+              "nombre": "Éxito Mosquera",
+              "direccion": "Carrera 3 Nro 15  A 17 local102 Cco Ecoplaza",
+              "telefonos": ["8295777 Ext: 217300"],
+              "horarios": []
+            }
+					]
+        },
+				{
+					"domicilio" : "",
+					"nombreMun" : "Chía",
+					"almacenes" : [
+						{
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Fontanar",
+              "direccion": "Kilometro 2.5 vía chía – Cajicá costado oriental Centro Comercial",
+              "telefonos": ["3297850"],
+              "horarios": []
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Soacha",
+					"almacenes" : [					 
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Soacha",
+              "direccion": "Transversal 7C #. 30B 42A 30B-66  Cc.Gran plaza soacha",
+              "telefonos": ["7436464 ex 402500"],
+              "horarios": []
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Zipaquirá",
+					"almacenes" : [					 
+            {
+              "tipo": "Vecino",
+              "nombre": "Éxito Zipaquira",
+              "direccion": "Calle 15 # 10 - 23",
+              "telefonos": ["7429009 Ext: 00 - 03"],
               "horarios": []
             }
 					]
@@ -1392,6 +1529,19 @@
               "nombre": "Éxito Melgar",
               "direccion": "Calle 8 con carrera 15, Avenida enida Cafam",
               "telefonos": ["7442244"],
+              "horarios": []
+            }
+					]
+        },
+        {
+					"domicilio" : "",
+					"nombreMun" : "Espinal",
+					"almacenes" : [
+            {
+              "tipo": "Vecino",
+              "nombre": "Éxito Espinal",
+              "direccion": "Avenida  40 Trs 33-00 Esquina CC Unicentro local142",
+              "telefonos": ["2394705 Ext: 00-01 y 04"],
               "horarios": []
             }
 					]
