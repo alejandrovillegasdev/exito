@@ -8,12 +8,12 @@
 					"nombreMun" : "Apartadó",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Apartadó",
-							"direccion"	: "Calle 103 con Carrera 100 C. C. Plaza del Rio",
-							"telefonos"	: [ "204503 - 204500 " ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Apartado",
+              "direccion": "Calle 103 con carrera 100 Centro Comercial Plaza  del Rio",
+              "telefonos": ["604 9696 Ext: 204503"],
+              "horarios": []
+            }
 					]
 				},
 				{
@@ -21,228 +21,185 @@
 					"nombreMun" : "Caucasia",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Caucasia",
-							"direccion"	: "Carrera 20 No. 28 - 12, Barrio La Y",
-							"telefonos"	: [ "226500 - 226501 - 226502" ],
-							"horarios"	: [ "Todos los días de 8:00 a.m. - 9:00 p.m." ]
-						}
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Caucasia",
+              "direccion": "CARRERA 20 # 28 - 12 BARRIO LA YE CC Viva Caucacia",
+              "telefonos": ["6049696 Ext: 226500"],
+              "horarios": []
+            }
 					]
 				},
 				{
 					"domicilio" : "(4) 514 6666",
 					"nombreMun" : "Medellín",
 					"almacenes" : [
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Aranjuez",
-							"direccion"	: "Calle 94 No. 48 - 13",
-							"telefonos"	: [ "6043976 - ext 207300 - 207301" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Aventura",
-
-							"telefonos"	: [ "6046881" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},						
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Belén",
-							"direccion"	: "Carrera 77 No. 28 - 124 ",
-							"telefonos"	: [ "6046748" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Colombia",
-							"direccion"	: "Carrera 66 No. 49 - 0",
-							"telefonos"	: [ "6050307 ext 203100 - 203101" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Del Este",
-							"direccion"	: "Carrera 25 No. 3 - 1 (Local 9901)",
-							"telefonos"	: [ "6040125 ext. 202800 - .202813" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Envigado",
-							"direccion"	: "Carrera 48 No. 34 Sur - 29",
-							"telefonos"	: [ "6049666" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Envigado Centro",
-							"direccion"	: "Calle 36 No. 43 - 40",
-							"telefonos"	: [ "(4) 305 336 03 97" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Gran Vía",
-							"direccion"	: "Diagonal 75B No. 6 - 105",
-							"telefonos"	: [ "6048295" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Indiana Mall",
-
-							"telefonos"	: [ "6046467" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "",
-							"nombre"	: "Éxito La Ceja",
-
-							"telefonos"	: [ "6051175 Ext 238400" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "",
-							"nombre"	: "Éxito La Central",
-
-							"telefonos"	: [ "404004 6050603 Ext 404001 404000" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Itagüí",
-							"direccion"	: "Carrera 50A No. 41 - 42",
-							"telefonos"	: [ "6048529" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Junin",
-							"direccion"	: "",
-							"telefonos"	: [ "6043959" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito La 33",
-							"direccion"	: "Carrera 66B No. 32D - 35",
-							"telefonos"	: [ "6044303" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito La América",
-							"direccion"	: "Carrera 79B No. 45 - 90",
-							"telefonos"	: [ "(4) 411 2737", "(4) 411 2756" ],
-							"horarios"	: [ "Lunes a sábado 7:00 a.m a 9:00 p.m.", "Domingos y festivos 7:00 a.m a 7:00 p.m."]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Laureles",
-							"direccion"	: "6046979 Ext: 203700",
-							"telefonos"	: [ "(4) 4898999" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Maracaibo",
-							"direccion"	: "Carrera 49 No. 52 - 165",
-							"telefonos"	: [ "6051123" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Molinos",
-							"direccion"	: "Calle 30A No. 82A 50 Local 119 Centro comercial los Molinos",
-							"telefonos"	: [ "6046618 ext 251400" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "",
-							"nombre"	: "Éxito Éxito Plaza 77 Sur",
-							"direccion"	: "",
-							"telefonos"	: [ "402800 - 402801" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Poblado",
-							"direccion"	: "Calle 10 No. 43E - 135",
-							"telefonos"	: [ "6050145" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Robledo",
-							"direccion"	: "Carrera 80 No. 64 - 61",
-							"telefonos"	: [ "6045362" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Sabaneta",
-							"direccion"	: "Carrera 45 No. 74A Sur 57",
-							"telefonos"	: [ "6049342" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 5:00 p.m." ]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito San Antonio",
-							"direccion"	: "Calle 48 No. 46 - 115",
-							"telefonos"	: [ "6050372" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito San Diego",
-							"direccion"	: "Calle 34 No. 43 - 65",
-							"telefonos"	: [ "6050281" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Especializado",
-							"nombre"	: "Éxito Mayorca",
-							"direccion"	: "Calle 51 Sur No. 48-57 Local 234",
-							"telefonos"	: [ "6049355" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 5:00 p.m." ]
-						},
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Unicentro",
-							"direccion"	: "Carrera 66A No. 34A 25",
-							"telefonos"	: [ "6050149" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito La 70",
-							"direccion"	: "Carrera 70 No. 43 - 31",
-							"telefonos"	: [ "6050180" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
-					]
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Unicentro Medellin",
+              "direccion": "Carrera 66 A # 34 A 25  Local 039",
+              "telefonos": ["6050149"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Moli#s",
+              "direccion": "Calle 30 A # 82 A 50 Local 119 Centro comercial los Molinos",
+              "telefonos": ["6046618"],
+              "horarios": []
+            },
+            {
+              "tipo": "Vecino",
+              "nombre": "Éxito Del Este",
+              "direccion": "Carrera 25 # 3 - 1 (Local 9901)",
+              "telefonos": ["6040125"],
+              "horarios": []
+            },
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Sandiego",
+              "direccion": "Calle 34 #  43 - 65",
+              "telefonos": ["3053396986"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Belen",
+              "direccion": "Carrera 77 # 28 - 124",
+              "telefonos": ["6046748"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito La 33",
+              "direccion": "Carrera 66 B # 32 D 35",
+              "telefonos": ["6048585"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito La 70",
+              "direccion": "Carrera 70 # 43 - 31",
+              "telefonos": ["3217900168"],
+              "horarios": []
+            },
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito San Antonio",
+              "direccion": "Calle 48 # 46 -115",
+              "telefonos": ["6050352"],
+              "horarios": []
+            },
+            {
+              "tipo": "Punto Entrega",
+              "nombre": "Punto De Entrega Oviedo",
+              "direccion": "Carrera 43B #6 sur 140",
+              "telefonos": ["3217605960"],
+              "horarios": []
+            },
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Colombia",
+              "direccion": "Carrera 66 #  49 - 01",
+              "telefonos": ["6050307"],
+              "horarios": []
+            },
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito La Central",
+              "direccion": "Calle 49 # 20 - 90",
+              "telefonos": ["6050603"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Aranjuez",
+              "direccion": "Calle 94 # 48 - 13",
+              "telefonos": ["6043976"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Junin",
+              "direccion": "Carrera 49 # 49 -33 centro Medelin",
+              "telefonos": ["6043959"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Aventura",
+              "direccion": "Calle 55 #. 65 - 112 cc Avenida entura",
+              "telefonos": ["6046881"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Maracaibo",
+              "direccion": "Carrera 49 # 52 - 165",
+              "telefonos": ["6051123"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Junin",
+              "direccion": "Carrera 49 # 49 -33 centro Medelin",
+              "telefonos": ["6043959"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Aventura",
+              "direccion": "Calle 55 #. 65 - 112 cc Avenida entura",
+              "telefonos": ["6046881"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Maracaibo",
+              "direccion": "Carrera 49 # 52 - 165",
+              "telefonos": ["6051123"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Gran Via",
+              "direccion": "Diagonal 75 B # 6-105",
+              "telefonos": ["6048295"],
+              "horarios": []
+            },
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Laureles",
+              "direccion": "Carrera 81 # 37 - 100",
+              "telefonos": ["6046979"],
+              "horarios": []
+            },
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Robledo",
+              "direccion": "Carrera 80 # 64 - 61",
+              "telefonos": ["3053682058"],
+              "horarios": []
+            }
+          ]
 				},
 				{
 					"domicilio" : "",
 					"nombreMun" : "Bello",
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Bello",
-							"direccion"	: "Diagonal 51 No. 35 - 120",
-							"telefonos"	: [ "6050550" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						},
-						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Bello Centro",
-							"direccion"	: "Carrera 49 No. 50 - 12",
-							"telefonos"	: [ "6050577" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Bello",
+              "direccion": "Diagonal 51 # 35 - 120",
+              "telefonos": ["6050550"],
+              "horarios": []
+            },
+            {
+              "tipo": "Vecino",
+              "nombre": "Éxito Bello Centro",
+              "direccion": "Carrera 49 # 50 - 12",
+              "telefonos": ["6050577"],
+              "horarios": []
+            }
 					]
 				},
 				{
@@ -250,12 +207,12 @@
 					"nombreMun" : "Rionegro", 
 					"almacenes" : [
 						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Rionegro - San Nicolás",
-							"direccion"	: "Calle 43 Avenida Galán con Carrera 56 C. C. San Nicolas",
-							"telefonos"	: [ "6152090" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Rionegro",
+              "direccion": "Calle 43 Avenida evida Galan con Carrera 56 Centro Comercial San Nicolas",
+              "telefonos": ["6152090 Ext: 205201"],
+              "horarios": []
+            }
 					]
 				},
 				{
@@ -263,12 +220,12 @@
 					"nombreMun" : "San Jerónimo",
 					"almacenes" : [
 						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito San Jerónimo",
-							"direccion"	: "Carrera 12AA No. 22 - 13",
-							"telefonos"	: [ "6041919 207400" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+              "tipo": "Supermercado",
+              "nombre": "Éxito San Jeronimo",
+              "direccion": "Carrera 12 AA # 22 - 13",
+              "telefonos": ["6050145"],
+              "horarios": []
+            }
 					]
 
 				},
@@ -276,31 +233,26 @@
 					"domicilio" : "",
 					"nombreMun" : "Carepa",
 					"almacenes" : [
-
-						{
-							"tipo"		: "Supermercado",
-							"nombre"	: "Éxito Carepa",
-							"direccion"	: "Carrera 80 No. 68 - 40",
-							"telefonos"	: [ "217600 - 217601 " ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-						}
+            {
+              "tipo": "Supermercado",
+              "nombre": "Éxito Carepa",
+              "direccion": "Carrera 80 # 68 - 40 Centro Comercial Las Playas",
+              "telefonos": ["6049696 Ext: 217604"],
+              "horarios": []
+            }
 					]
 				},
 				{
 					"domicilio" : "",
 					"nombreMun" : "Turbo",
 					"almacenes" : [
-
-						{
-							"tipo"		: "Vecino",
-							"nombre"	: "Éxito Turbo",
-							"direccion"	: "Carrera 14 No. 105 - 16 Parqueadero Mago Quinto ",
-							"telefonos"	: [ "217700 - 217701 - 217702" ],
-							"horarios"	: [ "7:00 a.m. a 8:00 a.m. Horario especial mujeres embarazadas, adulto mayor y personas en condición de discapacidad. Horario general: 8:30 a.m. cierre: 7:00 p.m." ]
-
-
-
-						}
+            {
+              "tipo": "Vecino",
+              "nombre": "Éxito Turbo",
+              "direccion": "Carrera 14 # 105 - 16 Parqueadero Mago Quinto",
+              "telefonos": ["6049696 Ext: 217700"],
+              "horarios": []
+            }
 					]
 				}
 			]
