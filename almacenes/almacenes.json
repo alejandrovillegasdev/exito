@@ -428,7 +428,7 @@
 					"nombreMun" : "Soledad",
 					"almacenes" : [
             {
-              "tipo": "Soledad",
+              "tipo": "Hipermercado",
               "nombre": "Éxito Soledad",
               "direccion": "Calle 32 # 30 - 15 Soledad",
               "telefonos": ["3136568364"],
@@ -675,6 +675,14 @@
               "direccion": "Carrera 9 # 6N - 03 Avenida Panamericana",
               "telefonos": ["3218033195"],
               "horarios": []
+            },
+            {
+              "tipo": "Vecino",
+              "nombre": "Éxito Popayan Centro",
+              "direccion": "Carrera 5 N° 6 - 45",
+              "telefonos": 3216298040,
+              "horarios": [],
+              "Ciudad": "Popayán"
             }
 					]
 				}
@@ -1458,8 +1466,8 @@
 					]
 				}
 			]
-		},
-		{
+    },
+    {
 			"nombreDep" : "Sucre",
 			"municipios" : [
 				{
@@ -1491,6 +1499,24 @@
               "nombre": "Éxito Tolu",
               "direccion": "CALLE 15 # 02 - 42 PLAZA PRINCIPAL",
               "telefonos": ["6049696 Ext: 206800"],
+              "horarios": []
+            }
+					]
+				}
+			]
+		},
+		{
+			"nombreDep" : "Guajira",
+			"municipios" : [
+				{
+					"domicilio" : "",
+					"nombreMun" : "Riohacha",
+					"almacenes" : [
+            {
+              "tipo": "Hipermercado",
+              "nombre": "Éxito Riohacha",
+              "direccion": "Calle 15 # 21 - Esquina",
+              "telefonos": ["3017923342"],
               "horarios": []
             }
 					]
