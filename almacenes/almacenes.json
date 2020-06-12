@@ -87,7 +87,7 @@
               "horarios": []
             },
             {
-              "tipo": "Hipermercado wow",
+              "tipo": "WOW",
               "nombre": "Éxito WOW Envigado",
               "direccion": "Carrera 48 # 34 sur-29",
               "telefonos": ["3116412631"],
@@ -366,7 +366,7 @@
               "horarios": []
             },
             {
-              "tipo": "Hipermercado wow",
+              "tipo": "WOW",
               "nombre": "Éxito WOW BuenAvenida ista",
               "direccion": "Calle 98 # 52-115",
               "telefonos": ["3216294909"],
@@ -395,7 +395,7 @@
             },
             {
               "tipo": "Hipermercado",
-              "nombre": "Éxito Pa#rama",
+              "nombre": "Éxito Parama",
               "direccion": "Calle 31 # 6 B 135",
               "telefonos": ["3093232"],
               "horarios": []
@@ -774,14 +774,14 @@
 					"nombreMun" : "Bogotá",
 					"almacenes" : [
             {
-              "tipo": "Hipermercado wow",
+              "tipo": "WOW",
               "nombre": "Éxito Country",
               "direccion": "Calle 134 # 9 - 51",
               "telefonos": ["3907575 Ext: 208100-20801"],
               "horarios": []
             },
             {
-              "tipo": "Hipermercado wow",
+              "tipo": "WOW",
               "nombre": "Éxito Colina",
               "direccion": "Avenida enida Boyaca Carrera 72 # 146 B",
               "telefonos": ["7494999"],
@@ -809,7 +809,7 @@
               "horarios": []
             },
             {
-              "tipo": "Hipermercado wow",
+              "tipo": "WOW",
               "nombre": "Éxito WOW Unicentro",
               "direccion": "Avenida enida 15 # 123 - 30 local 1233",
               "telefonos": ["7490333"],
@@ -1398,7 +1398,7 @@
             {
               "tipo": "Supermercado",
               "nombre": "Éxito CañAvenida eral",
-              "direccion": "Calle 30 # 25-71 C.C. CañAvenida eral local 100",
+              "direccion": "Calle 30 # 25-71 C.C. Cañaveral local 100",
               "telefonos": ["6187004"],
               "horarios": []
             },
