@@ -22,7 +22,7 @@ function methodI() {
             var strContenido = $("#divAlmacenes").text();
             if (strContenido == "") {
                 var rptJson = $.getJSON(
-                    "https://d1rnpo543m3vxh.cloudfront.net/content/Almacenes.json",
+                    "https://raw.githubusercontent.com/alejandrovillegasdev/exito/master/almacenes/almacenes.json",
                     function (data) {
                         if (data != null && data.departamento.length != 0) {
                             $("#ddlDepartamento").empty();
