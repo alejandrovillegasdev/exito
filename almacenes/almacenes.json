@@ -122,14 +122,14 @@
 					"almacenes" : [
             {
               "tipo": "Hipermercado",
-              "nombre": "Éxito Unicentro Medellin",
+              "nombre": "Éxito Unicentro Medellín",
               "direccion": "Carrera 66 A # 34 A 25  Local 039",
               "telefonos": ["6050149"],
               "horarios": []
             },
             {
               "tipo": "Supermercado",
-              "nombre": "Éxito Moli#s",
+              "nombre": "Éxito Molinos",
               "direccion": "Calle 30 A # 82 A 50 Local 119 Centro comercial los Molinos",
               "telefonos": ["6046618"],
               "horarios": []
@@ -308,7 +308,7 @@
 					"almacenes" : [
 						{
               "tipo": "Supermercado",
-              "nombre": "Éxito San Jeronimo",
+              "nombre": "Éxito San Jerónimo",
               "direccion": "Carrera 12 AA # 22 - 13",
               "telefonos": ["6050145"],
               "horarios": []
@@ -367,7 +367,7 @@
             },
             {
               "tipo": "WOW",
-              "nombre": "Éxito WOW BuenAvenida ista",
+              "nombre": "Éxito WOW Buenavista",
               "direccion": "Calle 98 # 52-115",
               "telefonos": ["3216294909"],
               "horarios": []
@@ -647,7 +647,7 @@
             {
               "tipo": "Hipermercado",
               "nombre": "Éxito Yopal",
-              "direccion": "Calle 30 N° 26-29 Plaza Comercial AlcarAvenida an, Local 72",
+              "direccion": "Calle 30 N° 26-29 Plaza Comercial Alcarcan, Local 72",
               "telefonos": ["6328972"],
               "horarios": []
             },
@@ -783,7 +783,7 @@
             {
               "tipo": "WOW",
               "nombre": "Éxito Colina",
-              "direccion": "Avenida enida Boyaca Carrera 72 # 146 B",
+              "direccion": "Avenida Boyaca Carrera 72 # 146 B",
               "telefonos": ["7494999"],
               "horarios": []
             },
@@ -811,7 +811,7 @@
             {
               "tipo": "WOW",
               "nombre": "Éxito WOW Unicentro",
-              "direccion": "Avenida enida 15 # 123 - 30 local 1233",
+              "direccion": "Avenida 15 # 123 - 30 local 1233",
               "telefonos": ["7490333"],
               "horarios": []
             },
@@ -887,8 +887,8 @@
             },
             {
               "tipo": "Hipermercado",
-              "nombre": "Éxito Americas",
-              "direccion": "Avenida enida Americas # 68 A 94",
+              "nombre": "Éxito Américas",
+              "direccion": "Avenida Américas # 68 A 94",
               "telefonos": ["3216262030"],
               "horarios": []
             },
@@ -901,7 +901,7 @@
             },
             {
               "tipo": "Hipermercado",
-              "nombre": "Éxito Gran Estacion",
+              "nombre": "Éxito Gran Estación",
               "direccion": "Avenida calle 26 # 62-47 local 134 y local 235",
               "telefonos": ["3216291138"],
               "horarios": []
@@ -1182,7 +1182,7 @@
 					"almacenes" : [
             {
               "tipo": "Hipermercado",
-              "nombre": "Éxito BuenAvenida ista Santa Marta",
+              "nombre": "Éxito Buenavista Santa Marta",
               "direccion": "Calle 32 # 29 A 500",
               "telefonos": [3052948083],
               "horarios": []
@@ -1221,14 +1221,14 @@
             },
             {
               "tipo": "Hipermercado",
-              "nombre": "Éxito Sabana VillAvenida icencio",
+              "nombre": "Éxito Sabana Villicencio",
               "direccion": "Calle 7 # 45-185 Centro Comercial ViVa",
               "telefonos": ["6849690"],
               "horarios": []
             },
             {
               "tipo": "Vecino",
-              "nombre": "Éxito VillAvenida icencio Centro",
+              "nombre": "Éxito Villicencio Centro",
               "direccion": "Carrera 10 # 12 - 01",
               "telefonos": ["6740808"],
               "horarios": []
@@ -1291,7 +1291,7 @@
             },
             {
               "tipo": "Vecino",
-              "nombre": "Éxito Avenida enida Quinta Cucuta",
+              "nombre": "Éxito Avenida Quinta Cúcuta",
               "direccion": "Avenida 5ta Calle 12 - 68",
               "telefonos": ["5956476"],
               "horarios": []
@@ -1496,7 +1496,7 @@
 					"almacenes" : [
             {
               "tipo": "Súper",
-              "nombre": "Éxito Tolu",
+              "nombre": "Éxito Tolú",
               "direccion": "CALLE 15 # 02 - 42 PLAZA PRINCIPAL",
               "telefonos": ["6049696 Ext: 206800"],
               "horarios": []
@@ -1532,7 +1532,7 @@
 					"almacenes" : [
 						{
               "tipo": "Supermercado",
-              "nombre": "Éxito Ibague",
+              "nombre": "Éxito Ibagué",
               "direccion": "Carrera 5 # 80 - 60",
               "telefonos": ["2771825 Ext: 215601"],
               "horarios": []
@@ -1553,7 +1553,7 @@
             {
               "tipo": "Supermercado",
               "nombre": "Éxito Melgar",
-              "direccion": "Calle 8 con carrera 15, Avenida enida Cafam",
+              "direccion": "Calle 8 con carrera 15, Avenida Cafam",
               "telefonos": ["7442244"],
               "horarios": []
             }
@@ -1583,7 +1583,7 @@
 					"almacenes" : [
 						{
               "tipo": "Hipermercado",
-              "nombre": "Éxito BuenAvenida entura",
+              "nombre": "Éxito Buenventura",
               "direccion": "Calle 2a # 66-86 KM 11",
               "telefonos": ["2402244"],
               "horarios": []
@@ -1653,7 +1653,7 @@
             {
               "tipo": "WOW",
               "nombre": "Éxito WOW Flora",
-              "direccion": "Avenida 3 F #rte 52N- 46",
+              "direccion": "Avenida 3 Norte 52N- 46",
               "telefonos": ["3218033202"],
               "horarios": []
             },
