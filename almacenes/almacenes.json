@@ -220,13 +220,6 @@
             },
             {
               "tipo": "Supermercado",
-              "nombre": "Éxito Aventura",
-              "direccion": "Calle 55 #. 65 - 112 cc Avenida entura",
-              "telefonos": ["6046881"],
-              "horarios": []
-            },
-            {
-              "tipo": "Supermercado",
               "nombre": "Éxito Maracaibo",
               "direccion": "Carrera 49 # 52 - 165",
               "telefonos": ["6051123"],
@@ -234,15 +227,8 @@
             },
             {
               "tipo": "Supermercado",
-              "nombre": "Éxito Junin",
-              "direccion": "Carrera 49 # 49 -33 centro Medelin",
-              "telefonos": ["6043959"],
-              "horarios": []
-            },
-            {
-              "tipo": "Supermercado",
               "nombre": "Éxito Aventura",
-              "direccion": "Calle 55 #. 65 - 112 cc Avenida entura",
+              "direccion": "Calle 55 #. 65 - 112 cc Avenida Aventura",
               "telefonos": ["6046881"],
               "horarios": []
             },
