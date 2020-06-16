@@ -135,6 +135,13 @@
               "horarios": []
             },
             {
+              "tipo": "WOW",
+              "nombre": "Éxito WOW Poblado",
+              "direccion": "Calle 10 # 43 E 135 ",
+              "telefonos": ["3216296067"],
+              "horarios": []
+            },
+            {
               "tipo": "Vecino",
               "nombre": "Éxito Del Este",
               "direccion": "Carrera 25 # 3 - 1 (Local 9901)",
