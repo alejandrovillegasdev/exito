@@ -126,7 +126,7 @@ function methodI() {
                 .attr("class", "pFormato")
                 .html(almacen.tipo)
                 .appendTo(divAlmacen);
-            const claseTel = almacen.tipo === 'Supermercado' ? 'almacen-cel' : 'almacen-tel'
+            const claseTel = almacen.tipo === 'EXPRESS' ? 'almacen-tel' : 'almacen-cel'
             $("<p />")
                 .attr("class", claseTel)
                 .html(almacen.telefonos)
