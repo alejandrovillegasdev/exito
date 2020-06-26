@@ -215,11 +215,11 @@
 					"almacenes" : [
 						{
               "nombre": "Éxito Apartado",
-              "telefonos": 3052228961,
-              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
-              "direccion": "Calle 103 con Cra 100 CC Plaza  del Rio",
-              "ciudad": "APARTADO",
-              "tipo": "Supermercado"
+              "telefonos": "604 9696 Ext: 204503",
+              "horarios": ".",
+              "direccion": "Calle 103 con carrera 100 Centro Comercial Plaza  del Rio",
+              "ciudad": "Apartado",
+              "tipo": "Hipermercado"
             }
 					]
         },
@@ -277,19 +277,6 @@
               "ciudad": "ITAGUI",
               "tipo": "Supermercado"
             }
-					]
-				},
-				{
-					"domicilio" : "",
-					"nombreMun" : "Caucasia",
-					"almacenes" : [
-						{
-							"tipo"		: "Hipermercado",
-							"nombre"	: "Éxito Caucasia",
-							"direccion"	: "Cra 20 No. 28 - 12, Barrio La Y",
-							"telefonos"	: [ "226500 - 226501 - 226502" ],
-							"horarios"	: [ "Todos los días de 8:00 a.m. - 9:00 p.m." ]
-						}
 					]
 				},
 				{
