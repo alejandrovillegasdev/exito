@@ -205,7 +205,7 @@
               "horarios": "L-D 7:00 A.M A 7:00 P.M.",
               "direccion": "Calle 10 # 43 E 135",
               "ciudad": "MEDELLIN",
-              "tipo": "Supermercado"
+              "tipo": "WOW"
             }
           ]
 				},
@@ -215,11 +215,11 @@
 					"almacenes" : [
 						{
               "nombre": "Éxito Apartado",
-              "telefonos": "604 9696 Ext: 204503",
-              "horarios": ".",
-              "direccion": "Calle 103 con carrera 100 Centro Comercial Plaza  del Rio",
-              "ciudad": "Apartado",
-              "tipo": "Hipermercado"
+              "telefonos": 3052228961,
+              "horarios": "L-D 7:00 A.M A 7:00 P.M.",
+              "direccion": "Calle 103 con Cra 100 CC Plaza  del Rio",
+              "ciudad": "APARTADO",
+              "tipo": "Supermercado"
             }
 					]
         },
@@ -355,6 +355,14 @@
               "tipo": "Supermercado"
             },
             {
+              "nombre": "Éxito WOW Envigado",
+              "telefonos": 3116412631,
+              "horarios": ".",
+              "direccion": "Carrera 48 # 34 sur-29",
+              "ciudad": "Envigado",
+              "tipo": "WOW"
+            },
+            {
               "nombre": "ÉXITO ENVIGADO CENTRO",
               "telefonos": 3052991349,
               "horarios": "L-D 7:00 A.M A 7:00 P.M.",
@@ -419,9 +427,9 @@
               "nombre": "ÉXITO Wow Buenavista",
               "telefonos": 3053856765,
               "horarios": "7 am a 6 pm",
-              "direccion": "Cra 53 con Calle 98 Esquina CC BuenaVista",
+              "direccion": "Calle 98 # 52-115",
               "ciudad": "BARRANQUILLA",
-              "tipo": "Supermercado"
+              "tipo": "WOW"
             },
             {
               "nombre": "ÉXITO SAN BLAS BARRANQUILLA",
@@ -469,7 +477,7 @@
               "horarios": "7 am a 7 pm",
               "direccion": "Cra  51 B  87-50",
               "ciudad": "BARRANQUILLA",
-              "tipo": "Supermercado"
+              "tipo": "WOW"
             },
             {
               "nombre": "Éxito Metropolitano",
@@ -914,6 +922,22 @@
               "direccion": "Cra 114 A # 78 B 35",
               "ciudad": "BOGOTA",
               "tipo": "Supermercado"
+            },
+            {
+              "nombre": "Éxito Country",
+              "telefonos": "3907575 Ext: 208100-20801",
+              "horarios": ".",
+              "direccion": "Calle 134 # 9 - 51",
+              "ciudad": "Bogotá",
+              "tipo": "WOW"
+            },
+            {
+              "nombre": "Éxito Colina",
+              "telefonos": 7494999,
+              "horarios": ".",
+              "direccion": "Avenida enida Boyaca Carrera 72 # 146 B",
+              "ciudad": "Bogotá",
+              "tipo": "WOW"
             },
             {
               "nombre": "ÉXITO NIZA",
@@ -1459,7 +1483,7 @@
               "tipo": "Supermercado"
             },
             {
-              "nombre": "ÉXITO WOW UNICENTRO BOGOTA",
+              "nombre": "ÉXITO WOW UNICENTRO",
               "telefonos": 3053677562,
               "horarios": "07:00 AM - 07:00 PM",
               "direccion": "Avenida 15 # 123 - 30 local 1233",
@@ -2261,7 +2285,7 @@
 					"almacenes" : [
             {
               "nombre": "Éxito WOW Flora",
-              "telefonos": 3053529401,
+              "telefonos": 3218033202,
               "horarios": "L-D 7:00 A.M A 7:00 P.M.",
               "direccion": "Av. 3 F Norte 52N- 46",
               "ciudad": "CALI",
@@ -2317,7 +2341,7 @@
             },
             {
               "nombre": "Éxito WOW UNICENTRO CALI",
-              "telefonos": 3053273099,
+              "telefonos": 3216297951,
               "horarios": "L-D 7:00 A.M A 7:00 P.M.",
               "direccion": "Cra paso ancho # 100 5-169 local 244",
               "ciudad": "CALI",
